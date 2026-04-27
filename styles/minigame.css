@@ -1,19 +1,33 @@
 /* Style for the body*/
 body{
     font-family: Ariel, sans-serif; /* Temporay Font*/
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+    font-weight: bold;
 }
+/* The border around the game*/
+.container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 120px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*MArgins for the button*/
 .choices{
     margin-bottom: 30px;
+    
 }
 
 /* styles for the button*/
 .choices button{
     font-size: 50px;
-    min-width: 80px;
+    min-width: 10px;
     margin: 0 10px;
     border-radius: 250px;
     background-color: transparent;
@@ -26,13 +40,21 @@ body{
     background-color: rgb(199, 198, 198);
 }
 
-/* for display choice of PLAYER and COMPUTER */
-#playerChoiceDisplay #computerChoiceDisplay{
-    font-size: medium;
+/* for displaying the choices of PLAYER and COMPUTER*/
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: larger;
 }
 
-/* for display of RESULT*/
+
+/* for displaying of RESULT*/
 #gameResult{
-    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
     margin: 15px 0;
 }
