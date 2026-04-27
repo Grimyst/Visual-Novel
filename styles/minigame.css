@@ -1,1 +1,38 @@
+/* Style for the body*/
+body{
+    font-family: Ariel, sans-serif; /* Temporay Font*/
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choices{
+    margin-bottom: 30px;
+}
 
+/* styles for the button*/
+.choices button{
+    font-size: 50px;
+    min-width: 80px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+/* style for hovering the button*/
+.choices button:hover{
+    background-color: rgb(199, 198, 198);
+}
+
+/* for display choice of PLAYER and COMPUTER */
+#playerChoiceDisplay #computerChoiceDisplay{
+    font-size: medium;
+}
+
+/* for display of RESULT*/
+#gameResult{
+    font-size: large;
+    margin: 15px 0;
+}
