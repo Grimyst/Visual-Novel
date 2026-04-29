@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+}
+
+.navigationBar {
+    display: grid;
+    /* charac, plot, settings, music, gallery, ending, about us*/
+    /* 1fr mean it takes all the spaces available */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+/* Center the Text in the bar*/
+.WebBar p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.characterBar {
+    background-color: #4CAF50;
+}
+
+.plotBar {
+    background-color: #2196F3;
+}
+
+.settingBar {
+    background-color: #9C27B0;
+}
+
+.musicBar {
+    background-color: #FF9800;
+}
+
+.galleryBar {
+    background-color: #E91E63;
+}
+
+.endingsBar {
+    background-color: #795548;
+}
+
+.aboutBar {
+    background-color: #607D8B;
+}
