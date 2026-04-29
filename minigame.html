@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Game</title>
-    <!-- Link for CSS File-->
+    <!-- Link for CSS File and Custom Fonts-->
     <link rel="stylesheet" href="styles/minigame.css">
+    <link rel="stylesheet" href="https://www.cdnfonts.com/starlight-rune-personal-use.font">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap">
 </head>
 <body>
     <!-- Title -->
@@ -23,18 +25,13 @@
         <div id = "computerChoiceDisplay">COMPUTER: </div>
     </div>
 
-    <div class = "separator"></div>
-
-    <!-- Player's Choices-->
+    <!-- Player's Choices and Result Display-->
     <div class = "choices">
         <button onClick = "playGame('BATO')"><img src="Assets/1.webp" width="60";></button>
         <button onClick = "playGame('PAPEL')"><img src = "Assets/2.webp" width="60"></button>
         <button onClick = "playGame('GUNTING')"><img src = "Assets/3.webp" width="60"></button>
         <div id = "gameResult"></div>
     </div>
-
-    <!-- Result Display -->    
-    
 
     <!-- Link to the script file -->
     <script src = "script/minigame.js"></script>
