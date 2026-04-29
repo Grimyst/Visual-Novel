@@ -1,19 +1,23 @@
-/* Style for the body*/
+
+/* Style for te body*/
 body{
     margin: 0;
-    font-family: arial, sans-serif; /*Temporary Font*/
+    font-family: 'Crimson Pro', sans-serif;
     text-align: center;
 }
 
+/*Style for the Heading*/
 h3{
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
     margin-top: 20px;
     text-align: center;
 }
-/*MArgins for the button*/
+/*Margins for the button*/
 .choices{
     margin-bottom: 30px;
 }
 
+/*Style for the Score Board*/
 .scoreBoard{
     display: flex;
     justify-content: space-around;
@@ -24,7 +28,6 @@ h3{
     margin: 28px;
     font-weight: bold;
 }
-
 
 /* styles for the button*/
 .choices button{
@@ -49,7 +52,6 @@ h3{
     font-size: larger;
     margin: 50px 0;
 }
-
 
 /* for displaying of RESULT*/
 #gameResult{

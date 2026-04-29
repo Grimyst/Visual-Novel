@@ -53,6 +53,7 @@ function playGame(playerChoice){
     // to show the result
     gameResult.textContent = result;
 
+    //to add score to the PLAYER and COMPUTER
     switch(result){
         case "YOU WIN":
             playerScore++;
