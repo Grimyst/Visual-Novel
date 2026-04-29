@@ -11,21 +11,30 @@
     <!-- Title -->
     <h1>Bato - Bato - Pik</h1>
 
-    <!-- Player's Choices-->
-    <div class = "choices">
-        <button onClick = "playGame('BATO')">👊🏼</button>
-        <button onClick = "playGame('PAPEL')">🖐🏼</button>
-        <button onClick = "playGame('GUNTING')">✌🏼</button>
+    <!--Score Board-->
+    <div class="scoreBoard">
+        <div>PLAYER Score: <span id = "playerScore">0</span></div>
+        <div>COMPUTER Score: <span id = "computerScore">0</span></div>
     </div>
-    
+        
     <!-- Choices Display -->
     <div class = "display">
         <div id = "playerChoiceDisplay">PLAYER: </div>
         <div id = "computerChoiceDisplay">COMPUTER: </div>
     </div>
 
+    <div class = "separator"></div>
+
+    <!-- Player's Choices-->
+    <div class = "choices">
+        <button onClick = "playGame('BATO')"><img src="Assets/1.webp" width="60";></button>
+        <button onClick = "playGame('PAPEL')"><img src = "Assets/2.webp" width="60"></button>
+        <button onClick = "playGame('GUNTING')"><img src = "Assets/3.webp" width="60"></button>
+        <div id = "gameResult"></div>
+    </div>
+
     <!-- Result Display -->    
-    <div id = "gameResult"></div>
+    
 
     <!-- Link to the script file -->
     <script src = "script/minigame.js"></script>

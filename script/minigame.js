@@ -4,6 +4,10 @@ const choices = ["BATO", "PAPEL", "GUNTING"];
 const playerChoiceDisplay = document.getElementById("playerChoiceDisplay");
 const computerChoiceDisplay = document.getElementById("computerChoiceDisplay");
 const gameResult = document.getElementById("gameResult");
+const playerScoreDisplay = document.getElementById("playerScore");
+const computerScoreDisplay = document.getElementById("computerScore");
+let playerScore = 0;
+let computerScore = 0;
 
 function playGame(playerChoice){
 
@@ -48,5 +52,16 @@ function playGame(playerChoice){
 
     // to show the result
     gameResult.textContent = result;
+
+    switch(result){
+        case "YOU WIN":
+            playerScore++;
+            playerScoreDisplay.textContent = playerScore;
+            break;
+        case "YOU LOSE":
+            case "YOU WIN":
+            computerScore++;
+            computerScoreDisplay.textContent = computerScore
+    }
 }
 
