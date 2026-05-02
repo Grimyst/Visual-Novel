@@ -133,8 +133,6 @@ p {
     background-color: #AD3F26;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
-    opacity: 0;
-    animation: fadeIn 2s ease forwards;
 }
 
 /* MIDDLE PART STYLES */
