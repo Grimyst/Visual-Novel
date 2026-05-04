@@ -20,7 +20,8 @@ h3 {
     font-size: 16pt;
 }
 
-#readyButton .button {
+
+#readyButton {
     font-family: 'Crimson Pro', serif;
     background-color: #AD3F26;
     color: #D3B14D;
