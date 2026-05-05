@@ -22,8 +22,10 @@ p {
 }
 
 .logoBar {
-    width: 120px;
-    padding-left: 30px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .navigationBar {
@@ -116,7 +118,7 @@ p {
     margin-bottom: 20px;
     text-align: center;
 
-     text-shadow:
+    text-shadow:
         1px 1px 0 black,
        -1px 1px 0 black,
         1px -1px 0 black,
