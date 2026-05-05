@@ -1,0 +1,41 @@
+body {
+    background-color: #04305D;
+    display: grid;
+    place-items: center;
+}
+
+#subLogo{
+    font-family: 'Crimson Pro', serif;
+    color: #D3B14D;
+    font-size: 18pt;
+    
+}
+
+h3 {
+    font-family:'Crimson Pro', serif;
+    color: #D3B14D;
+}
+
+#textInCons, #textAboveButton{
+    font-size: 16pt;
+}
+
+
+#readyButton {
+    font-family: 'Crimson Pro', serif;
+    background-color: #AD3F26;
+    color: #D3B14D;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pt;
+    margin: 10px;
+}
+
+#Logo {
+    display: grid;
+    place-items: center;
+    margin-bottom: auto;
+}
