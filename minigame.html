@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Game</title>
-    <!-- Link for CSS File and Custom Fonts-->
+    <title> RPS Minigame </title>
     <link rel="stylesheet" href="styles/minigame.css">
-    <link rel="stylesheet" href="https://www.cdnfonts.com/starlight-rune-personal-use.font">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap">
 </head>
 <body>
-    <!-- Title -->
-    <h1>Bato - Bato - Pik</h1>
-
-    <!--Score Board-->
-    <div class="scoreBoard">
-        <div>PLAYER Score: <span id = "playerScore">0</span></div>
-        <div>COMPUTER Score: <span id = "computerScore">0</span></div>
-    </div>
+    <div class="container">
+        <div class="back-button" onclick="goBack()">←</div>
         
-    <!-- Choices Display -->
-    <div class = "display">
-        <div id = "playerChoiceDisplay">PLAYER: </div>
-        <div id = "computerChoiceDisplay">COMPUTER: </div>
+        <div class="title" id="gameTitle"></div>
+
+        <div class="game-area">
+            <div class="decorative-lines"></div>
+            <div class="result-message" id="resultMessage"></div>
+            
+            <div class="player-side">
+                <button class="choice-button rock-btn" onclick="makeChoice('rock')">
+                    <img src="Assets/1.webp" alt="Rock">
+                </button>
+                <button class="choice-button paper-btn" onclick="makeChoice('paper')">
+                    <img src="Assets/2.webp" alt="Paper">
+                </button>
+                <button class="choice-button scissors-btn" onclick="makeChoice('scissors')">
+                    <img src="Assets/3.webp" alt="Scissors">
+                </button>
+            </div>
+
+            <div class="vs-text">vs</div>
+
+            <div class="computer-side">
+                <div class="computer-choice empty" id="computerChoice">
+                    <img id="computerImage" src="" alt="" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="player-names">
+            <div class="player-name">Bathala</div>
+            <div class="player-name">Sidapa</div>
+        </div>
     </div>
 
-    <!-- Player's Choices and Result Display-->
-    <div class = "choices">
-        <button onClick = "playGame('BATO')"><img src="Assets/1.webp" width="60";></button>
-        <button onClick = "playGame('PAPEL')"><img src = "Assets/2.webp" width="60"></button>
-        <button onClick = "playGame('GUNTING')"><img src = "Assets/3.webp" width="60"></button>
-        <div id = "gameResult"></div>
-    </div>
-
-    <!-- Link to the script file -->
-    <script src = "script/minigame.js"></script>
+    <script src="script/minigame.js"></script>
 </body>
 </html>
-
