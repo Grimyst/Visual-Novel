@@ -8,17 +8,19 @@ body {
     font-family: 'Crimson Pro', serif;
     color: #D3B14D;
     font-size: 18pt;
-    
+    text-align: center;
 }
 
 h3 {
     font-family:'Crimson Pro', serif;
     color: #D3B14D;
+    text-align: center;
 }
 
 #textInCons, #textAboveButton{
     font-size: 16pt;
 }
+
 
 #readyButton .button {
     font-family: 'Crimson Pro', serif;
@@ -31,6 +33,13 @@ h3 {
     display: inline-block;
     font-size: 16pt;
     margin: 10px;
+    border: none;
+    &:hover {
+        background-color: #D3B14D;
+        color: #AD3F26;
+        transition: background-color 1s ease, color 1s ease, transform 1s ease;
+        transform: scale(1.05);
+    }
 }
 
 #Logo {
