@@ -1,0 +1,214 @@
+
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+max-width: 90%;
+background-image: url('../Assets/Background images/v-de-leon-hehe.jpg');
+background-repeat: no-repeat;
+background-position: left top;
+background-size:135%;
+background-position-y: 2rem;
+}
+
+
+/* Navigation Bar */
+.char_nav{
+    background-color: rgb(15, 26, 53);
+    padding-left: 5%;
+    padding-right: 5%; 
+    width: 101.1%;
+    top : 0;
+    left: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+.char_nav_div{
+display: flex;
+align-items: center;
+justify-content:first baseline;
+}
+.tal_logo{
+    height: 45px;
+    position: relative;
+    left: 8%;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: rgb(240, 213, 40);
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;   
+    position: relative;
+    left: 50%;
+    margin-left: 45px;
+    margin-right: 50px;
+}
+nav li a:hover{
+    color: rgb(255, 250, 90);
+    font-family: 'Crimson Pro', serif;
+    font-size: 16px;   
+    position: relative;
+    left: 50%;
+    margin-left: 45px;
+    margin-right: 50px;
+    text-shadow: 0 0 5px rgb(255, 250, 90);
+    text-decoration: underline;
+    transition: all 0.6s ease;
+}
+
+nav li:first-child{
+    margin-right: 10px;
+}
+.sidebar{
+    position: absolute;
+    top: -2%;
+    right: 0;
+    height: 100%;
+    width: 170px;
+    z-index: 9999;
+    background-color: rgba(19, 50, 121, 0.164);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    position:relative;
+    right: 30%;
+    width: 90%;
+padding: 5%;
+    text-align: right;
+}
+.sidebar li a{
+    position: relative;
+    width: 90%;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
+    font-size: 80%;
+}
+.noSidebar{
+    position: absolute;
+    right: 5%; 
+    top: 1%;
+}
+@media(max-width: 1160px){
+   .hideOnMobile{
+    display: none;
+   }
+}
+@media(min-width: 1159px){
+    .noSidebar{
+        display: none;
+    }
+}
+/* Characters title */
+.char_title{
+    text-align: left;
+    color: rgb(239, 216, 68);
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
+    font-size: 5vw;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: lighter;
+}
+
+/* Characters slider */
+.char_icon{
+    position: relative;
+    left: 7vw;
+    width: 10vw;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.char_icon:hover{
+    position: relative;
+    left: 7vw;
+    width: 10vw;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 5px rgb(255, 250, 90));
+}
+.prev{
+    position: relative;
+    left: 11vw;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    top: 15vw;
+    left: 11vw;
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+    filter: drop-shadow(0 0 5px rgb(255, 250, 90));
+    transition: all 0.3s ease;
+}
+.char_slide{
+    position: absolute;
+    left: 5%;
+    top: 38%;
+    width: 15vw;
+    display: none;
+
+}
+/*Character description*/
+.char_name{
+    position: absolute;
+    left: 18vw;
+    top: -5vw;
+    width: 30vw;
+    height: auto;
+    color: rgb(248, 242, 206);
+    font-family: 'Crimson Pro', serif;
+    font-size: 2vw;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+.char_story{
+    position: relative;
+    left: 2vw;
+    top: -2vw;
+    width: 43vw;
+    height: 25vw;
+    padding-left: 5px; 
+    border-radius: 5px;
+    background-color: rgb(15, 26, 53);
+    opacity: 0.5;
+}
+
+
+
+/*character full body*/
+.char_fullbody{
+    position: absolute;
+    left: 50vw;
+    top: 0;
+    width: 20vw;
+    height: auto;
+    aspect-ratio: 1080/2000;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+}
+
+@keyframes fade {
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes slideIn {
+    from{transform: translateX(-100%);}
+    to{transform: translateX(0);}
+}
