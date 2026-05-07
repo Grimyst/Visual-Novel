@@ -20,7 +20,7 @@
 
 /*Character Page*/
 
-.HomepageCharacter {
+.HomepageCharacter {    
     padding: 20px;
     height: 800px;
     background-image: 
@@ -37,6 +37,7 @@
     justify-content: space-around;
     flex-direction: row;
     row-gap: 10px;
+    margin-bottom: 100px;
 }
 
 .characterContainer {
@@ -45,15 +46,14 @@
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     background-color: #D3B14D;
+    
 }
-
 
 /*Plot Page*/
 
 .HomepagePlot {
     padding: 20px;
-    width: 100%;
-    height: 800px;
+    height: 100%;
     background-image:
         url('../images/white=grid-patterns.jpg'); 
     background-size: cover;
@@ -62,3 +62,43 @@
     display: inline-block;
 }
 
+.PlotPreview {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.PlotPicture img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.PlotSummary {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Setting Page */
+
+.HomepageSetting {
+    padding: 20px;
+    height: 600px;
+    background-color: #04305D;
+}
+
+.settingPreview {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.settingContainer {
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
