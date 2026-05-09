@@ -1,0 +1,128 @@
+
+.btnContainer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GotoPagebtn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #AD3F26;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.GotoPagebtn:hover {
+    background-color: #AD3F26;
+    color: white;
+}
+
+/*Character Page*/
+
+.HomepageCharacter {    
+    padding: 20px;
+    height: 800px;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../images/v-de-leon-panime.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.characterPreview {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-bottom: 100px;
+}
+
+.characterContainer {
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: #D3B14D;
+    
+}
+
+/*Plot Page*/
+
+.HomepagePlot {
+    padding: 20px;
+    height: 100%;
+    background-image:
+        url('../images/white=grid-patterns.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.PlotPreview {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.PlotPicture img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.PlotSummary {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Setting Page */
+
+.HomepageSetting {
+    padding: 20px;
+    height: 600px;
+    background-color: #04305D;
+}
+
+.settingPreview {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+/* Scrollbar*/
+.settingPreview::-webkit-scrollbar {
+    height: 10px;
+}
+
+.settingPreview::-webkit-scrollbar-track {
+    background: #0F1A35;
+    border-radius: 20px;
+}
+.settingPreview::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+}
+.settingPreview::-webkit-scrollbar-thumb:hover {
+    background: #D2B04D;
+}
+/* Scrollbar*/
+
+.settingContainer {
+    width: 550px;
+    height: 350px;
+    border-top-right-radius: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
