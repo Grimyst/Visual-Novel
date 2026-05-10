@@ -30,7 +30,7 @@
     height: 800px;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../images/v-de-leon-panime.jpg'); 
+        url('../Assets/images/v-de-leon-panime.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     padding: 20px;
     height: 100%;
     background-image:
-        url('../images/white=grid-patterns.jpg'); 
+        url('..Assets/images/white=grid-patterns.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

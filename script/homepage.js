@@ -1,10 +1,10 @@
 const pictures = document.querySelectorAll(".picture");
 
     const images = [
-        'images/v-de-leon-hehe.jpg',
-        'images/v-de-leon-panime.jpg',
-        'images/v-de-leon-sampol.jpg',
-        'images/v-de-leon-sunset-teresa.jpg'
+        'Assets/images/v-de-leon-hehe.jpg',
+        'Assets/images/v-de-leon-panime.jpg',
+        'Assets/images/v-de-leon-sampol.jpg',
+        'Assets/images/v-de-leon-sunset-teresa.jpg'
     ];
 
     let currentIndex = 0;
