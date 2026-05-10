@@ -19,8 +19,8 @@
 }
 
 .GotoPagebtn:hover {
-    background-color: #AD3F26;
-    color: white;
+    background-color: white;
+    color: #AD3F26;
 }
 
 /*Character Page*/
@@ -60,7 +60,7 @@
     padding: 20px;
     height: 100%;
     background-image:
-        url('..Assets/images/white=grid-patterns.jpg'); 
+        url('../Assets/images/white=grid-patterns.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,22 +288,18 @@
     display: grid;
     justify-content: center;
     align-items: center;
-
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
 }
 
 .logoContainer {
-    border: solid;
-    border-color: black;
+    margin-left: 30px;
 }
 
 .footerLinks, 
 .footerChanelogandFaq {
     display: flex;
     flex-direction: column;
-    border: solid;
-    border-color: black;
     justify-content: center;
     align-items: center;
     font-weight: bold;
