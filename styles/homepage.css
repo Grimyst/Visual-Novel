@@ -132,9 +132,13 @@ p {
 .ContentTitle, .content {
     color: #D3B14D;  
     font-size: 28px; 
+    font-weight: bold;
 }
 
 .ContentTitle {
     font-size: 48px; 
 }
 
+.BlackColorContentitle {
+    color: black;
+}

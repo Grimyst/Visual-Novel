@@ -47,7 +47,7 @@
 
 .characterContainer {
     width: 300px;
-    height: 400px;
+    height: 500px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     background-color: #D3B14D;
@@ -64,12 +64,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 .PlotPreview {
     display: grid;
     grid-template-columns: 500px 1fr;
+    
 }
 
 .PlotPicture img {
@@ -87,8 +87,9 @@
 
 .HomepageSetting {
     padding: 20px;
-    height: 600px;
+    height: 100%;
     background-color: #04305D;
+    z-index: 1;
 }
 
 .settingPreview {
@@ -96,6 +97,7 @@
     gap: 20px;
     padding: 20px;
     overflow-x: scroll;
+    margin-bottom: 70px;
 }
 
 /* Scrollbar*/
@@ -125,4 +127,187 @@
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
+   
 }
+
+/* Music */
+
+.HomepageMusic {
+    padding: 20px;
+    height: 100%;
+}
+
+.musicPreview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.musicContainer {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 300px;
+   
+}
+
+/* Gallery */
+
+.HomepageGallery {
+    padding: 20px;
+    height: 100%;
+    background-color: #7BABDC;
+}
+
+.galleryPreview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.galleryContainer {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 500px;
+}  
+
+/* Ending */
+
+.HomepageEnding {
+    padding: 20px;
+    height: 600px;
+}
+
+.endingPreview {
+    border: solid;
+    border-color: black;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+/* About Us  */
+
+.HomepageAboutus {
+    padding: 20px;
+    height: 600px;
+    background-color: #7CADDF;
+}
+
+.aboutUsPreview {
+    border: solid;
+    border-color: black;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+/* Homepagewith stars bacgorunds */
+
+
+@keyframes starsMove {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-300px);
+    }
+}
+
+
+.HomepageSetting, 
+.HomepageAboutus,
+.HomepageGallery {
+    position: relative;
+    overflow: hidden;
+
+    padding: 20px;
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgb(5, 10, 30),
+        rgb(10, 25, 70)
+    );
+}
+
+.starsbackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 200%;
+    height: 200%;
+
+
+    inset: 0;
+    pointer-events: none; 
+    z-index: 0;
+
+     background-image:
+        radial-gradient(2px 2px at 10px 20px, rgba(255,255,255,0.95), transparent),
+        radial-gradient(1.5px 1.5px at 60px 80px, rgba(255,255,255,0.85), transparent),
+        radial-gradient(2px 2px at 120px 40px, rgba(200,220,255,0.85), transparent),
+        radial-gradient(1px 1px at 180px 140px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(2px 2px at 240px 90px, rgba(255,255,255,0.85), transparent),
+        radial-gradient(1.5px 1.5px at 300px 200px, rgba(180,210,255,0.85), transparent),
+        radial-gradient(2px 2px at 360px 60px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1px 1px at 420px 180px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(2px 2px at 480px 120px, rgba(150,180,255,0.8), transparent),
+        radial-gradient(1.5px 1.5px at 540px 30px, rgba(255,255,255,0.95), transparent),
+        radial-gradient(2px 2px at 600px 220px, rgba(255,255,255,0.85), transparent),
+        radial-gradient(1px 1px at 660px 100px, rgba(200,230,255,0.9), transparent),
+        radial-gradient(2px 2px at 720px 160px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1.5px 1.5px at 780px 60px, rgba(255,255,255,0.8), transparent);
+
+    background-size: 800px 400px;
+    background-repeat: repeat;
+
+    opacity: 1;
+
+    filter:
+        drop-shadow(0 0 2px rgba(255,255,255,0.25))
+        drop-shadow(0 0 4px rgba(120,180,255,0.2));
+
+    animation: starsMove 12s linear infinite;
+}
+
+
+
+/*HomepageFooter Sa wakas */
+
+.HomepageFooter {
+    padding: 20px;
+    height: 300px;
+    padding: 50px 50px;
+}
+
+.footerPreview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.logoContainer {
+    border: solid;
+    border-color: black;
+}
+
+.footerLinks, 
+.footerChanelogandFaq {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px 0px;
+}
+
