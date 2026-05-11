@@ -111,11 +111,22 @@ h3 {
 
 @keyframes appearFromLeft {
     from {
-        background-position: -100, 0;
+        right: 100%;
+
     }
     to {
-        background-position: 50, 0;
+        right: 80%;
     }
 
 }
 
+#starAsset, #tarotAsset {
+    z-index: 4;
+}
+
+#tarotAsset {
+    position: absolute;
+    animation: appearFromLeft;
+    animation-timeline: view();
+    animation-range: 0% cover 50%;
+}
