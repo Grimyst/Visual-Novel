@@ -14,17 +14,37 @@ function makeChoice(playerChoice) {
     const computerChoiceDiv = document.getElementById('computerChoice');
     const computerImage = document.getElementById('computerImage');
     computerChoiceDiv.classList.add('choosing');
+    computerChoiceDiv.classList.remove('empty', 'rock', 'paper', 'scissors');
+    computerImage.style.display = 'block';
+
+    // animate cycling through choices
+    let choiceIndex = 0;
+    
+    // set initial image immediately
+    let currentChoice = choices[choiceIndex % 3];
+    computerChoiceDiv.classList.add(currentChoice);
+    computerImage.src = choiceImages[currentChoice];
+    choiceIndex++;
+    
+    const cycleInterval = setInterval(() => {
+        currentChoice = choices[choiceIndex % 3];
+        computerChoiceDiv.classList.remove('rock', 'paper', 'scissors');
+        computerChoiceDiv.classList.add(currentChoice);
+        computerImage.src = choiceImages[currentChoice];
+        choiceIndex++;
+    }, 150);
 
     // thinking time
     setTimeout(() => {
+        clearInterval(cycleInterval);
+        
         // random choice for computer
         const computerChoice = choices[Math.floor(Math.random() * 3)];
         
         // choice display for computer to update
-        computerChoiceDiv.classList.remove('choosing', 'empty', 'rock', 'paper', 'scissors');
+        computerChoiceDiv.classList.remove('choosing', 'rock', 'paper', 'scissors');
         computerChoiceDiv.classList.add(computerChoice);
         computerImage.src = choiceImages[computerChoice];
-        computerImage.style.display = 'block';
 
         // for determining the winner
         const result = determineWinner(playerChoice, computerChoice);
