@@ -35,3 +35,6 @@ const pictures = document.querySelectorAll(".picture");
     }
 
     setInterval(changePicture, 8000);
+
+
+
