@@ -19,8 +19,8 @@
 }
 
 .GotoPagebtn:hover {
-    background-color: #AD3F26;
-    color: white;
+    background-color: white;
+    color: #AD3F26;
 }
 
 /*Character Page*/
@@ -45,6 +45,9 @@
     margin-bottom: 100px;
 }
 
+
+
+
 .characterContainer {
     width: 300px;
     height: 500px;
@@ -60,7 +63,7 @@
     padding: 20px;
     height: 100%;
     background-image:
-        url('..Assets/images/white=grid-patterns.jpg'); 
+        url('../Assets/images/white=grid-patterns.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,7 +201,7 @@
 
 .aboutUsPreview {
     border: solid;
-    border-color: black;
+    border-color: #D3B14D;
     height: 300px;
     margin-bottom: 100px;
 }
@@ -219,7 +222,8 @@
 
 .HomepageSetting, 
 .HomepageAboutus,
-.HomepageGallery {
+.HomepageGallery,
+.HomepageIntroduction {
     position: relative;
     overflow: hidden;
 
@@ -280,7 +284,7 @@
 
 .HomepageFooter {
     padding: 20px;
-    height: 300px;
+    height: 100%;
     padding: 50px 50px;
 }
 
@@ -288,26 +292,55 @@
     display: grid;
     justify-content: center;
     align-items: center;
-
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
 }
 
 .logoContainer {
-    border: solid;
-    border-color: black;
+    margin-left: 30px;
 }
 
 .footerLinks, 
 .footerChanelogandFaq {
     display: flex;
     flex-direction: column;
-    border: solid;
-    border-color: black;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.footerLinks p {
     margin: 0px 0px;
 }
 
+.footerChanelogandFaq {
+    margin: 0px 0px;
+}
+
+
+
+/*fade in animation*/
+
+
+.slogan {
+    animation: fadeIn 1s ease;
+}
+
+
+.getStartedbtn {
+    animation: fadeIn 1s ease;
+} 
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
