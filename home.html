@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="styles/homepage1.css">
 </head>
 <body>
+
+  
+
     <header class="HomepageHeader">
          
         <div class="navigationBar">
@@ -23,43 +26,44 @@
             </div>
 
             <!-- me from the future add some links here to the other page or in the page-->
-            <div class="WebBar characterBar">
-                <p>Characters</p>
-            </div>
+        <div class="WebBar characterBar">
+            <p><a href="#linkcharacter">Characters</a></p> 
+        </div>
 
-            <div class="WebBar plotBar">
-                <p>Plot</p>
-            </div>
-            
-            <div class="WebBar settingBar">
-                <p>Setting</p>
-            </div>
+        <div class="WebBar plotBar">
+            <p><a href="#linkplot">Plot</a></p>
+        </div>
 
-            <div class="WebBar musicBar">
-                <p>Music</p>
-            </div>
+        <div class="WebBar settingBar">
+            <p><a href="#linksetting">Setting</a></p>
+        </div>
 
-            <div class="WebBar galleryBar">
-                <p>Gallery</p> 
-            </div>
+        <div class="WebBar musicBar">
+            <p><a href="#linkmusic">Music</a></p>
+        </div>
 
-            <div class="WebBar endingsBar">
-                <p>Endings</p>
-            </div>
+        <div class="WebBar galleryBar">
+            <p><a href="#linkgallery">Gallery</a></p> 
+        </div>
 
-            <div class="WebBar aboutBar">
-                <p>About Us</p>
+        <div class="WebBar endingsBar">
+            <p><a href="#linkending">Endings</a></p>
+        </div>
+
+        <div class="WebBar aboutBar">
+            <p><a href="#linkaboutus">About Us</a></p>
+        </div>
             </div>
         </div>
        
-    </div>
+        </div>
 
     </header>
 
     <!-- getting started page-->
     <div class="HomepageCenter">
         
-        <div class="HomepageCenter">
+        <div class="HomepageCenter" >
     
             <div class="gallery">
                 <img class="picture pic1 active" src="Assets/images/v-de-leon-hehe.jpg">
@@ -102,10 +106,10 @@
 
 
     <!-- Character Page -->
-    <div class="HomepageCharacter">
+    <div class="HomepageCharacter" id="linkcharacter">
         <p class="ContentTitle"> Characters </p>
 
-        <div class="characterPreview hidden">
+        <div class="characterPreview hidden" >
             <!-- insert characters images here -->
             <div class="characterContainer con1">
             1
@@ -122,17 +126,19 @@
         </div>
         
         <div class="btnContainer">
+            <a href="charactersPage.html">
              <button class="GotoPagebtn">
                 Go to Page
             </button>
+            </a>
         </div>
     </div>
 
     <!-- Plot page -->
-    <div class="HomepagePlot">
+    <div class="HomepagePlot" id="linkplot">
         <p class="ContentTitle BlackColorContentitle"> Plot </p>
 
-        <div class="PlotPreview hidden">
+        <div class="PlotPreview hidden" >
             <div class="PlotPicture">
                 <img src="Assets/images/v-de-leon-hehe.jpg">
             </div>
@@ -166,13 +172,13 @@
 
     <!-- Settings Page -->
 
-    <div class="HomepageSetting">
+    <div class="HomepageSetting" id="linksetting">
 
          <div class="starsbackground"></div>
 
          <p class="ContentTitle"> Settings </p>
 
-         <div class="settingPreview hidden">
+         <div class="settingPreview hidden" >
             
             <div class="settingContainer">
                 test
@@ -206,10 +212,10 @@
 
     <!--Music-->
 
-    <div class="HomepageMusic">
+    <div class="HomepageMusic" id="linkmusic">
         <p class="ContentTitle BlackColorContentitle"> Musics </p>
 
-        <div class="musicPreview hidden">
+        <div class="musicPreview hidden" >
             <!-- add music jpg or mp3 (i didn't think this through) can change it to scroollable-->
             <div class="musicContainer musiccon1">
             I
@@ -233,12 +239,12 @@
     </div>
 
     <!-- Gallery -->
-    <div class="HomepageGallery blackbgpage">
+    <div class="HomepageGallery blackbgpage" id="linkgallery">
 
         <div class="starsbackground"></div>
          <p class="ContentTitle"> Gallery </p>
 
-         <div class="galleryPreview hidden">
+         <div class="galleryPreview hidden" >
             <!--Insert whatever you want here-->
             <div class="galleryContainer">
          
@@ -266,9 +272,9 @@
 
     <!-- Endings  -->
 
-    <div class="HomepageEnding">
+    <div class="HomepageEnding" id="linkending">
         <p class="ContentTitle BlackColorContentitle"> Endings </p>
-        <div class="endingPreview hidden">
+        <div class="endingPreview hidden" >
             <!-- same thing here -->
             <div class="endingContainer">
                 temporary
@@ -284,11 +290,11 @@
 
     <!-- About Us -->
 
-     <div class="HomepageAboutus blackbgpage">
+     <div class="HomepageAboutus blackbgpage" id="linkaboutus">
         <p class="ContentTitle"> About Us </p>
 
         <div class="starsbackground"></div>
-        <div class="aboutUsPreview hidden">
+        <div class="aboutUsPreview hidden" >
             <!-- insert whatver you want here too-->
             <div class="aboutUsContainer">
                 temporary
@@ -302,8 +308,6 @@
         </div>
     </div>
 
-    <script src="script/homepage.js"></script>
-
     <!-- Footer  -->
     
     <footer class="HomepageFooter">
@@ -315,14 +319,14 @@
 
              <div class="footerLinks">
                 <!-- imma add some links here in the future -->
-                <p>Characters</p>
+                <p><a href="charactersPage.html"> Characters </a></p>
                 <P> Plot </P>
                 <P>Setting </P>
                 <P> Music</P>
                 <P>Gallery</P>
                 <P>About Us</P>
              </div>
-
+             
              <div class="footerChanelogandFaq">
                 <p>Changelog</p>
                 <p>FAQ</p>
@@ -333,8 +337,10 @@
        
     </footer>
 
+    
 
 </body>
+    <script src="script/homepage.js"></script>
 </html>
 
  <!-- tite -->
