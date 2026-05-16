@@ -64,6 +64,14 @@ html {
     color: #0F1A35;
 }
 
+
+.Homepagetopsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* homepage center style */
 
 .HomepageCenter {

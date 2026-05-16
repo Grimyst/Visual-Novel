@@ -14,55 +14,46 @@
     <link rel="stylesheet" href="styles/homepage1.css">
 </head>
 <body>
-
-  
-
     <header class="HomepageHeader">
-         
-        <div class="navigationBar">
+        <nav class="navigationBar">
            
-            <div class="logoBar"> 
-                <img src="Assets/talaya logo.webp">   
-            </div>
+            <div class="logoBar"> <img src="Assets/talaya logo.webp"> </div>
 
             <!-- me from the future add some links here to the other page or in the page-->
-        <div class="WebBar characterBar">
-            <p><a href="#linkcharacter">Characters</a></p> 
-        </div>
-
-        <div class="WebBar plotBar">
-            <p><a href="#linkplot">Plot</a></p>
-        </div>
-
-        <div class="WebBar settingBar">
-            <p><a href="#linksetting">Setting</a></p>
-        </div>
-
-        <div class="WebBar musicBar">
-            <p><a href="#linkmusic">Music</a></p>
-        </div>
-
-        <div class="WebBar galleryBar">
-            <p><a href="#linkgallery">Gallery</a></p> 
-        </div>
-
-        <div class="WebBar endingsBar">
-            <p><a href="#linkending">Endings</a></p>
-        </div>
-
-        <div class="WebBar aboutBar">
-            <p><a href="#linkaboutus">About Us</a></p>
-        </div>
+            <div class="WebBar characterBar">
+                <p><a href="#linkcharacter">Characters</a></p> 
             </div>
-        </div>
-       
-        </div>
+
+            <div class="WebBar plotBar">
+                <p><a href="#linkplot">Plot</a></p>
+            </div>
+
+            <div class="WebBar settingBar">
+                <p><a href="#linksetting">Setting</a></p>
+            </div>
+
+            <div class="WebBar musicBar">
+                <p><a href="#linkmusic">Music</a></p>
+            </div>
+
+            <div class="WebBar galleryBar">
+                <p><a href="#linkgallery">Gallery</a></p> 
+            </div>
+
+            <div class="WebBar endingsBar">
+                <p><a href="#linkending">Endings</a></p>
+            </div>
+
+            <div class="WebBar aboutBar">
+                <p><a href="#linkaboutus">About Us</a></p>
+            </div>
+        
+        </nav>
 
     </header>
 
     <!-- getting started page-->
-    <div class="HomepageCenter">
-        
+    <div class="HomepageCenter" id="linkcenter">
         <div class="HomepageCenter" >
     
             <div class="gallery">
@@ -72,7 +63,6 @@
 
             <section class="getStarted">
                 <p class="slogan">A Story Where Your Decisions Matter</p>
-                
                 <button class="GotoPagebtn getStartedbtn">
                     Get Started
                 </button>
@@ -82,34 +72,35 @@
     </div>
 
     <!-- Introduction page -->
-    <div>
-        <div class="HomepageIntroduction">
+    <div class="HomepageIntroduction">
+        <div class="HomepagePreview">
             
-                <p class="ContentTitle"> What is Talaya? </p>
-
-                <div class="starsbackground"></div>
-
-                <p class="content"> 
-                    Talaya is a term coined from the words Tala, the stars but could also be interpreted as fate, and Laya, which means freedom. Hence, the word, Talaya, is the freedom
-                    of the user to choose their own challenges, fate, and ending which you hold.
-                    <br><br>
-                    The story will be told through a visual novel format. It is the reimagining of childhood tales told in a modern world, intertwining their origins to create a new, but
-                    nostalgic plot. You, as the Bathala, can dictate how your life will unfold. Your destiny lies in your hands, accompanied by the consequences that lie within.
-                    <br><br>
-                    Just like in life, you can unlock different aspects in the Route Map. Soar through the dialogues with the use of the Skip/Auto-play modes. Reflect on the decisions you
-                    made through the use of Backlog. Look back on the memories you had made in Chapter Select, a catalogue of specific routes you took, or see whose bonds are forming
-                    in the Relationship Charts.
-                </p>
+            <div class="starsbackground"></div>
+            <p class="ContentTitle"> What is Talaya? </p>
+            <p class="content"> 
+                Talaya is a term coined from the words Tala, the stars but could also be interpreted as fate, and Laya, which means freedom. Hence, the word, Talaya, is the freedom
+                of the user to choose their own challenges, fate, and ending which you hold.
+                <br><br>
+                The story will be told through a visual novel format. It is the reimagining of childhood tales told in a modern world, intertwining their origins to create a new, but
+                nostalgic plot. You, as the Bathala, can dictate how your life will unfold. Your destiny lies in your hands, accompanied by the consequences that lie within.
+                <br><br>
+                Just like in life, you can unlock different aspects in the Route Map. Soar through the dialogues with the use of the Skip/Auto-play modes. Reflect on the decisions you
+                made through the use of Backlog. Look back on the memories you had made in Chapter Select, a catalogue of specific routes you took, or see whose bonds are forming
+                in the Relationship Charts.
+            </p>
     
         </div>
     </div>
 
-
     <!-- Character Page -->
     <div class="HomepageCharacter" id="linkcharacter">
-        <p class="ContentTitle"> Characters </p>
+        <div class="Homepagetopsection">
+            <p class="ContentTitle"> Characters </p>
+            <a href="#linkcenter"> <button class="GotoPagebtn"> Go Back </button> </a>
+        </div>
+        
 
-        <div class="characterPreview hidden" >
+        <div class="characterPreview hidden">
             <!-- insert characters images here -->
             <div class="characterContainer con1">
             1
@@ -131,6 +122,8 @@
                 Go to Page
             </button>
             </a>
+
+            
         </div>
     </div>
 
@@ -242,9 +235,9 @@
     <div class="HomepageGallery blackbgpage" id="linkgallery">
 
         <div class="starsbackground"></div>
-         <p class="ContentTitle"> Gallery </p>
+        <p class="ContentTitle"> Gallery </p>
 
-         <div class="galleryPreview hidden" >
+        <div class="galleryPreview hidden" >
             <!--Insert whatever you want here-->
             <div class="galleryContainer">
          
@@ -261,9 +254,9 @@
             <div class="galleryContainer">
             
             </div>
-         </div>
+        </div>
 
-         <div class="btnContainer">
+        <div class="btnContainer">
              <button class="GotoPagebtn">
                 Go to Page
             </button>
@@ -274,12 +267,40 @@
 
     <div class="HomepageEnding" id="linkending">
         <p class="ContentTitle BlackColorContentitle"> Endings </p>
-        <div class="endingPreview hidden" >
-            <!-- same thing here -->
-            <div class="endingContainer">
-                temporary
+
+        <!-- 1 row  -->
+
+        <div class="endingPreview card-container" >
+            
+            <div class="endingContainer card1">
+                <div class="frontcard">
+                    Talaya
+                </div>
+                <div class="backcard">
+                    card
+                </div>
             </div>
+
+            <div class="endingContainer card2">
+                <div class="frontcard">
+                    Talaya
+                </div>
+                <div class="backcard">
+                    <img src="Assets/temp_tarot.png">
+                </div>
+            </div>
+
+            <div class="endingContainer card3">
+                <div class="frontcard">
+                    Talaya
+                </div>
+                <div class="backcard">
+                    card
+                </div>
+            </div>
+        
         </div>
+
 
         <div class="btnContainer">
              <button class="GotoPagebtn">
@@ -290,7 +311,7 @@
 
     <!-- About Us -->
 
-     <div class="HomepageAboutus blackbgpage" id="linkaboutus">
+    <div class="HomepageAboutus blackbgpage" id="linkaboutus">
         <p class="ContentTitle"> About Us </p>
 
         <div class="starsbackground"></div>
@@ -312,6 +333,7 @@
     
     <footer class="HomepageFooter">
         <div class="footerPreview ">
+
              <div class="logoContainer">
                 <img src="Assets/Logo/talaya logo.png">
                 <p>all rights reserved © 2026 Talaya Team, TALAYA</p> 
@@ -330,17 +352,14 @@
              <div class="footerChanelogandFaq">
                 <p>Changelog</p>
                 <p>FAQ</p>
-                
              </div>
 
         </div>
-       
     </footer>
 
-    
-
 </body>
-    <script src="script/homepage.js"></script>
+
+<script src="script/homepage.js"></script>
 </html>
 
  <!-- tite -->
