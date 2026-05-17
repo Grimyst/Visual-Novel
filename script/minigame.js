@@ -10,9 +10,14 @@ function makeChoice(playerChoice) {
     const buttons = document.querySelectorAll('.choice-button');
     buttons.forEach(btn => btn.style.pointerEvents = 'none');
 
-    // fades out the title for a smoother transition to the result display
+    // keep the title fixed and show result in the dedicated banner
     const titleElement = document.getElementById('gameTitle');
-    titleElement.classList.add('fade-out');
+    titleElement.classList.remove('fade-out');
+    titleElement.textContent = 'Bato-Bato-Pik';
+
+    const resultMessage = document.getElementById('resultMessage');
+    resultMessage.classList.remove('show');
+    resultMessage.textContent = '';
 
     // para ishow choosing animation
     const computerChoiceDiv = document.getElementById('computerChoice');
@@ -79,26 +84,23 @@ function determineWinner(player, computer) {
 
 // for showing the result of the game
 function displayResult(result) {
-    const titleElement = document.getElementById('gameTitle');
-    titleElement.classList.remove('fade-out');
+    const resultMessage = document.getElementById('resultMessage');
+    resultMessage.classList.remove('show');
     
     if (result === 'win') {
-        titleElement.textContent = 'You Win!';
+        resultMessage.textContent = 'You Win!';
     } else if (result === 'lose') {
-        titleElement.textContent = 'You Lose!';
+        resultMessage.textContent = 'You Lose!';
     } else {
-        titleElement.textContent = 'Draw!';
+        resultMessage.textContent = 'Draw!';
     }
 
-    // after showing result, fade out and reset title for next game
-    setTimeout(() => {
-        titleElement.classList.add('fade-out');
-    }, 2000);
+    resultMessage.classList.add('show');
 
     setTimeout(() => {
-        titleElement.textContent = 'Bato-Bato-Pik';
-        titleElement.classList.remove('fade-out');
-    }, 3000);
+        resultMessage.classList.remove('show');
+        resultMessage.textContent = '';
+    }, 2000);
 }
 
 function goBack() {

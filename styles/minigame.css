@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 60px;
+    padding: 100px 60px 40px;
     position: relative;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
@@ -259,13 +259,13 @@ body {
 /* result message */
 .result-message {
     position: absolute;
-    top: -80px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 48px;
     font-weight: bold;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s ease;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
