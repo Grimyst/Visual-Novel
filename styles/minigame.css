@@ -47,6 +47,20 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Animation for the fade out of title*/
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.title.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
 /* game area */
 /* main game board container */
 .game-area {
