@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page</title>
+    <link rel="stylesheet" href="styles/music.css">
+</head>
+<body>
+    <div class = "container"> 
+         <!-- Background and character layers -->
+        <div class = "artPanel">
+            <div id = "artBgs"></div>
+            <div id = "characterLayer"></div>
+        </div>
+
+        <div class = "sidebar">
+
+            <!-- Music player interface -->
+            <div class = "bars">
+                <!-- Up arrow -->
+                <div class = "upArrow" id = "arrowUp" onClick = "navigate(-1)">
+                    <svg width = "38" height = "20" viewBox = "0 0 38 20">
+                        <polygon points = "19, 1 37, 19 1 , 19"/>
+                    </svg>
+                </div>
+                
+                <!-- Track Bars -->
+                <div class = "stackBox" id = "trackStack">
+                    <div class = "track" id = "track"></div>
+                </div>
+
+                <!-- Down arrow -->
+                <div class = "downArrow" id = "arrowDown" onClick = "navigate(1)">
+                    <svg width = "38" height = "20" viewBox = "0 0 38 20">
+                        <polygon points = "19, 19 37, 1 1, 1"/>
+                    </svg>
+                </div>
+
+                <!-- Side Dots -->
+                <div class = "dots" id = "dots"></div>
+            </div>
+
+                <div class = "musicPlayBar">
+                        <!-- Play / Pause Button-->
+                <button class = "playButton" id = "playBtn" title = "Play / Pause (Space)">
+                    <svg class = "iconPlay" width = "12" height = "14" viewBox = "0 0 12 14"><path d = "M1 1l10 6L1 13V1z"/></svg>
+                    <svg class = "iconPause" width = "12" height = "14" viewBox = "0 0 12 14">
+                        <rect x = "1" y = "1" width = "4" height = "12"/>
+                        <rect x = "7" y = "1" width = "4" height = "12"/>
+                    </svg>
+                </button>
+
+                <!-- Progress Bar-->
+                <div class = "trackProgress" id = "progTrack">
+                    <div class = "fillProgress" id = "progFill"></div>
+                    <div class = "dotProgress" id = "progDot"></div>
+                </div>
+
+                <!-- Timer display-->
+                <div class = "timerDisplay" id = "timeDisp">00:00</div>
+
+                <!-- Counter Style -->
+                <div id = "counter"></div>
+                </div>
+                
+        </div>
+   
+    </div>
+    <script src = "script/music.js"></script>
+</body>
+</html>

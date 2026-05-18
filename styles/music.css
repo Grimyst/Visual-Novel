@@ -1,0 +1,305 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Segoe UI",sans-serif;
+    background: #0d2244;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.artPanel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - 50% + 90px);
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Background gradients*/
+.artWorkBgs {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center top;
+    transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* When hidden*/
+.artWorkBgs.hidden { opacity: 0; pointer-events: none; }
+
+/* When visible*/
+.artWorkBgs.visible { opacity: 1; }
+
+/* character Layer */
+.characterLayers {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
+}
+.characterLayers.hidden { opacity: 0; transform: translateX(24px); pointer-events: none; }
+.characterLayers.visible { opacity: 1; transform: translateX(0); }
+
+/* Character Size*/
+.charImg {
+    height: min(78vh, 520px);
+    width: auto;
+    filter: drop-shadow(0 16px 50px rgba(0,0,0,0.6));
+    object-fit: contain;
+}
+
+/* Layout for left and right panels */
+.artPanel::before{
+    content: "";
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(to right, #0d2244 0%, transparent 100%);
+    z-index: 3;
+    pointer-events: none;
+}
+
+#artBgs,
+#characterLayer {
+    position: absolute;
+    inset: 0;
+}
+
+.sidebar {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    background: #0d2244;
+}
+
+.bars {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 24px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Arrow buttons up / down styling*/
+.upArrow, .downArrow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 44px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s, transform 0.18s;
+z-index: 5;
+}
+.upArrow { top: 8px; }
+.downArrow { bottom: 8px; }
+.upArrow:hover, .downArrow:hover { transform: translateX(-50%) translateY(-2px); }
+.upArrow.disabled, .downArrow.disabled { opacity: 0.08; pointer-events: none; }
+.upArrow svg, .downArrow svg { fill: rgba(255, 255, 255, 0.55); }
+
+/* Track Bars*/
+.stackBox {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/* Moving List of bars*/
+.track {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: absolute;
+    transition: transform 540ms cubic-bezier(0.76, 0, 0.24, 1);
+    will-change: transform;
+}
+
+/* Panel/Bar of the Song*/
+.panel {
+    flex-shrink: 0;
+    border-radius: 999px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.90);
+    transition: 
+        height 540ms cubic-bezier(0.76, 0, 0.24, 1), 
+        width 540ms cubic-bezier(0.76, 0, 0.24, 1),
+        background 540ms cubic-bezier(0.76, 0, 0.24, 1),
+        opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* Highlights current Panel*/
+.panel.is-active {
+     background: linear-gradient(108deg, #b8973e 0%, #e8c97a 55%, #c9a84c 100%);
+}
+
+/* Content inside the panel*/
+.panelInner {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+    gap: 14px;
+}
+
+/* Singer Name*/
+.panelSinger {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(13, 34, 68, 0.5);
+    letter-spacing: 0.09em;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
+} 
+
+/* Song Title */
+.panelTitle {
+    font-family: sans-serif;
+    font-size: clamp(20px, 2.8vw, 38px);
+    font-weight: 700;
+    color: #0d2244;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+    opacity: 0;
+    transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* Shows only the active panel*/
+.panel.is-active .panelSinger,
+.panel.is-active .panelTitle { opacity: 1; }
+
+/* Music Bar*/
+.musicPlayBar {
+    height: 54px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    gap: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    background: rgba(6,18,42,0.95);
+    z-index: 20
+}
+
+/* Play / PauseButton */
+.playButton {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+.playButton:hover { background: rgba(255, 255, 255, 0.2);}
+.playButton svg { fill: white; margin-left: 2px; }
+
+/* Toggle Play/Pause Icons */
+.playButton .iconPause { display: none; }
+.playButton.playing .iconPlay { display: none; }
+.playButton.playing .iconPause { display: block; }
+
+/* Progress Bar */
+.trackProgress {
+    flex: 1;
+    height: 3px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Fill showing the progress of the song */
+.fillProgress {
+    height: 100%;
+    background: #e8c97a;
+    border-radius: 2px;
+    width: 0%;
+    transition: width 0.25s linear;
+}
+
+/* Progress Dot */
+.dotProgress {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #e8c97a;
+    left: 0%;
+    transition: left 0.25s linear;
+    pointer-events: none;
+}
+
+/* Duration displey */
+.timerDisplay {
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    color: rgba(255,255,255,0.5);
+    min-width: 34px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+#counter {
+    font-size: 11px;
+    color: gray;
+    letter-spacing: 0.06em;
+    margin-left: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Dot navigation for songs */
+.dots {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    z-index: 30;
+}
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+/* Nearby dots are highlighted */
+.dot.near { background: rgba(255,255,255,0.55); }
+/* Active dot is brigther*/
+.dot.active { background: #c9a84c; transform: scale(1.9); }
