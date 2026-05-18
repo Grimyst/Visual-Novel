@@ -236,6 +236,15 @@
     object-fit: fill;
 }
 
+
+.card1:hover {
+    transform: rotateY(180deg);
+}
+
+.card1.flipped:hover {
+    transform: rotateY(0deg);
+}
+
 .card1:hover {
     transform: rotateY(180deg);
 }
