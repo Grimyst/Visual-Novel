@@ -114,6 +114,7 @@ h3 {
     animation-range: entry 0% cover 30%;
 }
 
+/* animation for cards to appear from the side */
 @keyframes appearFromSide {
     from {
         opacity: 0;
@@ -125,35 +126,59 @@ h3 {
     }
 }
 
-@keyframes appearFromLeft {
-    from {
-        right: 100%;
-        opacity: 0;
-        rotate: -180deg;
-
-    }
-    to {
-        right: 80%;
-        opacity: 1;
-        rotate: -15deg;
-    }
-
-}
-
-#starAsset, #tarotAsset {
+.tarotAsset > img {
     z-index: 4;
+    height: 200px;
+    width: auto;
 }
 
-#tarotAsset1 {
+
+
+#theMoon{
     position: absolute;
-    top: 1590px;
+    top: 1630px;
     --start-x: -1000%;
-    --end-x: -250%;
+    --end-x: -300%;
     --start-rot: -180deg;
     --end-rot: 15deg;
     animation: appearFromSide forwards;
     animation-timeline: view();
+    animation-range: entry 0% cover 55%;
+}
+
+#theSun{
+    position: absolute;
+    top: 1670px;
+    --start-x: 1000%;
+    --end-x: 200%;
+    --start-rot: 200deg;
+    --end-rot: -15deg;
+    animation: appearFromSide forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#theTower{
+    position: absolute;
+    top: 1600px;
+    --start-x: 1000%;
+    --end-x: 270%;
+    --start-rot: -300deg;
+    --end-rot: -30deg;
+    animation: appearFromSide forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#theHermitRev {
+    position: absolute;
+    top: 1550px;
+    --start-x: -1000%;
+    --end-x: -390%;
+    --start-rot: 300deg;
+    --end-rot: 30deg;
+    animation: appearFromSide forwards;
+    animation-timeline: view();
     animation-range: entry 0% cover 40%;
-    z-index: 5;
 }
 
