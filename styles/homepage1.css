@@ -78,6 +78,17 @@
     border-radius: 50%;
 }
 
+@media(max-width: 1160px){
+   .PlotPicture{
+    display: none;
+   }
+   .PlotPreview {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    }
+}
+
 .PlotSummary {
     font-weight: bold;
     font-size: 24px;
@@ -236,6 +247,15 @@
     object-fit: fill;
 }
 
+
+.card1:hover {
+    transform: rotateY(180deg);
+}
+
+.card1.flipped:hover {
+    transform: rotateY(0deg);
+}
+
 .card1:hover {
     transform: rotateY(180deg);
 }
@@ -261,6 +281,7 @@
     height: 300px;
     margin-bottom: 100px;
 }
+
 
 /* Homepagewith stars bacgorunds */
 
@@ -353,6 +374,12 @@
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
+}
+
+@media(max-width: 1160px){
+   .footerPreview {
+    grid-template-columns: 1fr;
+    }
 }
 
 .logoContainer {

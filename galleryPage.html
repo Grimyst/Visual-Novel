@@ -12,37 +12,88 @@
     <link rel="stylesheet" href="styles/homepage1.css">
     <title>Gallery</title>
 
-    <link rel="stylesheet" href="styles/gallerypage.css">
+    <link rel="stylesheet" href="styles/gallery.css">
 
 </head>
 <body>
-    
-    <nav class="char_nav">
-    <div class="char_nav_div">
-       <div ><a href ="#"><img src="Assets\Logo\talaya logo.png" alt="Talaya Logo" class="tal_logo"></a></div>
-               <ul class = "sidebar">
-        
-            <li><a href="#">Characters</a></li>
-            <li><a href="#">Plot</a></li>
-            <li><a href="#">Setting</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Endings</a></li>
-            <li><a href="#">About us</a></li>
-        </ul>
-        <ul>
-            <li class="hideOnMobile"><a href="#">Characters</a></li>
-            <li class="hideOnMobile"><a href="#">Plot</a></li>
-            <li class="hideOnMobile"><a href="#">Setting</a></li>
-            <li class="hideOnMobile"><a href="#">Music</a></li>
-            <li class="hideOnMobile"><a href="#">Gallery</a></li>
-            <li class="hideOnMobile"><a href="#">Endings</a></li>
-            <li class="hideOnMobile"><a href="#">About us</a></li>
-            <li class="noSidebar" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="24px" fill="rgb(240, 213, 40)"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-        </ul>
-       </div> 
-    </div>    
-</nav>
+     <header class="HomepageHeader">
+        <nav class="navigationBar">
+            
+            <a href="homePage.html"> <div class="logoBar"> <img src="Assets/talaya logo.webp"> </div> </a>
+            <!-- me from the future add some links here to the other page or in the page-->
+            <div class="WebBar characterBar">
+                <p><a href="#linkcharacter">Characters</a></p> 
+            </div>
+            <div class="WebBar plotBar">
+                <p><a href="#linkplot">Plot</a></p>
+            </div>
 
+            <div class="WebBar settingBar">
+                <p><a href="#linksetting">Setting</a></p>
+            </div>
+
+            <div class="WebBar musicBar">
+                <p><a href="#linkmusic">Music</a></p>
+            </div>
+
+            <div class="WebBar galleryBar">
+                <p><a href="#linkgallery">Gallery</a></p> 
+            </div>
+
+            <div class="WebBar endingsBar">
+                <p><a href="#linkending">Endings</a></p>
+            </div>
+
+            <div class="WebBar aboutBar">
+                <p><a href="#linkaboutus">About Us</a></p>
+            </div>
+        </nav>
+
+    </header>
+
+
+   <!-- FILTER BUTTONS -->
+    <input type="radio" name="gallery" id="checkall" checked>
+    <input type="radio" name="gallery" id="check1">
+    <input type="radio" name="gallery" id="check2">
+    <input type="radio" name="gallery" id="check3">
+
+   <div class="GalleryContainer"> 
+        <h1 class="GalleryTitle"> Gallery </h1> 
+        <div class="top-content"> 
+            <h3 class="top-content-title"> filter </h3> 
+            <label for="checkall"> all </label> 
+            <label for="check1"> filter1 </label> 
+            <label for="check2"> filter2 </label> 
+            <label for="check3"> filter3 </label> </div>
+    </div>
+
+    <div class="image-gallery">
+
+        <div class="pic filter1">
+            <img src="Assets/images/v-de-leon-hehe.jpg">
+        </div>
+
+        <div class="pic filter2">
+            <img src="Assets/images/v-de-leon-panime.jpg">
+        </div>
+
+        <div class="pic filter3">
+            <img src="Assets/images/v-de-leon-sampol.jpg">
+        </div>
+
+        <div class="pic filter1">
+            <img src="Assets/temp_tarot.png">
+        </div>
+
+    </div>
+
+    <!-- ONE popup only -->
+    <div class="popup" id="popup">
+        <span class="close">&times;</span>
+        <img id="popup-img">
+    </div>
+    
 </body>
+<script src="script/gallery.js"></script>
 </html>
