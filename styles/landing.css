@@ -182,3 +182,14 @@ h3 {
     animation-range: entry 0% cover 40%;
 }
 
+#theWorldRev {
+    position: absolute;
+    top: 1640px;
+    --start-x: -1000%;
+    --end-x: -460%;
+    --start-rot: -200deg;
+    --end-rot: -60deg;
+    animation: appearFromSide forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
