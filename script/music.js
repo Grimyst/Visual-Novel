@@ -26,8 +26,8 @@ const tracks = [
         duration: 280,
         ref: 'Moonlit Night By Yuki Hayashi',
         url: 'https://www.youtube.com/watch?v=V8ps2Pe3IoQ',
-        bg: 'url(Assets/Background/stars.png)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        bg: 'url(Assets/images/v-de-leon-sampol.jpg)',
+        characImg: 'Assets/CharacterIcons/icon2.jpg',
         audio: 'Assets/Songs/moonlit night.mp3'
     },
     {
@@ -36,7 +36,7 @@ const tracks = [
         duration: 245,
         ref: 'One Summers Day by Joe Hisaishi',
         url: 'https://www.youtube.com/watch?v=TK1Ij_-mank',
-        bg: 'url(Assets/Background/stars.png)',
+        bg: 'url(Assets/images/v-de-leon-panime.jpg.jpg)',
         characImg: 'Assets/CharacterIcons/icon1.jpg',
         audio: 'Assets/Songs/Joe Hisaishi - One Summers Day.mp3'
     },
@@ -46,7 +46,7 @@ const tracks = [
         duration: 109,
         ref: 'Decretum by Yuki Kajiura',
         url: 'https://www.youtube.com/watch?v=XeMVu1OYYps',
-        bg: 'url(Assets/Background/stars.png)',
+        bg: 'url(Assets/images/v-de-leon-sunset-teresa.jpg)',
         characImg: 'Assets/CharacterIcons/icon1.jpg',
         audio: 'Assets/Songs/Decretum.mp3'
     },
