@@ -1,20 +1,44 @@
 // Holds the song and the background/character that's associated with the song
 const tracks = [
     {
-        title: "Song 1",
-        role: 'Singer',
-        duration: 214,
+        title: "Main Story Song 1",
+        role: 'BGM',
+        duration: 250,
+        ref: 'aruarian dance',
+        url: 'https://www.youtube.com/watch?v=qYcoJpqCha4',
         bg: 'url(Assets/Background/v-de-leon-hehe.jpg)',
         characImg: 'Assets/CharacterIcons/icon2.jpg',
-        audio: 'Assets/Songs/Stranger Than Heaven Trailer Theme - Full Recreation [NO AI].mp3'
+        audio: 'Assets/Songs/aruarian dance.mp3'
     },
     {
-        title: "Song 2",
-        role: 'Singer',
-        duration: 180,
+        title: "Main Story Song 2",
+        role: 'BGM',
+        duration: 226,
+        ref: 'Path of the Wind by Joe Hisaishi',
+        url: 'https://www.youtube.com/watch?v=MZgBjQFMPvk',
         bg: 'url(Assets/Background/stars.png)',
         characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/Rick Roll Link.mp3'
+        audio: 'Assets/Songs/_Path of The Wind_ by Joe Hisaishi.mp3'
+    },
+    {
+        title: "Bad Ending Song 1",
+        role: 'BGM',
+        duration: 104,
+        ref: 'Promise (Reprise) by Akira Yamaoka',
+        url: 'https://www.youtube.com/watch?v=ZwLvcaDMhU8',
+        bg: 'url(Assets/Background/stars.png)',
+        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        audio: 'Assets/Songs/Promise Reprise.mp3'
+    },
+    {
+        title: "Bad Ending Song 2",
+        role: 'BGM',
+        duration: 109,
+        ref: 'Decretum by Yuki Kajiura',
+        url: 'https://www.youtube.com/watch?v=XeMVu1OYYps',
+        bg: 'url(Assets/Background/stars.png)',
+        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        audio: 'Assets/Songs/Decretum.mp3'
     },
 ];
 
@@ -59,6 +83,8 @@ const playBtn = document.getElementById('playBtn');
 const progFill = document.getElementById('progFill');
 const progDot = document.getElementById('progDot');
 const timeDisp = document.getElementById('timeDisp');
+var volumeBtn = document.getElementById('volumeBtn');
+var volumeSlider = document.getElementById('volumeSlider');
 const artWorkElement = document.getElementById('artBgs');
 const charsElement = document.getElementById('characterLayer');
 
@@ -95,7 +121,11 @@ const panels = tracks.map(function(track, index) {
     barDiv.innerHTML = `
         <div class = "panelInner">
             <span class = "panelSinger">${track.role}</span>
-            <span class = "panelTitle">${track.title}</span>
+            <a class = "panelTitle" href = "${track.url}" target = "_blank" rel = "noopener noreferrer"
+                title = "Reference: ${track.ref}">
+                ${track.title}
+            <span class = "panelRefTooltip">${track.ref}</span>
+            </a>
         </div>`;
     
     // To navigate to the pressed bar
@@ -118,7 +148,7 @@ const dots = tracks.map(function(_, index) {
     return dot;
 });
 
-// Uppdates the size, position and colors of the selected song change
+// Updates the size, position and colors of the selected song change
 function render(){
     const cw = containerWidth();
 
@@ -289,6 +319,27 @@ function togglePlay() {
     }
 }
 
+// chnages volume when sliding
+volumeSlider.addEventListener('input', function() {
+    audioPlayer.volume = volumeSlider.value;
+
+    if (volumeSlider.value == 0) {
+        volumeBtn.textContent = '🔇';
+    } else {
+        volumeBtn.textContent = '🔊'
+    }
+});
+
+// mute and unmute visual
+volumeBtn.addEventListener('click', function() {
+    if (audioPlayer.muted == false) {
+        audioPlayer.muted = true;
+        volumeBtn.textContent = '🔇';
+    } else {
+        audioPlayer.muted = false;
+        volumeBtn.textContent = '🔊'
+    }
+});
 
 //clicking the progress bar
 document.getElementById('progTrack').addEventListener('click', function(event) {
