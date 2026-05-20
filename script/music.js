@@ -1,7 +1,7 @@
 // Holds the song and the background/character that's associated with the song
 const tracks = [
     {
-        title: "Main Story Song 1",
+        title: "Main Story Song",
         role: 'BGM',
         duration: 250,
         ref: 'aruarian dance',
@@ -11,17 +11,7 @@ const tracks = [
         audio: 'Assets/Songs/aruarian dance.mp3'
     },
     {
-        title: "Main Story Song 2",
-        role: 'BGM',
-        duration: 226,
-        ref: 'Path of the Wind by Joe Hisaishi',
-        url: 'https://www.youtube.com/watch?v=MZgBjQFMPvk',
-        bg: 'url(Assets/Background/stars.png)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/_Path of The Wind_ by Joe Hisaishi.mp3'
-    },
-    {
-        title: "Bad Ending Song 1",
+        title: "Bad Ending Song",
         role: 'BGM',
         duration: 104,
         ref: 'Promise (Reprise) by Akira Yamaoka',
@@ -31,8 +21,28 @@ const tracks = [
         audio: 'Assets/Songs/Promise Reprise.mp3'
     },
     {
-        title: "Bad Ending Song 2",
+        title: "Emotional Song",
         role: 'BGM',
+        duration: 280,
+        ref: 'Moonlit Night By Yuki Hayashi',
+        url: 'https://www.youtube.com/watch?v=V8ps2Pe3IoQ',
+        bg: 'url(Assets/Background/stars.png)',
+        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        audio: 'Assets/Songs/moonlit night.mp3'
+    },
+    {
+        title: "Character BGM",
+        role: 'Hanan',
+        duration: 245,
+        ref: 'One Summers Day by Joe Hisaishi',
+        url: 'https://www.youtube.com/watch?v=TK1Ij_-mank',
+        bg: 'url(Assets/Background/stars.png)',
+        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        audio: 'Assets/Songs/Joe Hisaishi - One Summers Day.mp3'
+    },
+    {
+        title: "Character BGM",
+        role: 'Sidapa',
         duration: 109,
         ref: 'Decretum by Yuki Kajiura',
         url: 'https://www.youtube.com/watch?v=XeMVu1OYYps',
@@ -40,6 +50,17 @@ const tracks = [
         characImg: 'Assets/CharacterIcons/icon1.jpg',
         audio: 'Assets/Songs/Decretum.mp3'
     },
+    {
+        title: "Character BGM",
+        role: 'Mayari',
+        duration: 351,
+        ref: 'The Name of Life by Joe Hisaishi',
+        url: 'https://www.youtube.com/watch?v=U9RxGijXy4g',
+        bg: 'url(Assets/Background/stars.png)',
+        characImg: 'Assets/CharacterIcons/icon1.jpg',
+        audio: 'Assets/Songs/The Name Of Life - Spirited Away Piano.mp3'
+    },
+    
 ];
 
 // Bar Sizes
