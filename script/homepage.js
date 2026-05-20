@@ -34,7 +34,22 @@ const pictures = document.querySelectorAll(".picture");
         currentPicture = 1 - currentPicture;
     }
 
-    setInterval(changePicture, 8000);
+    setInterval(changePicture, 5000);
 
 
 
+
+
+const card = document.querySelector('.card1');
+let isFlipped = false;
+
+card.addEventListener('click', () => {
+    isFlipped = !isFlipped;
+    
+    document.getElementById('dynamic-style')?.remove();
+
+    const style = document.createElement('style');
+    style.id = 'dynamic-style';
+    style.textContent = `.card1:hover { transform: rotateY(${isFlipped ? '0deg' : '180deg'}); }`;
+    document.head.appendChild(style);
+});
