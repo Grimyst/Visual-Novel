@@ -1,8 +1,13 @@
 
 /*general*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+  
 }
 
 p {
@@ -21,7 +26,6 @@ html {
 }
 
 /* Header style */
-/*
 .logoBar img{
     width: 100%;
     height: 100%;
@@ -35,8 +39,8 @@ html {
 .logoBar {
     width: auto;
     height: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .navigationBar {
@@ -59,111 +63,35 @@ html {
 
 .WebBar:hover p {
     text-decoration: underline;
-     text-shadow: 0 0 10px #00e1ff, 0 0 20px #00e1ff;
+   
 }
-*/
+
+
+@media(max-width: 1160px){
+    .navigationBar {
+        display: block;
+        height: 110px;
+    }
+   .WebBar {
+     opacity: 0;
+     display: none;
+   }
+
+   .logoBar {
+    width: 200px;
+    height: auto;
+   }
+
+
+}
+
+
 .Homepagetopsection {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
-/* Navigation Bar */
-.char_nav{
-    background-color: rgb(15, 26, 53);
-    padding-left: 5%;
-    padding-right: 5%; 
-    width: 101.1%;
-    top : 0;
-    left: 0;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
-}
-.char_nav_div{
-display: flex;
-align-items: center;
-justify-content:first baseline;
-}
-.tal_logo{
-    height: 45px;
-    position: relative;
-    left: 8%;
-}
-
-nav li{
-    display: inline-block;
-}
-nav li a{
-    color: rgb(240, 213, 40);
-    font-family: 'Crimson Pro', serif;
-    font-size: 15px;   
-    position: relative;
-    left: 50%;
-    margin-left: 45px;
-    margin-right: 50px;
-}
-nav li a:hover{
-    color: rgb(255, 250, 90);
-    font-family: 'Crimson Pro', serif;
-    font-size: 16px;   
-    position: relative;
-    left: 50%;
-    margin-left: 45px;
-    margin-right: 50px;
-    text-shadow: 0 0 5px rgb(255, 250, 90);
-    text-decoration: underline;
-    transition: all 0.6s ease;
-}
-
-nav li:first-child{
-    margin-right: 10px;
-}
-
-.sidebar{
-    position: absolute;
-    top: -2%;
-    right: 0;
-    height: 100%;
-    width: 170px;
-    z-index: 9999;
-    background-color: rgba(19, 50, 121, 0.164);
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(4px);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.sidebar li{
-    position:relative;
-    right: 30%;
-    width: 90%;
-padding: 5%;
-    text-align: right;
-}
-.sidebar li a{
-    position: relative;
-    width: 90%;
-    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
-    font-size: 80%;
-}
-.noSidebar{
-    position: absolute;
-    right: 5%; 
-    top: 1%;
-}
-
-@media(max-width: 1160px){
-   .hideOnMobile{
-    display: none;
-   }
-}
-@media(min-width: 1159px){
-    .noSidebar{
-        display: none;
-    }
-}
-
 
 /* homepage center style */
 
@@ -209,6 +137,10 @@ padding: 5%;
     padding-bottom: 100px;
 }
 
+    /*SLOGAN TEXT */
+    /*     |      */
+    /*     |      */
+    /*     V      */
 .slogan {
     z-index: 100;
     font-size: 64px;
@@ -216,13 +148,16 @@ padding: 5%;
     margin-bottom: 20px;
     text-align: center;
 
-    text-shadow:
-        1px 1px 0 black,
-       -1px 1px 0 black,
-        1px -1px 0 black,
-       -1px -1px 0 black;
+
+    text-shadow: 2px 2px 4px #000;
 }
 
+
+.talaya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* introduction page style */
 .HomepageIntroduction {
@@ -231,12 +166,12 @@ padding: 5%;
 
 .ContentTitle, .content {
     color: #D3B14D;  
-    font-size: 28px; 
+    font-size: 48px; 
     font-weight: bold;
 }
 
-.ContentTitle {
-    font-size: 48px; 
+.content {
+    font-size: 28px; 
 }
 
 .BlackColorContentitle {

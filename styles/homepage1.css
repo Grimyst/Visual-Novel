@@ -27,7 +27,7 @@
 
 .HomepageCharacter {    
     padding: 20px;
-    height: 800px;
+    height: auto;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../Assets/images/v-de-leon-panime.jpg'); 
@@ -44,6 +44,17 @@
     row-gap: 10px;
     margin-bottom: 100px;
 }
+
+
+@media(max-width: 1160px){
+    .characterPreview{
+        display: grid;
+        grid-template-columns: repeat 1fr;
+        gap: 20px;
+        height: auto;
+    }
+}
+
 
 .characterContainer {
     width: 300px;
@@ -145,7 +156,7 @@
 
 .HomepageMusic {
     padding: 20px;
-    height: 100%;
+    height: auto;
 }
 
 .musicPreview {
@@ -156,6 +167,10 @@
     margin-bottom: 100px;
 }
 
+
+
+
+
 .musicContainer {
     background-color: #D9D9D9;
     width: 300px;
@@ -163,11 +178,24 @@
    
 }
 
+@media(max-width: 1160px){
+    .musicPreview{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 20px;
+        height: auto;
+    }
+    .musicContainer {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 /* Gallery */
 
 .HomepageGallery {
     padding: 20px;
-    height: 100%;
+    height: auto;
     background-color: #7BABDC;
 }
 
@@ -177,6 +205,16 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+}
+
+@media(max-width: 1160px){
+    .galleryPreview{
+        display: grid;
+        grid-template-columns:repeat(2 1fr);
+        gap: 20px;
+        height: auto;
+    }
+    
 }
 
 .galleryContainer {
@@ -206,6 +244,7 @@
     perspective: 1000px;
 }
 
+
 .endingContainer {
     width: 250px;
     height: 350px;
@@ -215,6 +254,23 @@
     transition: transform 0.6s;
     cursor: pointer;
 }
+
+@media(max-width: 1160px){
+    .endingPreview{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        height: auto;
+    }
+
+    .endingContainer {
+    width: 150px;
+    height: 250px;
+    
+    }
+
+}
+
 
 .frontcard, .backcard {
     position: absolute;
@@ -241,7 +297,8 @@
     transform: rotateY(180deg);
 }
 
-.backcard img {
+.backcard img,
+.frontcard img {
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -271,15 +328,22 @@
 
 .HomepageAboutus {
     padding: 20px;
-    height: 600px;
+    height: auto;
     background-color: #7CADDF;
+
 }
 
 .aboutUsPreview {
-    border: solid;
-    border-color: #D3B14D;
-    height: 300px;
+    height: auto;
     margin-bottom: 100px;
+}
+
+.aboutuscontent {
+    z-index: 100;
+    font-size: 24px;
+    color: #D3B14D;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 

@@ -90,6 +90,8 @@ body {
 .GalleryContainer {
     width: 100%;
     text-align: center;
+   
+
 }
 
 .top-content {
@@ -130,6 +132,7 @@ label:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+    row-gap: 20px;
 }
 
 .pic {
@@ -139,6 +142,7 @@ label:hover {
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .pic img {
