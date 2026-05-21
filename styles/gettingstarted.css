@@ -1,0 +1,141 @@
+html {
+    max-width: 1440px;
+    margin: auto;
+}
+
+body {
+    background-color: #01182e;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    overflow: none;
+}
+/*arrow back to homepage*/
+.ArrowB{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    z-index: 4;
+    cursor: pointer;
+}
+svg{
+    height: 40px;
+    width: auto;
+}
+
+/*yung malaking title lang*/
+.Path{
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
+    font-weight: lighter;
+    color: #e6e6e6;
+    font-size: 7vw;
+    z-index: 4;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.Opts{
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; 
+    transform: translateY(-20%);
+    margin-bottom: -30vw;
+}
+p{
+    text-align: center;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
+}
+.Opts #Mayari{
+    font-family: 'Crimson Pro', serif;
+    align-content: center;
+    font-size: 26px;
+    padding: 20px;
+    color: #e6e6e6;
+    background-color:rgb(32, 32, 127) ;
+    aspect-ratio: 1080/2000;
+    max-width: 15vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    cursor: pointer;
+}
+
+.Opts #Hanan{
+    font-family: 'Crimson Pro', serif;
+    align-content: center;
+    font-size: 28px;
+    padding: 20px;
+    color: #e6e6e6;
+    background-color:rgb(199, 58, 58) ;
+    aspect-ratio: 1080/2000;
+    width: 15vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    cursor: pointer;
+}
+.Opts #Sidapa{
+    font-family: 'Crimson Pro', serif;
+    align-content: center;
+    font-size: 26px;
+    padding: 20px;
+    color: #e6e6e6;
+    background-color:rgb(65, 170, 255) ;
+    aspect-ratio: 1080/2000;
+    width: 15vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    cursor: pointer;
+}
+.Opts #Libulan{
+    font-family: 'Crimson Pro', serif;
+    align-content: center;
+    font-size: 26px;
+    padding: 20px;
+    color: #e6e6e6;
+    background-color:rgb(205, 197, 44) ;
+    aspect-ratio: 1080/2000;
+    width: 15vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    cursor: pointer;
+}
+
+.Opts #Mayari:hover, .Opts #Hanan:hover, .Opts #Sidapa:hover, .Opts #Libulan:hover{
+    filter: drop-shadow(0 0 5px rgba(238, 238, 238, 0.7)); 
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+/*background stars*/
+@keyframes moveTwinkling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+#stars, #twinkling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+#twinkling {
+    background: transparent url(../Assets/Background/twinkling.png) repeat top center;
+    z-index: 1;
+    animation: moveTwinkling 100s linear infinite;
+}
+
+#stars {
+    background: transparent url(../Assets/Background/stars.png) repeat top center;
+    z-index: 0;
+}
