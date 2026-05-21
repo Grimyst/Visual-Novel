@@ -1,9 +1,17 @@
 const choices = ['rock', 'paper', 'scissors'];
-const choiceImages = {
+const defaultPlayerChoiceImages = {
     'rock': 'Assets/1.webp',
     'paper': 'Assets/2.webp',
     'scissors': 'Assets/3.webp'
 };
+const defaultComputerChoiceImages = {
+    'rock': 'Assets/1.webp',
+    'paper': 'Assets/2.webp',
+    'scissors': 'Assets/3.webp'
+};
+const config = window.minigameConfig || {};
+const playerChoiceImages = config.playerChoiceImages || defaultPlayerChoiceImages;
+const computerChoiceImages = config.computerChoiceImages || defaultComputerChoiceImages;
 
 function makeChoice(playerChoice) {
     // to disable buttons during animation
@@ -13,7 +21,7 @@ function makeChoice(playerChoice) {
     // keep the title fixed and show result in the dedicated banner
     const titleElement = document.getElementById('gameTitle');
     titleElement.classList.remove('fade-out');
-    titleElement.textContent = 'Bato-Bato-Pik';
+    titleElement.textContent = config.gameTitle || 'Bato-Bato-Pik';
 
     const resultMessage = document.getElementById('resultMessage');
     resultMessage.classList.remove('show');
@@ -32,14 +40,14 @@ function makeChoice(playerChoice) {
     // set initial image immediately
     let currentChoice = choices[choiceIndex % 3];
     computerChoiceDiv.classList.add(currentChoice);
-    computerImage.src = choiceImages[currentChoice];
+    computerImage.src = computerChoiceImages[currentChoice];
     choiceIndex++;
     
     const cycleInterval = setInterval(() => {
         currentChoice = choices[choiceIndex % 3];
         computerChoiceDiv.classList.remove('rock', 'paper', 'scissors');
         computerChoiceDiv.classList.add(currentChoice);
-        computerImage.src = choiceImages[currentChoice];
+        computerImage.src = computerChoiceImages[currentChoice];
         choiceIndex++;
     }, 150);
 
@@ -53,7 +61,7 @@ function makeChoice(playerChoice) {
         // choice display for computer to update
         computerChoiceDiv.classList.remove('choosing', 'rock', 'paper', 'scissors');
         computerChoiceDiv.classList.add(computerChoice);
-        computerImage.src = choiceImages[computerChoice];
+        computerImage.src = computerChoiceImages[computerChoice];
 
         // for determining the winner
         const result = determineWinner(playerChoice, computerChoice);
@@ -102,6 +110,23 @@ function displayResult(result) {
         resultMessage.textContent = '';
     }, 2000);
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    if (config.playerName) {
+        const playerNameEl = document.getElementById('playerName');
+        if (playerNameEl) playerNameEl.textContent = config.playerName;
+    }
+
+    if (config.opponentName) {
+        const opponentNameEl = document.getElementById('opponentName');
+        if (opponentNameEl) opponentNameEl.textContent = config.opponentName;
+    }
+
+    if (config.gameTitle) {
+        const gameTitleEl = document.getElementById('gameTitle');
+        if (gameTitleEl) gameTitleEl.textContent = config.gameTitle;
+    }
+});
 
 function goBack() {
     // dito mag add ng navigation logic here
