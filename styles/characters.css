@@ -6,12 +6,13 @@
 body{
     margin: 0;
     padding: 0;
-    max-width: 90%;
-    background-image: url('../Assets/Background/v-de-leon-hehe.jpg');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size:135%;
-    background-position-y: 2rem;
+max-width: 90%;
+background-image: url('../Assets/images/v-de-leon-hehe.jpg');
+background-repeat: no-repeat;
+background-position: left top;
+background-size:135%;
+background-position-y: 2rem;
+overflow: none;
 }
 
 
@@ -43,21 +44,23 @@ nav li a{
     color: rgb(240, 213, 40);
     font-family: 'Crimson Pro', serif;
     font-size: 15px;   
+    padding: 10px 10px 10px;
     position: relative;
-    left: 50%;
-    margin-left: 45px;
-    margin-right: 50px;
+    left: 40%;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 nav li a:hover{
-    color: rgb(255, 250, 90);
+    color: rgb(15, 26, 53);
     font-family: 'Crimson Pro', serif;
-    font-size: 16px;   
+    font-size: 15px;
+    padding: 10px 10px 10px;   
     position: relative;
-    left: 50%;
-    margin-left: 45px;
-    margin-right: 50px;
+    left: 40%;
+    margin-left: 30px;
+    margin-right: 40px;
     text-shadow: 0 0 5px rgb(255, 250, 90);
-    text-decoration: underline;
+    background-color: rgba(255, 250, 90);
     transition: all 0.6s ease;
 }
 
@@ -130,6 +133,7 @@ padding: 5%;
     display:flex;
     flex-direction: column;
     cursor: pointer;
+    animation: slideIn 0.5s ease;
 }
 .char_icon:hover{
     position: relative;
@@ -164,7 +168,7 @@ padding: 5%;
     top: 38%;
     width: 15vw;
     display: none;
-
+    animation: fadeIn 0.8s ease;
 }
 /*Character description*/
 .char_name{
@@ -189,6 +193,14 @@ padding: 5%;
     background-color: rgb(15, 26, 53);
     opacity: 0.5;
 }
+.char_story p{
+    color: rgb(248, 242, 206);
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.3vw;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    padding-right: 8px;
+    text-align: justify;
+}
 
 
 
@@ -204,11 +216,15 @@ padding: 5%;
     border-top-right-radius: 20vw;
 }
 
-@keyframes fade {
+@keyframes fadeIn {
     from{opacity: .4;}
     to{opacity: 1;}
 }
+
 @keyframes slideIn {
-    from{transform: translateX(-100%);}
-    to{transform: translateX(0);}
+    from{transform: translateX(-70%);
+    opacity: .2;}
+    to{transform: translateX(0);
+    opacity: 1;}
 }
+
