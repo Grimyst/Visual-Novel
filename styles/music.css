@@ -228,6 +228,13 @@ z-index: 5;
         opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
 }
 
+.panel:hover {
+    transform: scale(1.09);
+}
+.panel:active {
+    transform: scale(0.97);
+    transition: transform 0.5s ease;
+}
 /* Highlights current Panel*/
 .panel.is-active {
      background: linear-gradient(108deg, #b8973e 0%, #e8c97a 55%, #c9a84c 100%);
