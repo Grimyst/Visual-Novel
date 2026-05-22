@@ -1,0 +1,80 @@
+input {
+    display: none;
+}
+
+p {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: inherit;      
+    text-decoration: none; 
+}
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+/* Header style */
+
+.logoBar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F1A35;
+}
+
+.logoBar {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.navigationBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #0F1A35;
+}
+
+.WebBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D3B14D;
+    font-size: 20px;
+    background-color: #0F1A35;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.WebBar:hover p {
+    text-decoration: underline;
+   
+}
+
+.Homepagetopsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GalleryTitle {
+    color: #D3B14D;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 40px;
+
+}
