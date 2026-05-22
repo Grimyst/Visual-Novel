@@ -27,7 +27,7 @@ const scenes = {
     },
 
     prologue3: {
-        bg: 'url(".../Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -36,7 +36,7 @@ const scenes = {
     },
 
     prologue4: {
-        bg: 'url(".../Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -45,7 +45,7 @@ const scenes = {
     },
     
     prologue5: {
-        bg: 'url(".../Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -54,7 +54,7 @@ const scenes = {
     },
 
     prologue6: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -63,7 +63,7 @@ const scenes = {
     },
 
     prologue7: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -72,7 +72,7 @@ const scenes = {
     },
 
     prologue8: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -81,7 +81,7 @@ const scenes = {
     },
 
     prologue9: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -90,7 +90,7 @@ const scenes = {
     },
 
     prologue10: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Bathala',
@@ -99,7 +99,7 @@ const scenes = {
     },
 
     prologue11: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -108,7 +108,7 @@ const scenes = {
     },
 
     prologue12: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -117,7 +117,7 @@ const scenes = {
     },
 
     prologue13: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Sidapa',
@@ -126,7 +126,7 @@ const scenes = {
     },
 
     prologue14: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Bathala',
@@ -135,7 +135,7 @@ const scenes = {
     },
 
     prologue15: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'System',
@@ -144,7 +144,7 @@ const scenes = {
     },
 
     prologue16: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Sidapa',
@@ -153,7 +153,7 @@ const scenes = {
     },
 
     prologue17: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -162,7 +162,7 @@ const scenes = {
     },
 
     prologue18: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -171,7 +171,7 @@ const scenes = {
     },
 
     prologue19: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Sidapa',
@@ -180,7 +180,7 @@ const scenes = {
     },
 
     prologue20: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -189,7 +189,7 @@ const scenes = {
     },
 
     prologue21: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -198,7 +198,7 @@ const scenes = {
     },
 
     prologue22: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -207,7 +207,7 @@ const scenes = {
     },
 
     prologue23: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Narrator',
@@ -216,7 +216,7 @@ const scenes = {
     },
 
     prologue24: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Libulan',
@@ -225,40 +225,463 @@ const scenes = {
     },
 
     prologue25: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
-        speaker: 'Sidapa',
-        text: "You can see them.",
-        next: 'prologue'
+        speaker: 'Narrator',
+        text: "Music echoed through the dark hallway as a man stepped casually from the emergency stairwell wearing headphones around his neck while silver jewelry reflected faintly beneath the hospital lights.",
+        next: 'prologue26'
     },
 
-    prologue: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+    prologue26: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
-        speaker: 'Sidapa',
-        text: "You can see them.",
-        next: 'prologue'
+        speaker: 'Narrator',
+        text: "The panic around the room softened instantly. People calmed down. Even the crying stopped.",
+        next: 'prologue27'
     },
 
-    prologue: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+    prologue27: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
-        speaker: 'Sidapa',
-        text: "You can see them.",
-        next: 'prologue'
+        speaker: 'Narrator',
+        text: "Bathala looked between them. The man who carried death like silence... And the man who carried emotion like music...",
+        next: 'prologue28'
     },
 
-    prologue: {
-        bg: 'url("bgs/CollegeEntrance.webp") center/cover no-repeat',
+    prologue28: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Bathala',
+        text: "... Who are you people?",
+        next: 'prologue29'
+    },
+
+    prologue29: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Sidapa's expression suddenly hardened. For the first time— fear crossed his face.",
+        next: 'prologue30'
+    },
+
+    prologue30: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
         location: 'DHVSU',
         chars: [],
         speaker: 'Sidapa',
-        text: "You can see them.",
-        next: 'prologue'
+        text: "... Why can't I see your lifespan?",
+        next: 'prologue31'
     },
+
+    prologue31: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan's smile faded slightly.",
+        next: 'prologue32'
+    },
+
+    prologue32: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The hospital lights dimmed again. Then every silver countdown inside the building froze completely.",
+        next: 'prologue33'
+    },
+
+    prologue33: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'System Warning:',
+        text: "LIFESPAN DETECTION ERROR                                            UNKNOWN ENTITY DETECTED",
+        next: 'prologue34'
+    },
+
+    prologue34: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Narrator',
+        text: "A deep distorted voice echoed from somewhere beneath the hospital.",
+        next: 'prologue35'
+    },
+
+    prologue35: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Bakunawa',
+        text: "You still cling to endings like they matter.",
+        next: 'prologue36'
+    },
+
+    prologue36: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'DHVSU',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The entire building shook violently. And somewhere below the city—   something enormous moved.",
+        next: 'Ch1'
+    },
+
+    Ch1: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The underground club beneath Manila pulsed endlessly with bass loud enough to shake the walls while neon lights bled across cigarette smoke, crowded bodies, and spilled drinks reflecting against the dark floor like liquid stars.",
+        next: 'ch1_1'
+    },
+
+    ch1_1: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Bathala sat awkwardly near the bar while Sidapa stood nearby looking visibly uncomfortable.",
+        next: 'ch1_2'
+    },
+
+    ch1_2: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Sidapa',
+        text: "This place feels like several health violations combined.",
+        next: 'ch1_3'
+    },
+
+        ch1_3: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan laughed while adjusting the music controls.",
+        next: 'ch1_4'
+    },
+
+    ch1_4: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Libulan',
+        text: "That's the aesthetic.",
+        next: 'ch1_5'
+    },
+
+    ch1_5: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Bathala watched the crowd carefully. Every person dancing below carried distorted silver countdowns above their heads.",
+        next: 'ch1_6'
+    },
+
+    ch1_6: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Some slowed. Some accelerated. Some vanished completely whenever the music intensified.",
+        next: 'ch1_7'
+    },
+
+    ch1_7: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bathala',
+        text: "...You're changing them.",
+        next: 'ch1_8'
+    },
+
+    ch1_8: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan avoided eye contact briefly.",
+        next: 'ch1_9'
+    },
+
+    ch1_9: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Libulan',
+        text: "Technically.",
+        next: 'ch1_10'
+    },
+
+    ch1_10: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Sidapa',
+        text: "Emotion directly affects lifespan stability.",
+        next: 'ch1_11'
+    },
+
+    ch1_11: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan smirked.",
+        next: 'ch1_12'
+    },
+
+    ch1_12: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Libulan',
+        text: "God, you make everything sound depressing.",
+        next: 'ch1_13'
+    },
+
+    ch1_13: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The music suddenly softened. The atmosphere inside the club changed instantly.",
+        next: 'ch1_14'
+    },
+
+    ch1_14: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "People who were dancing moments ago now looked emotional. Some cried. Others laughed uncontrollably. One couple kissed desperately like they were running out of time.",
+        next: 'ch1_15'
+    },
+
+    ch1_15: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Sidapa quietly stared at Libulan.",
+        next: 'ch1_16'
+    },
+
+    ch1_16: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Sidapa',
+        text: "... You're afraid.",
+        next: 'ch1_17'
+    },
+
+    ch1_17: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan froze.",
+        next: 'ch1_18'
+    },
+
+    ch1_18: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The music skipped.",
+        next: 'ch1_19'
+    },
+
+    ch1_19: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Libulan',
+        text: "What?",
+        next: 'ch1_20'
+    },
+
+    ch1_20: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Sidapa',
+        text: "You keep people emotionally overwhelmed because silence terrifies you.",
+        next: 'ch1_21'
+    },
+
+    ch1_21: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "For the first time— Libulan stopped smiling.",
+        next: 'ch1_22'
+    },
+
+    ch1_22: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The lights overhead flickered violently. Then every speaker inside the club suddenly emitted deep distorted static. A voice echoed through the darkness.",
+        next: 'ch1_23'
+    },
+
+    ch1_23: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bakunawa',
+        text: "You continue pretending feelings can save anyone.",
+        next: 'ch1_24'
+    },
+
+    ch1_24: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The crowd below immediately collapsed unconscious.",
+        next: 'ch1_25'
+    },
+
+    ch1_25: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bathala',
+        text: "What the hell?!",
+        next: 'ch1_26'
+    },
+
+    ch1_26: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The shadows near the dance floor twisted unnaturally. A tall figure slowly emerged beneath the broken lights. Golden eyes. Dark clothing. A calm expression hiding something monstrous beneath it.",
+        next: 'ch1_27'
+    },
+
+    ch1_27: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bakunawa',
+        text: "Still entertaining mortals before the world ends?",
+        next: 'ch1_28'
+    },
+
+    ch1_28: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Libulan's expression hardened instantly.",
+        next: 'ch1_29'
+    },
+
+    ch1_29: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Libulan',
+        text: "...You shouldn't be here.",
+        next: 'ch1_30'
+    },
+
+    ch1_30: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Bakunawa looked toward Sidapa. Then toward Bathala.",
+        next: 'ch1_31'
+    },
+
+    ch1_31: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bakunawa',
+        text: "So this is the one observing the system.",
+        next: 'ch1_32'
+    },
+
+    ch1_32: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bathala',
+        text: "... The what?",
+        next: 'ch1_33'
+    },
+
+    ch1_33: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bakunawa',
+        text: "The thing pretending your choices matter.",
+        next: 'ch1_34'
+    },
+
+    ch1_34: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The walls around the club trembled softly. For one horrifying second—something enormous moved behind Bakunawa's shadow. A massive serpent shape coiling endlessly through darkness beneath the city.",
+        next: 'ch1_35'
+    },
+
+    ch1_35: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Bathala',
+        
+        isChoice: true,
+        
+        text: "",
+        choices: [
+            { text: '"Stand Beside Sidapa"', next: 'ch1_36a' },
+            { text: '"Ask Bakunawa what he wants"', next: 'ch1_36b' },
+        ]
+    },
+
+    ch1_36a: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Bathala immediately steps beside Sidapa",
+        next: 'ch1_37'
+    },
+
+    ch1_37: {
+        bg: 'url("Assets/Background/CollegeEntrance.webp") center/cover no-repeat',
+        location: 'UNDERGROUND CLUB',
+        chars: [],
+        speaker: 'Sidapa',
+        text: "This place feels like several health violations combined.",
+        next: 'ch1_38'
+    },
+
+    
+    
 
 
 
