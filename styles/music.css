@@ -169,8 +169,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 0 0 0 24px;
+    align-items: center;
+    padding: 0 24px;
     overflow: hidden;
     position: relative;
 }
@@ -201,6 +201,7 @@ z-index: 5;
     overflow: hidden;
     position: relative;
     width: 100%;
+    padding-left: 24px;
 }
 
 
