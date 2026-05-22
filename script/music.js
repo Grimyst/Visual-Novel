@@ -142,11 +142,10 @@ const panels = tracks.map(function(track, index) {
     barDiv.innerHTML = `
         <div class = "panelInner">
             <span class = "panelSinger">${track.role}</span>
-            <a class = "panelTitle" href = "${track.url}" target = "_blank" rel = "noopener noreferrer"
-                title = "Reference: ${track.ref}">
-                ${track.title}
-            <span class = "panelRefTooltip">${track.ref}</span>
-            </a>
+            <div class = "panelTitleGroup">
+                <span class = "panelTitle">${track.title}</span>
+                <a class = "panelRef" href = "${track.url}" target = "_blank" rel = "noopener noreferrer">${track.ref}</a>
+            </div>
         </div>`;
     
     // To navigate to the pressed bar
