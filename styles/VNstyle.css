@@ -1,0 +1,320 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body{
+  overflow: hidden;
+}
+#vn {
+  width: 100%;
+  min-height: 700px;
+  background: #0a0e1a;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  overflow: hidden;
+
+
+  user-select: none; /* stops the user to copy paste text*/
+}
+
+#scene-bg {
+  position: absolute;
+  inset: 0;
+  transition: background 1.2s ease;
+}
+
+
+#character-layer {
+  position: absolute;
+  bottom: 140px;
+
+
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  gap: 60px;
+  transition: opacity 0.6s;
+  overflow: visible;
+  z-index: 3;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.character.active { opacity: 1; transform: scale(1.04); }
+
+.char-portrait {
+  width: 90px;
+  height: 110px;
+  border-radius: 50% 50% 40% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  position: relative;
+}
+
+.char-name-tag {
+  font-size: 11px;
+  color: rgba(255,255,255,0.5);
+  margin-top: 6px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+#textbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(5,8,18,0.98) 0%, rgba(5,8,18,0.92) 80%, transparent 100%);
+  padding: 20px 28px 24px;
+  min-height: 160px;
+  z-index: 4;
+}
+#diabox {
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+  top: -100px;
+  z-index: -1;
+}
+
+#speaker-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #e8c97a;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  margin-left: 30px;
+  min-height: 20px;
+  margin-top: -100px;
+}
+
+#dialogue-text {
+  font-size: 15px;
+  font-family: 'Crimson Pro', serif;
+  line-height: 1.75;
+  color: rgba(230, 235, 250, 0.92);
+  min-height: 54px;
+  font-weight: 300;
+  margin-left: 30px;
+  margin-right: 25px;
+
+}
+
+#cursor {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background: #e8c97a;
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+#choices {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.choice-btn {
+  background: rgba(255,255,255,0.05);
+  border: 0.5px solid rgba(232,201,122,0.4);
+  color: rgba(230,235,250,0.9);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.choice-btn:hover {
+  background: rgba(232,201,122,0.15);
+  border-color: rgba(232,201,122,0.8);
+  color: #fff;
+  padding-left: 22px;
+}
+
+#advance-hint {
+  position: absolute;
+  right: 45px;
+  top: 1.5vw;
+  font-size: 11px;
+  color: rgba(232,201,122,0.5);
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse { 0%,100%{opacity:0.5} 50%{opacity:1} }
+
+#chapter-title {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #0a0e1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: opacity 1s;
+}
+
+#chapter-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #e8c97a;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+#chapter-title p {
+  font-size: 13px;
+  color: rgba(200,210,240,0.5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#chapter-title .start-btn {
+  margin-top: 36px;
+  background: transparent;
+  border: 0.5px solid rgba(232,201,122,0.6);
+  color: #e8c97a;
+  padding: 10px 32px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+#chapter-title .start-btn:hover { background: rgba(232,201,122,0.1); }
+
+#location-tag {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(200,210,240,0.4);
+  border-left: 1px solid rgba(232,201,122,0.3);
+  padding-left: 10px;
+}
+
+
+/* CHARACTERS POSITION ON THE SCREEN */
+.character {
+    position: absolute;
+    bottom: 0;
+    transition: filter 0.3s;
+}
+
+.character.left   { left: 0%; bottom: -15%; }
+.character.right  { right: 5%; bottom: -15%; }
+.character.center { left: 50%; transform: translateX(-50%); }
+
+.char-img {
+    height: 70vh;
+    object-fit: contain;
+}
+
+/* Dim inactive characters */
+.character.inactive {
+    filter: brightness(0.5);
+}
+
+/* Active character is fully lit */
+.character.active {
+    filter: brightness(1);
+}
+
+
+#back-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: background 0.2s, border 0.2s;
+}
+
+#back-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#back-btn:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+/* END BUTTON*/
+#end-buttons button {
+     position: absolute;
+    top: 15px;
+    right: 105px;
+    z-index: 100;
+
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: background 0.2s, border 0.2s;
+}
+
+
+#end-buttons button:hover {
+    border-color: rgba(168, 216, 255, 0.9);
+    box-shadow: 
+        0 0 12px rgba(168, 216, 255, 0.3),
+        inset 0 0 12px rgba(168, 216, 255, 0.05);
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+#end-buttons button:hover::before {
+    opacity: 1;
+}
+
+#end-buttons button:active {
+    transform: scale(0.97);
+}
