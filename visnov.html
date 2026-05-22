@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel</title>
+    <link rel="stylesheet" href="styles/VNstyle.css">
+    <link href="https://fonts.cdnfonts.com/css/starlight-rune-personal-use" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="vn">
+        
+        <!-- SCENE BG -->
+        <div id="scene-bg"> </div>
+
+        <!-- LOCATION DIV -->
+        <div id="location-tag"></div>
+
+        <!-- CHARACTER LAYER-->
+        <div id="character-layer"></div>
+
+        <!-- DIALOG BOX -->
+        <div id="textbox"><img id="diabox" src="Assets/images/textBox.png" alt="DialogBox"></img>
+            <div id="speaker-name"></div>
+            <div id="dialogue-text"></div>
+            <div id="choices"></div>
+            <div id="advance-hint">click to continue</div>
+        </div>
+        
+        <!-- CHAPTER TITLE -->
+        <div id="chapter-title">
+            <p>this shi is crinh my ahh cant believe i made this</p>
+            <h1> The TITLE </h1>
+            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">"Dustin and Kurt."</p>
+            <button class="start-btn" onclick="PlayGame('Chapter1_start');">Chapter 1</button>
+            <button class="start-btn" onclick="PlayGame()">Chapter 2</button>
+        </div>
+        <button id="back-btn" onclick="goBack()">← Back</button>
+    
+        <div id="end-buttons">
+            <button onclick="returnToTitle()">Return to Title</button>
+        </div>
+    
+    </div>
+
+    <script src="script/VNgeneralScript.js"></script>
+    <script src="script/SIDAPA.js"></script>
+    
+</body>
+</html>
