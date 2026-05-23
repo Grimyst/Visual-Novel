@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cursorImg = customCursor.querySelector('img')
     if (!cursorImg) return
 
-    const trailCount = 3
+    const trailCount = 1
 
     document.addEventListener('mousemove', e => {
         customCursor.style.top = e.clientY + 'px'
