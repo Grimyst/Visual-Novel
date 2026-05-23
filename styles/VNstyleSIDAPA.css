@@ -1,5 +1,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
+body{
+  overflow: hidden;
+}
 
 
 #vn {
@@ -79,11 +81,10 @@
 
 #textbox {
   position: absolute;
-  bottom: 0;
+  transform: translateY(470px);
   left: 0;
   right: 0;
-  padding: 20px 28px 24px;
- 
+  padding: 20px 28px 24px;;
   z-index: 4;
 }
 
@@ -244,12 +245,12 @@
     transition: filter 0.3s;
 }
 
-.character.left   { left: 0%; bottom: -15%; }
-.character.right  { right: 5%; bottom: -15%; }
+.character.left   { left: 0%; bottom: 0%; }
+.character.right  { right: 5%; bottom: 0%; }
 .character.center { left: 50%; transform: translateX(-50%); }
 
 .char-img {
-    height: 70vh;
+    height: 80vh;
     object-fit: contain;
 }
 
