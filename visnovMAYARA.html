@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+
+    <title>Visual Novel</title>
+    <link rel="stylesheet" href="styles/VNSTYLEMAYARA.css">
+</head>
+<body>
+ 
+    <div id="chapter-title">
+            <p> Talaya </p>
+            <h1> Mayari </h1>
+            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" Text "</p>
+            <button class="start-btn" onclick="PlayGame('prologue_start');">Prolouge </button>
+            <button class="start-btn" onclick="PlayGame('scene_darkroom_start')">Chapter 1</button>
+    </div>
+
+    <div id="vn">
+        <!-- SCENE BG -->
+        <div class="overflow"> 
+            <div id="scene-bg"> </div>
+
+            <!-- LOCATION DIV -->
+            <div id="location-tag"></div>
+
+            <!-- CHARACTER LAYER-->
+            <div id="character-layer"></div>
+
+            <audio id="bgm" loop></audio>
+
+            <!-- DIALOG BOX -->
+
+            <div id="choices"></div>
+            
+            <div id="textbox">
+                <div id="speaker-name"></div>
+                <div id="dialogue-text"></div>
+                <div id="advance-hint">click to continue</div>
+            </div>
+            
+            <button id="back-btn" onclick="goBack()"> Back </button>
+        </div>
+
+
+
+    </div>
+
+        
+        <script src="script/VNgeneralScript.js"></script>
+         
+         <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
+         <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
+       
+        <script>    
+            const scenes = { ...prologue, ...chapter1 };
+        </script>
+
+       
+    </body>
+ 
+</html>

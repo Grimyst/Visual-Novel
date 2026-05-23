@@ -2,6 +2,16 @@ html {
     max-width: 1440px;
     margin: auto;
     overflow-x: hidden;
+    cursor: none;
+}
+
+@media (prefers-reduced-motion: reduce){
+    .tarotAsset{
+        animation: none;
+    }
+    .Front{
+        animation: none;
+    }
 }
 
 body {
@@ -59,6 +69,10 @@ h3 {
     color: #AD3F26;
     transition: background-color 1s ease, color 1s ease, transform 1s ease;
     transform: scale(1.05);
+    cursor: pointer;
+    .cursor > img {
+        display: none;
+    }
 }
 
 #Logo {
@@ -136,8 +150,6 @@ h3 {
     height: 200px;
     width: auto;
 }
-
-
 
 #theMoon{
     position: absolute;
@@ -247,31 +259,63 @@ h3 {
     animation-range: entry 0% cover 40%;
 }
 
-#starAsset {
-    z-index: 3;
-    position: absolute;
-    top: 900px;
+@keyframes appear{
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.starOutline {
+    z-index: 4;
+    position: absolute;
+    top: 792px;
+    animation: appear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
 }
+
 .cursor > img {
     width: 40px;
     height: auto;
     transform: translate(-50%, -50%);
-    
 }
+
 .cursor {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 7;
     transform-origin: 0px 0px;
-    animation: spin 2s infinite linear;
+    animation: spin 5s infinite linear;
+    pointer-events: none;
 }
+
+@keyframes cursorTrailFade {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(var(--trail-scale, 0.5));
+    }
+    to {
+        opacity: 0;
+        transform: translate(calc(-50% + var(--trail-drift-x, 0px)), calc(-50% + var(--trail-drift-y, -25px))) scale(0.15);
+    }
+}
+
+.cursor-trail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(var(--trail-scale, 0.5));
+    animation: cursorTrailFade var(--trail-duration, 0.9s) forwards ease-out;
+}
+
+.cursor-trail img {
+    width: 24px;
+    height: auto;
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.95));
+    opacity: 0.95;
+}
+
+

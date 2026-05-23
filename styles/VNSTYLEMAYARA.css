@@ -1,6 +1,12 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+body {
+   overflow: hidden;
+}
 
+p {
+  font-family: sans-serif;
+}
 
 #vn {
   height: 100dvh;       /* fills full viewport height */
@@ -18,10 +24,11 @@
   width: 100%;
   min-height: 100dvh;
   overflow: hidden;
+  background: #0a0e1a;
 }
 
 #scene-bg {
-   overflow: hidden;
+  overflow: hidden;
   position: absolute;
   inset: 0;
   transition: background 1.2s ease;
@@ -108,23 +115,13 @@
   height: 180px;
   border-radius: 30px;
   font-size: 20px;
-  font-family: 'Crimson Pro', serif;
+  font-family: "Crimson Pro", serif;
   line-height: 1.75;
   color: #e8c97a;
   min-height: 54px;
   font-weight: 300;
   margin-left: 30px;
   margin-right: 25px;
-}
-
-#cursor {
-  display: inline-block;
-  width: 2px;
-  height: 14px;
-  background: #e8c97a;
-  margin-left: 2px;
-  vertical-align: middle;
-  animation: blink 1s infinite;
 }
 
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
@@ -152,7 +149,7 @@
   transform: translateY(0vh);
   border-radius: 6px;
   font-family: 'Crimson Pro', serif;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 400;
   cursor: pointer;
   text-align: left;
@@ -170,7 +167,7 @@
 #advance-hint {
   position: absolute;
   right: 75px;
-    bottom: 50px;
+  bottom: 50px;
   font-size: 12px;
   color: rgba(232,201,122,0.5);
   letter-spacing: 1px;
@@ -213,7 +210,7 @@
   border: 0.5px solid rgba(232,201,122,0.6);
   color: #e8c97a;
   padding: 10px 32px;
-  font-family: 'Lato', sans-serif;
+  
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -228,12 +225,14 @@
   position: absolute;
   top: 16px;
   left: 20px;
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(200,210,240,0.4);
+  color: #D3B14D;
   border-left: 1px solid rgba(232,201,122,0.3);
+  background-color: ;
   padding-left: 10px;
+  text-shadow: #0a0e1a;
 }
 
 
@@ -244,8 +243,8 @@
     transition: filter 0.3s;
 }
 
-.character.left   { left: 0%; bottom: -15%; }
-.character.right  { right: 5%; bottom: -15%; }
+.character.left   { left: 0%; bottom: 1%; }
+.character.right  { right: 5%; bottom: 1%; }
 .character.center { left: 50%; transform: translateX(-50%); }
 
 .char-img {
@@ -268,7 +267,7 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    z-index: 100;
+    z-index: 8;
 
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
