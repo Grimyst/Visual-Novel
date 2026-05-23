@@ -230,7 +230,7 @@ p {
     text-transform: uppercase;
     color: #D3B14D;
     border-left: 1px solid rgba(232,201,122,0.3);
-    background-color: black;
+    background-color: transparent;
     padding-left: 10px;
     text-shadow: #0a0e1a;
 }
