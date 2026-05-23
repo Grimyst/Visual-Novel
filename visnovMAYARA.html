@@ -20,8 +20,8 @@
             <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" Text "</p>
             <button class="start-btn" onclick="PlayGame('prologue_start');">Prolouge </button>
             <button class="start-btn" onclick="PlayGame('chapter1_start')">Chapter 1</button>
-            <p style="margin-top:20px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" - Chapter 2 - "</p>
             <button class="start-btn" onclick="PlayGame('chapter2_start')"> Chapter 2 </button>
+            <button class="start-btn" onclick="PlayGame('chapter3_start')"> Chapter 3 </button>
     </div>
 
     <div id="vn">
@@ -39,6 +39,7 @@
             <audio id="bgm" loop></audio>
 
             <!-- EXIT BUTTON-->
+             <button id="back-btn" onclick="goBack()"> Back </button>
             <button id="menu-btn" onclick="goToChapterScreen()">Menu</button>
             <!-- DIALOG BOX -->
 
@@ -60,12 +61,13 @@
         
         <script src="script/VNgeneralScript.js"></script>
          
-         <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
-         <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
-         <script src="script/ChaptersMayara/Chapter2Mayara.js"></script>
+        <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter2Mayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter3Mayara.js"></script>
        
         <script>    
-            const scenes = { ...prologue, ...chapter1, ...chapter2 };
+            const scenes = { ...prologue, ...chapter1, ...chapter2, ...chapter3 };
         </script>
 
        

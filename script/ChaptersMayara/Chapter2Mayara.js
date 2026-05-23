@@ -17,7 +17,7 @@ const chapter2 = {
 
 
     EclipseDreams_start: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [],
         speaker: 'Narrator',
@@ -26,7 +26,7 @@ const chapter2 = {
     },
 
     EclipseDreams_1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false }
@@ -37,7 +37,7 @@ const chapter2 = {
     },
 
     EclipseDreams_2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: true },
@@ -49,7 +49,7 @@ const chapter2 = {
     },
 
     EclipseDreams_3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -61,7 +61,7 @@ const chapter2 = {
     },
 
     EclipseDreams_4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -73,7 +73,7 @@ const chapter2 = {
     },
 
     EclipseDreams_5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -85,7 +85,7 @@ const chapter2 = {
     },
 
     EclipseDreams_6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -97,7 +97,7 @@ const chapter2 = {
     },
 
     EclipseDreams_7: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -109,7 +109,7 @@ const chapter2 = {
     },
 
     EclipseDreams_8: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -121,7 +121,7 @@ const chapter2 = {
     },
 
     EclipseDreams_9: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -133,7 +133,7 @@ const chapter2 = {
     },
 
     EclipseDreams_10: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png', position: 'left', active: true },
@@ -145,7 +145,7 @@ const chapter2 = {
     },
 
     EclipseDreams_11: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -157,7 +157,7 @@ const chapter2 = {
     },
 
     EclipseDreams_12: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -169,7 +169,7 @@ const chapter2 = {
     },
 
     EclipseDreams_13: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -181,7 +181,7 @@ const chapter2 = {
     },
 
     EclipseDreams_14: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -196,7 +196,7 @@ const chapter2 = {
     // ─── CHOICE 2A ───────────────────────────────────────────
 
     EclipseDreams_choice: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -215,7 +215,7 @@ const chapter2 = {
     // ─── CHOICE A — Then I'll protect you ───────────────────
 
     EclipseDreams_A1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -227,7 +227,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -239,7 +239,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -251,7 +251,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -263,7 +263,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy_Mouth.png', position: 'left', active: true },
@@ -275,7 +275,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -287,7 +287,7 @@ const chapter2 = {
     },
 
     EclipseDreams_A7: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -298,19 +298,20 @@ const chapter2 = {
         next: 'end_chapter2A'
     },
 
+
     end_chapter2A: {
         bg: 'black',
         location: '',
         chars: [],
         speaker: 'Narrator',
-        text: "To be continued in Chapter 3A...",
-        isEnd: true
+        text: "Chapter 3A — The Sea Below the City",
+        next: 'SeaBelow_start' // DIRECT TO CAHPTER 3A
     },
 
     // ─── CHOICE B — Stay away from everyone ─────────────────
 
   EclipseDreams_B1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -322,7 +323,7 @@ const chapter2 = {
     },
 
     EclipseDreams_B2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png', position: 'left', active: true },
@@ -334,7 +335,7 @@ const chapter2 = {
     },
 
     EclipseDreams_B3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -346,7 +347,7 @@ const chapter2 = {
     },
 
     EclipseDreams_B4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -358,7 +359,7 @@ const chapter2 = {
     },
 
     EclipseDreams_B5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -370,7 +371,7 @@ const chapter2 = {
     },
 
     EclipseDreams_B6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -387,13 +388,13 @@ const chapter2 = {
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3B...",
-        isEnd: true
+        next: 'SeaAbove_start'
     },
 
 // CHAPTER 2B — ECLIPSE DREAMS
 
 LunarEclipse_start: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -405,7 +406,7 @@ LunarEclipse_start: {
 },
 
 LunarEclipse_1: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
@@ -417,7 +418,7 @@ LunarEclipse_1: {
 },
 
 LunarEclipse_2: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -429,7 +430,7 @@ LunarEclipse_2: {
 },
 
 LunarEclipse_3: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -441,7 +442,7 @@ LunarEclipse_3: {
 },
 
 LunarEclipse_4: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
@@ -453,7 +454,7 @@ LunarEclipse_4: {
 },
 
 LunarEclipse_5: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -465,7 +466,7 @@ LunarEclipse_5: {
 },
 
 LunarEclipse_6: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -477,7 +478,7 @@ LunarEclipse_6: {
 },
 
 LunarEclipse_7: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -489,7 +490,7 @@ LunarEclipse_7: {
 },
 
 LunarEclipse_8: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -501,7 +502,7 @@ LunarEclipse_8: {
 },
 
 LunarEclipse_9: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -513,7 +514,7 @@ LunarEclipse_9: {
 },
 
 LunarEclipse_10: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -525,7 +526,7 @@ LunarEclipse_10: {
 },
 
 LunarEclipse_11: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -540,7 +541,7 @@ LunarEclipse_11: {
 // ─── CHOICE 2B ───────────────────────────────────────────
 
     LunarEclipse_choice: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -559,7 +560,7 @@ LunarEclipse_11: {
     // ─── CHOICE A — Whatever you are ────────────────────────
 
     LunarEclipse_A1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -571,7 +572,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_A2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy_Mouth.png', position: 'left', active: true },
@@ -583,7 +584,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_A3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -595,7 +596,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_A4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -607,7 +608,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_A5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy_Mouth.png', position: 'left', active: true },
@@ -619,7 +620,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_A6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false },
@@ -636,14 +637,14 @@ LunarEclipse_11: {
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3A...",
-        isEnd: true
+        next: 'SeaBelow_start'
     },
 
 
     // ─── CHOICE B — Stay away from people ───────────────────
 
     LunarEclipse_B1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -655,7 +656,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_B2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png', position: 'left', active: true },
@@ -667,7 +668,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_B3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -679,7 +680,7 @@ LunarEclipse_11: {
     },
 
     LunarEclipse_B4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left', active: false },
@@ -696,7 +697,7 @@ LunarEclipse_11: {
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3B...",
-        isEnd: true
+        next: 'SeaAbove_start'
     },
 
 }

@@ -17,8 +17,8 @@ body {
     background-image: url('../Assets/images/v-de-leon-hehe.jpg');
     background-repeat: no-repeat;
     background-position: left top;
-    height: auto;
-    background-size:135%;
+    height: 100%;
+    background-size: cover;
     background-position-y: 2rem;
 }
 
@@ -76,12 +76,13 @@ nav li a:hover{
 nav li:first-child{
     margin-right: 10px;
 }
+
 .sidebar{
     position: absolute;
     top: -2%;
     right: 0;
-    height: 100%;
-    width: 170px;
+    height: 50%;
+    width: 180px;
     z-index: 9999;
     background-color: rgba(19, 50, 121, 0.164);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
@@ -94,16 +95,11 @@ nav li:first-child{
 .sidebar li{
     position:relative;
     right: 30%;
-    width: 90%;
+    width: 110%;
 padding: 5%;
     text-align: right;
 }
-.sidebar li a{
-    position: relative;
-    width: 90%;
-    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
-    font-size: 80%;
-}
+
 .noSidebar{
     position: absolute;
     right: 5%; 
@@ -216,7 +212,7 @@ label:hover {
 
 /* text */
 .pic::before {
-    content: "EXAMPLE TEXT";
+    content: "View";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -279,6 +275,15 @@ label:hover {
     display: block;
 }
 
+
+/* ===== FILTER 4 ===== */
+#check4:checked ~ .image-gallery .pic {
+    display: none;
+}
+
+#check4:checked ~ .image-gallery .filter4 {
+    display: block;
+}
 
 /* POPUP */
 .popup {

@@ -1,7 +1,7 @@
 
 const prologue = {
 chapter1_start: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     bgm: 'Assets/Songs/_Path of The Wind_ by Joe Hisaishi.mp3',
     chars: [],
@@ -11,7 +11,7 @@ chapter1_start: {
 },
 
 scene_darkroom_1: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [],
     speaker: 'Narrator',
@@ -20,7 +20,7 @@ scene_darkroom_1: {
 },
 
 scene_darkroom_2: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -32,7 +32,7 @@ scene_darkroom_2: {
 },
 
 scene_darkroom_3: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -44,7 +44,7 @@ scene_darkroom_3: {
 },
 
 scene_darkroom_4: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -56,7 +56,7 @@ scene_darkroom_4: {
 },
 
 scene_darkroom_5: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -68,7 +68,7 @@ scene_darkroom_5: {
 },
 
 scene_darkroom_6: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -80,7 +80,7 @@ scene_darkroom_6: {
 },
 
 scene_darkroom_7: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -92,7 +92,7 @@ scene_darkroom_7: {
 },
 
 scene_darkroom_8: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -104,7 +104,7 @@ scene_darkroom_8: {
 },
 
 scene_darkroom_9: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -116,7 +116,7 @@ scene_darkroom_9: {
 },
 
 scene_darkroom_10: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -128,7 +128,7 @@ scene_darkroom_10: {
 },
 
 scene_darkroom_11: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -140,7 +140,7 @@ scene_darkroom_11: {
 },
 
 scene_darkroom_12: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -152,7 +152,7 @@ scene_darkroom_12: {
 },
 
 scene_darkroom_13: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -164,7 +164,7 @@ scene_darkroom_13: {
 },
 
 scene_darkroom_14: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -177,7 +177,7 @@ scene_darkroom_14: {
 },
 
 scene_darkroom_15: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -190,7 +190,7 @@ scene_darkroom_15: {
 },
 
 scene_darkroom_16: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -203,7 +203,7 @@ scene_darkroom_16: {
 },
 
 scene_darkroom_17: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -216,7 +216,7 @@ scene_darkroom_17: {
 },
 
 scene_darkroom_18: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -229,7 +229,7 @@ scene_darkroom_18: {
 },
 
 scene_darkroom_19: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -242,7 +242,7 @@ scene_darkroom_19: {
 },
 
 scene_darkroom_20: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -255,7 +255,7 @@ scene_darkroom_20: {
 },
 
 scene_darkroom_21: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -269,7 +269,7 @@ scene_darkroom_21: {
 
 // CHOICE SCENE
 scene_darkroom_choice: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     bgm: null,
     stopBgm: true,
@@ -290,7 +290,7 @@ scene_darkroom_choice: {
 // ─── CHOICE A ───────────────────────────────────────────
 
 scene_choiceA_1: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -303,7 +303,7 @@ scene_choiceA_1: {
 },
 
 scene_choiceA_2: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
@@ -316,7 +316,7 @@ scene_choiceA_2: {
 },
 
 scene_choiceA_3: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -329,7 +329,7 @@ scene_choiceA_3: {
 },
 
 scene_choiceA_4: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
@@ -342,7 +342,7 @@ scene_choiceA_4: {
 },
 
 scene_choiceA_5: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -355,7 +355,7 @@ scene_choiceA_5: {
 },
 
 scene_choiceA_6: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -368,7 +368,7 @@ scene_choiceA_6: {
 },
 
 scene_choiceA_7: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
@@ -381,7 +381,7 @@ scene_choiceA_7: {
 },
 
 scene_choiceA_8: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -394,7 +394,7 @@ scene_choiceA_8: {
 },
 
 scene_choiceA_9: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -406,7 +406,7 @@ scene_choiceA_9: {
 },
 
 scene_choiceA_10: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -429,7 +429,7 @@ end_chapter1A: {
 // ─── CHOICE B ───────────────────────────────────────────
 
 scene_choiceB_1: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -442,7 +442,7 @@ scene_choiceB_1: {
 },
 
 scene_choiceB_2: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -455,7 +455,7 @@ scene_choiceB_2: {
 },
 
 scene_choiceB_3: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -468,7 +468,7 @@ scene_choiceB_3: {
 },
 
 scene_choiceB_4: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -481,7 +481,7 @@ scene_choiceB_4: {
 },
 
 scene_choiceB_5: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -494,7 +494,7 @@ scene_choiceB_5: {
 },
 
 scene_choiceB_6: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -507,7 +507,7 @@ scene_choiceB_6: {
 },
 
 scene_choiceB_7: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -520,7 +520,7 @@ scene_choiceB_7: {
 },
 
 scene_choiceB_8: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -533,7 +533,7 @@ scene_choiceB_8: {
 },
 
 scene_choiceB_9: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -546,7 +546,7 @@ scene_choiceB_9: {
 },
 
 scene_choiceB_10: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -559,7 +559,7 @@ scene_choiceB_10: {
 },
 
 scene_choiceB_11: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -572,7 +572,7 @@ scene_choiceB_11: {
 },
 
 scene_choiceB_12: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
@@ -584,7 +584,7 @@ scene_choiceB_12: {
 },
 
 scene_choiceB_13: {
-    bg: 'url("") center/cover no-repeat',
+    bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -601,7 +601,7 @@ end_chapter1B: {
     location: '',
     chars: [],
     speaker: 'Narrator',
-    text: "Chapter 2B — Lunar Eclipse",
+    text: "Chapter 2B — Eclipse Dreams ",
     next: 'LunarEclipse_start' // DIRECT to Chapter 2B
 },
 }
