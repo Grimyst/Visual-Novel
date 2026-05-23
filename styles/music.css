@@ -122,17 +122,20 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 2;
+    bottom: -25%;
+    right: -15%;
     transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
 }
 .characterLayers.hidden { opacity: 0; transform: translateX(24px); pointer-events: none; }
-.characterLayers.visible { opacity: 1; transform: translateX(0); }
+.characterLayers.visible { opacity: 1; transform: translateX(0); transform: scaleX(-1); }
 
 /* Character Size*/
 .charImg {
-    height: min(78vh, 520px);
+    height: min(90vh, 700px);
     width: auto;
     filter: drop-shadow(0 16px 50px rgba(0,0,0,0.6));
     object-fit: contain;
+    
 }
 
 /* Layout for left and right panels */

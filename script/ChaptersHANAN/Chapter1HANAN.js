@@ -200,7 +200,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene19: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Bathala frowned.",
         next: 'chapter1_hanan_scene20'
@@ -209,7 +212,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene20: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Hanan slowly lowered her gaze toward her coffee.",
         next: 'chapter1_hanan_scene21'
@@ -254,7 +260,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene24: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "The smile on her face weakens slightly.",
         next: 'chapter1_hanan_scene25'
@@ -275,7 +284,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene26: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Bathala quietly watches her.",
         next: 'chapter1_hanan_scene27'
@@ -284,7 +296,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene27: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "For the first time—",
         next: 'chapter1_hanan_scene28'
@@ -293,7 +308,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene28: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "He notices how exhausted she actually looks beneath the optimism.",
         next: 'chapter1_hanan_scene29'
@@ -302,7 +320,10 @@ const chapter1_hanan = {
     chapter1_hanan_scene29: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Before he can answer—",
         next: 'chapter1_hanan_scene30'
@@ -401,7 +422,10 @@ const chapter1_hanan = {
     chapter1_hanan_opA1: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Bathala immediately stands.",
         next: 'chapter1_hanan_opA2'
@@ -434,7 +458,10 @@ const chapter1_hanan = {
     chapter1_hanan_opA4: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Hanan looks briefly surprised.",
         next: 'chapter1_hanan_opA5'
@@ -443,7 +470,10 @@ const chapter1_hanan = {
     chapter1_hanan_opA5: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Then smiles quietly.",
         next: 'chapter1_hanan_opA6'
@@ -452,7 +482,10 @@ const chapter1_hanan = {
     chapter1_hanan_opA6: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "A real smile this time.",
         next: 'chapter1_hanan_opA7'
@@ -515,7 +548,10 @@ const chapter1_hanan = {
     chapter1_hanan_opB4: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+        ],
         speaker: 'Narrator',
         text: "Hanan immediately grabs his sleeve.",
         next: 'chapter1_hanan_opB5'
@@ -578,27 +614,3 @@ const chapter1_hanan = {
         isEnd: true   
     },
 }
-
-
-
-/*
- 
-    scene16: {
-        bg: 'url("bgs/Classroom.webp") center/cover no-repeat',
-        location: 'DHVSU Hallway',
-        chars: [
-            { name: 'Kurt',   img: 'Characters/kurt.png',   position: 'left',  active: true }
-        ],
-        speaker: 'Kurt',
-
-        isChoice: true,
-        
-        text: "Forgive Dustin?",
-        choices: [
-            { text: '"I forgive You Bro You just Doing it for your Lil Sis"', next: 'scene16_1_forgive' },
-            { text: '"NAHHHH"', next: 'scene16_1_DoNotForgive'},
-            { text: '"option 3"', next: 'scene16_1_DoNotForgive'}
-        ]
-    },
-
-*/
