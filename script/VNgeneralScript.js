@@ -1,5 +1,3 @@
-
-
 // VN DIV
 const vn = document.getElementById('vn');
 
@@ -9,7 +7,7 @@ const backgroundLocal = document.getElementById('scene-bg');
 // LOCATION DIV
 const locationTag = document.getElementById('location-tag');
 
-// CHARACTER IMAGE AND POSTITON DIV
+// CHARACTER IMAGE AND POSITION DIV
 const charLayer = document.getElementById('character-layer');
 
 // SPEAKER DIV
@@ -25,52 +23,43 @@ const choicesEl = document.getElementById('choices');
 const hintEl = document.getElementById('advance-hint');
 
 
-
 let currentScene = '';
-
-// SCENE HISTORY
-let sceneHistory = []; 
-
+let sceneHistory = [];
 let typing = false;
 let fullText = '';
 let displayedChars = 0;
 let typingTimer = null;
 let canAdvance = false;
-let addToHistory;
+
 
 function loadScene(id, addToHistory = true) {
 
-  const s = scenes[id];
+    const s = scenes[id];
 
-  // if there are no scenes it exits 
-  if (!s) {
-    return;
-  }
+    if (!s) return;
 
- if (addToHistory && currentScene) {
-    sceneHistory.push(currentScene); // only saves if addToHistory is true
-  }
+    if (addToHistory && currentScene) {
+        sceneHistory.push(currentScene);
+    }
 
-  const backBtn = document.getElementById('back-btn');
+    const backBtn = document.getElementById('back-btn');
     if (sceneHistory.length === 0) {
-        backBtn.style.display = 'none'; // hide on first scene
+        backBtn.style.display = 'none';
     } else {
         backBtn.style.display = 'block';
     }
 
-  
-  currentScene = id;
+    currentScene = id;
 
-  
+    // BACKGROUND
+    backgroundLocal.style.background = s.bg;
+    backgroundLocal.style.backgroundSize = 'cover';
+    backgroundLocal.style.backgroundPosition = 'center';
 
-  
-  //Background images
-  backgroundLocal.style.background = s.bg;
-  backgroundLocal.style.backgroundSize = 'cover';
-  backgroundLocal.style.backgroundPosition = 'center';
+    // LOCATION
+    locationTag.textContent = s.location;
 
-  locationTag.textContent = s.location;
-
+    // CHARACTERS
     charLayer.innerHTML = '';
     if (s.chars) {
         s.chars.forEach(c => {
@@ -81,151 +70,111 @@ function loadScene(id, addToHistory = true) {
         });
     }
 
-  speakerEl.textContent = s.speaker || '';
-  choicesEl.style.display = 'none';
-  choicesEl.innerHTML = '';
-  hintEl.style.display = 'block';
-  canAdvance = false;
+    // SPEAKER
+    speakerEl.textContent = s.speaker || '';
 
-  // CHOICE CHOOSER
-  if (s.isChoice) {
-    dialogueEl.innerHTML = s.text;
-    hintEl.style.display = 'none';
-    showChoices(s.choices);
-    return;
-  }
+    // RESET CHOICES
+    choicesEl.style.display = 'none';
+    choicesEl.innerHTML = '';
+    hintEl.style.display = 'block';
+    canAdvance = false;
 
-  typeText(s.text, s.isEnd);
+    // IF CHOICE SCENE
+    if (s.isChoice) {
+        dialogueEl.innerHTML = s.text;
+        hintEl.style.display = 'none';
+        showChoices(s.choices);
+        return;
+    }
+
+    // TYPE OUT TEXT
+    typeText(s.text, s.isEnd);
+}
+
+
+function typeText(text, isEnd) {
+    fullText = text;
+    displayedChars = 0;
+    dialogueEl.innerHTML = '';
+    typing = true;
+    canAdvance = false;
+
+    function tick() {
+        if (displayedChars < fullText.length) {
+            displayedChars++;
+            dialogueEl.innerHTML = fullText.slice(0, displayedChars).replace(/\n/g, '<br>') + '<span id="cursor"></span>';
+            typingTimer = setTimeout(tick, displayedChars < 20 ? 40 : 28);
+        } else {
+            typing = false;
+            canAdvance = true;
+            dialogueEl.innerHTML = fullText.replace(/\n/g, '<br>');
+
+            // IF END SCENE, GO BACK TO CHAPTER SCREEN AFTER 2 SECONDS
+            if (isEnd) {
+                hintEl.style.display = 'none';
+                setTimeout(() => goToChapterScreen(), 2000);
+            }
+        }
+    }
+
+    tick();
+}
+
+
+function showChoices(choices) {
+    choicesEl.style.display = 'flex';
+    choices.forEach(c => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = c.text;
+        btn.onclick = () => loadScene(c.next);
+        choicesEl.appendChild(btn);
+    });
 }
 
 
 function goBack() {
-    if (sceneHistory.length === 0) return; // nothing to go back to
-
-    const previousScene = sceneHistory.pop(); // remove and get last scene
+    if (sceneHistory.length === 0) return;
+    const previousScene = sceneHistory.pop();
     currentScene = previousScene;
-    loadScene(previousScene, false); // but this will push to history again!
+    loadScene(previousScene, false);
 }
 
 
-
-function typeText(text, isEnd) {
-  fullText = text;
-  displayedChars = 0;
-  dialogueEl.innerHTML = '';
-  typing = true;
-  canAdvance = false;
-
-  // SHOWING THE DIALOG TEXTS
-  function tick() {
-    if (displayedChars < fullText.length) {
-      displayedChars++;
-      dialogueEl.innerHTML = fullText.slice(0, displayedChars).replace(/\n/g, '<br>') + '<span id="cursor"></span>';
-      typingTimer = setTimeout(tick, displayedChars < 20 ? 40 : 28);
-    } else {
-      typing = false;
-      canAdvance = true;
-      dialogueEl.innerHTML = fullText.replace(/\n/g, '<br>');
-      if (isEnd) hintEl.style.display = 'none';
-    }
-  }
-
-  tick();
-}
-
-function showChoices(choices) {
-  choicesEl.style.display = 'flex';
-  choices.forEach(c => {
-    const btn = document.createElement('button');
-    btn.className = 'choice-btn';
-    btn.textContent = c.text;
-    btn.onclick = () => loadScene(c.next);
-    choicesEl.appendChild(btn);
-  });
+function PlayGame(startScene) {
+    sceneHistory = []; // reset history on new game
+    document.getElementById('chapter-title').style.display = 'none';
+    document.getElementById('vn').style.display = 'block';
+    loadScene(startScene);
 }
 
 
-// CLICKING LISTENER 
+function goToChapterScreen() {
+    document.getElementById('vn').style.display = 'none';
+    document.getElementById('chapter-title').style.display = 'flex';
+}
+
+
+// CLICK TO ADVANCE
 vn.addEventListener('click', (e) => {
-  if (e.target.classList.contains('choice-btn')) return;
-  if (e.target.classList.contains('start-btn')) return;
+    if (e.target.classList.contains('choice-btn')) return;
+    if (e.target.classList.contains('start-btn')) return;
+    if (e.target.id === 'back-btn') return;
 
-  const s = scenes[currentScene];
-  if (!s || s.isChoice || s.isEnd) return;
+    const s = scenes[currentScene];
+    if (!s || s.isChoice || s.isEnd) return;
 
-  if (typing) {
-    clearTimeout(typingTimer);
-    typing = false;
-    canAdvance = true;
-    dialogueEl.innerHTML = fullText.replace(/\n/g, '<br>');
-    return;
-  }
+    // IF STILL TYPING, SKIP TO END
+    if (typing) {
+        clearTimeout(typingTimer);
+        typing = false;
+        canAdvance = true;
+        dialogueEl.innerHTML = fullText.replace(/\n/g, '<br>');
+        return;
+    }
 
-  // LOADING NEXT SCENE
-  if (canAdvance && s.next) {
-    loadScene(s.next);
-  }
+    // LOAD NEXT SCENE
+    if (canAdvance && s.next) {
+        loadScene(s.next);
+    }
 });
-
-
-// PLAYING THE GAME
-function PlayGame(chapter) {
-  document.getElementById('chapter-title').style.opacity = '0';
-  setTimeout(() => { document.getElementById('chapter-title').style.display = 'none'; }, 1000);
-  loadScene(chapter);
-}
-
-// Returning to title
-function returnToTitle() {
-    // hide end screen
-    document.getElementById('end-screen').style.display = 'none';
-    
-    vn.innerHTML = `
-     <!-- SCENE BG -->
-        <div id="scene-bg"> </div>
-
-        <!-- LOCATION DIV -->
-        <div id="location-tag"></div>
-
-        <!-- CHARACTER LAYER-->
-        <div id="character-layer"></div>
-
-        <!-- DIALOG BOX -->
-        <div id="textbox">
-            <div id="speaker-name"></div>
-            <div id="dialogue-text"></div>
-            <div id="choices"></div>
-            <div id="advance-hint">click to continue</div>
-        </div>
-        
-        <!-- CHAPTER TITLE -->
-        <div id="chapter-title">
-            <p>this shi is crinh my ahh cant believe i made this</p>
-            <h1> The TITLE </h1>
-            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">"Dustin and Kurt."</p>
-            <button class="start-btn" onclick="PlayGame('Chapter1_start');">Chapter 1</button>
-            <button class="start-btn" onclick="PlayGame()">Chapter 2</button>
-        </div>
-        <button id="back-btn" onclick="goBack()">← Back</button>
-    
-        <div id="end-buttons">
-            <button onclick="returnToTitle()">Return to Title</button>
-        </div>
-      `
-
-    // reset game state
-    sceneHistory = [];
-    currentScene = 'start';
-    typing = false;
-    canAdvance = false;
-
-    // clear characters and dialogue
-    charLayer.innerHTML = '';
-    dialogueEl.innerHTML = '';
-    speakerEl.textContent = '';
-
-    // show title screen again
-    const title = document.getElementById('chapter-title');
-    title.style.display = 'flex';
-    setTimeout(() => { title.style.opacity = '1'; }, 50);
-}
