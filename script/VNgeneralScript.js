@@ -31,6 +31,72 @@ let displayedChars = 0;
 let typingTimer = null;
 let canAdvance = false;
 
+let storyProgress = {
+    chapter1Complete: false
+};
+
+function loadProgress() {
+    try {
+        const saved = localStorage.getItem('libulanStoryProgress');
+        if (saved) {
+            const parsed = JSON.parse(saved);
+            if (typeof parsed.chapter1Complete === 'boolean') {
+                storyProgress.chapter1Complete = parsed.chapter1Complete;
+            }
+        }
+    } catch (e) {
+        console.warn('Unable to load progress', e);
+    }
+    unlockChapterButtons();
+}
+
+function saveProgress() {
+    try {
+        localStorage.setItem('libulanStoryProgress', JSON.stringify(storyProgress));
+    } catch (e) {
+        console.warn('Unable to save progress', e);
+    }
+}
+
+function unlockChapterButtons() {
+    const btn2 = document.getElementById('btn-chapter2');
+    const btn3 = document.getElementById('btn-chapter3');
+    if (!btn2 || !btn3) return;
+    if (storyProgress.chapter1Complete) {
+        btn2.disabled = false;
+        btn2.classList.remove('disabled');
+        btn3.disabled = false;
+        btn3.classList.remove('disabled');
+    } else {
+        btn2.disabled = true;
+        btn2.classList.add('disabled');
+        btn3.disabled = true;
+        btn3.classList.add('disabled');
+    }
+}
+
+function startChapter(chapter) {
+    if ((chapter === 2 || chapter === 3) && !storyProgress.chapter1Complete) {
+        alert('Finish Chapter 1 first to unlock Chapter 2 and Chapter 3.');
+        return;
+    }
+    const scene = chapter === 0
+        ? 'prologue_start'
+        : chapter === 1
+            ? 'scene_cafe_start'
+            : chapter === 2
+                ? 'scene_ch2a_start'
+                : 'scene_ch3a_start';
+    PlayGame(scene);
+}
+
+function markChapter1Complete() {
+    if (!storyProgress.chapter1Complete) {
+        storyProgress.chapter1Complete = true;
+        saveProgress();
+        unlockChapterButtons();
+    }
+}
 
 function loadScene(id, addToHistory = true) {
 
@@ -56,9 +122,18 @@ function loadScene(id, addToHistory = true) {
     currentScene = id;
 
     // BACKGROUND
-    backgroundLocal.style.background = s.bg;
-    backgroundLocal.style.backgroundSize = 'cover';
-    backgroundLocal.style.backgroundPosition = 'center';
+    // Some scenes in the chapter files have bg: 'url("") ...' or even just 'black'.
+    // If we blindly assign that, the background appears to “vanish”.
+    // Keep the previous background when the incoming bg is empty/invalid.
+    const incomingBg = (s.bg ?? '').toString().trim();
+    const isEmptyBg = incomingBg === '' || /url\(\s*""\s*\)/i.test(incomingBg) || /url\(\s*''\s*\)/i.test(incomingBg);
+    if (!isEmptyBg) {
+        backgroundLocal.style.background = incomingBg;
+        // Only set these when we actually have a background assignment.
+        backgroundLocal.style.backgroundSize = 'cover';
+        backgroundLocal.style.backgroundPosition = 'center';
+    }
+
 
     // LOCATION
     locationTag.textContent = s.location;
@@ -68,8 +143,9 @@ function loadScene(id, addToHistory = true) {
     if (s.chars) {
         s.chars.forEach(c => {
             const div = document.createElement('div');
-            div.className = 'character ' + (c.position || 'left') + (c.active ? ' active' : ' inactive');
-            div.innerHTML = `<img src="${c.img}" alt="${c.name}" class="char-img">`;
+            div.className = 'character ' + (c.position || 'left') + (c.active ? ' active' : ' inactive') + (c.emotion ? ' emotion-' + c.emotion : '');
+            const imgSrc = c.img || '';
+            div.innerHTML = `<img src="${imgSrc}" alt="${c.name}" class="char-img">`;
             charLayer.appendChild(div);
         });
     }
@@ -127,14 +203,27 @@ function typeText(text, isEnd) {
 
 function showChoices(choices) {
     choicesEl.style.display = 'flex';
+    choicesEl.innerHTML = '';
+
     choices.forEach(c => {
         const btn = document.createElement('button');
         btn.className = 'choice-btn';
         btn.textContent = c.text;
-        btn.onclick = () => loadScene(c.next);
+
+        // Prevent the global VN click handler from accidentally advancing text.
+        // (The handler already ignores choice-btn, but stopping propagation makes it deterministic.)
+        btn.onclick = (ev) => {
+            ev.stopPropagation();
+            if (currentScene === 'scene_cafe_choice' && (c.next === 'scene_ch2a_start' || c.next === 'scene_ch2b_start')) {
+                markChapter1Complete();
+            }
+            loadScene(c.next);
+        };
+
         choicesEl.appendChild(btn);
     });
 }
+
 
 
 function goBack() {
@@ -201,7 +290,13 @@ function playBGM(src) {
 function stopBGM() {
     bgmPlayer.pause();
     bgmPlayer.src = '';
-    currentBGM = '';
+    currentScene = '';
+    sceneHistory = [];
+    typing = false;
+    fullText = '';
+    displayedChars = 0;
+    typingTimer = null;
+    canAdvance = false;
 }
 
-
+loadProgress();

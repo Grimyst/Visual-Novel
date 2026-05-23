@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <title>Visual Novel — Songs Beneath the Static</title>
+    <link rel="stylesheet" href="styles/VNstyle.css">
+    <link rel="stylesheet" href="styles/VNStyleLibulan.css">
+</head>
+<body>
+
+    <div id="chapter-title">
+        <p>Talaya</p>
+        <h1>Libulan</h1>
+        <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" Songs Beneath the Static "</p>
+        <button id="btn-prologue" class="start-btn" onclick="startChapter(0);">Prologue</button>
+        <button id="btn-chapter1" class="start-btn" onclick="startChapter(1);">Chapter 1</button>
+        <button id="btn-chapter2" class="start-btn disabled" onclick="startChapter(2);" disabled>Chapter 2</button>
+        <button id="btn-chapter3" class="start-btn disabled" onclick="startChapter(3);" disabled>Chapter 3</button>
+    </div>
+
+    <div id="vn">
+        <div class="overflow">
+            <div id="scene-bg"></div>
+            <div id="location-tag"></div>
+            <div id="character-layer"></div>
+
+            <audio id="bgm" loop></audio>
+
+            <div id="choices"></div>
+
+            <div id="textbox">
+                <div id="speaker-name"></div>
+                <div id="dialogue-text"></div>
+                <div id="advance-hint">click to continue</div>
+            </div>
+
+            <button id="back-btn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+
+    <script src="script/VNgeneralScript.js"></script>
+
+    <!-- Libulan Story Scripts -->
+    <script src="script/ChaptersLibulan/PrologueLibulan.js"></script>
+    <script src="script/ChaptersLibulan/Chapter1Libulan.js"></script>
+    <script src="script/ChaptersLibulan/Chapter2Libulan.js"></script>
+    <script src="script/ChaptersLibulan/Chapter3Libulan.js"></script>
+
+    <script>
+        const scenes = {
+            ...prologue,
+            ...chapter1,
+            ...chapter2,
+            ...chapter3
+        };
+    </script>
+
+</body>
+</html>
