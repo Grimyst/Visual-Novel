@@ -32,6 +32,27 @@ let typingTimer = null;
 let canAdvance = false;
 
 
+const bgmPlayer = document.getElementById('bgm');
+let currentBGM = '';
+
+function playBGM(src) {
+    if (!src) return;          // no music on this scene
+    if (src === currentBGM) return; // already playing, don't restart
+
+    currentBGM = src;
+    bgmPlayer.src = src;
+    bgmPlayer.volume = 0.5;
+    bgmPlayer.play().catch(e => console.log('BGM autoplay blocked:', e));
+}
+
+function stopBGM() {
+    bgmPlayer.pause();
+    bgmPlayer.src = '';
+    currentBGM = '';
+}
+
+
+
 function loadScene(id, addToHistory = true) {
 
     const s = scenes[id];
@@ -42,7 +63,11 @@ function loadScene(id, addToHistory = true) {
         sceneHistory.push(currentScene);
     }
 
-    if (s.bgm) {
+    if (s.stopBgm) {
+        stopBGM();
+    }
+    
+    else if (s.bgm) {
         playBGM(s.bgm);
     }
 
@@ -184,24 +209,5 @@ vn.addEventListener('click', (e) => {
     }
 });
 
-
-const bgmPlayer = document.getElementById('bgm');
-let currentBGM = '';
-
-function playBGM(src) {
-    if (!src) return;          // no music on this scene
-    if (src === currentBGM) return; // already playing, don't restart
-
-    currentBGM = src;
-    bgmPlayer.src = src;
-    bgmPlayer.volume = 0.5;
-    bgmPlayer.play().catch(e => console.log('BGM autoplay blocked:', e));
-}
-
-function stopBGM() {
-    bgmPlayer.pause();
-    bgmPlayer.src = '';
-    currentBGM = '';
-}
 
 
