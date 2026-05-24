@@ -2,6 +2,7 @@ const scenes = {
     Chapter1_start: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png") center/cover no-repeat',
         location: 'Hospital',
+        bgm: 'Assets/Songs/RegularST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the hospital windows while Manila dissolved outside into rivers of neon light, flooded streets, and reflections stretching endlessly across the wet glass like ghosts drifting through the storm.",
