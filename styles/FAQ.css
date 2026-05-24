@@ -1,0 +1,254 @@
+
+p {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: inherit;      
+    text-decoration: none; 
+}
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation Bar */
+.nav{
+    background-color: rgb(15, 26, 53);
+    padding-left: 5%;
+    padding-right: 5%; 
+    width: 101.1%;
+    top : 0;
+    left: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+.nav_div{
+display: flex;
+align-items: center;
+justify-content:first baseline;
+}
+.tal_logo{
+    height: 45px;
+    position: relative;
+    left: 8%;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: rgb(240, 213, 40);
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;   
+    padding: 10px 10px 10px;
+    position: relative;
+    left: 40%;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+nav li a:hover{
+    color: rgb(15, 26, 53);
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    padding: 10px 10px 10px;   
+    position: relative;
+    left: 40%;
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 50px;
+    text-shadow: 0 0 5px rgb(255, 250, 90);
+    background-color: rgba(255, 250, 90);
+    transition: all 0.6s ease;
+}
+
+nav li:first-child{
+    margin-right: 10px;
+}
+.sidebar{
+    position: absolute;
+    top: -2%;
+    right: 0;
+    height: 100%;
+    width: 170px;
+    z-index: 9999;
+    background-color: rgba(19, 50, 121, 0.164);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    position:relative;
+    right: 30%;
+    width: 90%;
+padding: 5%;
+    text-align: right;
+}
+.sidebar li a{
+    position: relative;
+    width: 90%;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
+    font-size: 80%;
+}
+.noSidebar{
+    position: absolute;
+    right: 5%; 
+    top: 1%;
+}
+@media(max-width: 1160px){
+    .hideOnMobile{
+    display: none;
+    }
+}
+@media(min-width: 1159px){
+    .noSidebar{
+        display: none;
+    }
+}
+
+.nav{
+    z-index: 100;
+}
+
+/*End of Navigation Bar*/
+
+.titleText > h1{
+    color: #D3B14D;
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
+    font-weight: lighter;
+    display: grid;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-shadow: 2px 2px #000000;
+}
+
+body{
+    background-image: url("../Assets/images/white=grid-patterns.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+
+}
+
+.FAQList {
+    margin-top: 3%;
+    align-items: center;
+}
+
+.button{
+    background-color: #04305D;
+    color: #D3B14D;
+    font-family: 'Crimson Pro', serif;
+    width: 98%;
+    text-align: left;
+    padding: 10px;
+    margin: 1%;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.active, .button:hover{
+    background-color: #D3B14D;
+    color: #04305D;
+    transition: ease .2s;
+}
+
+.content{
+    padding: 15px;
+    overflow: hidden;
+    width: 95%;
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+    margin-left: 4vw;
+    background-color: #dedede;
+    z-index: 1;
+}
+.content p{
+    font-family: 'Google Sans', sans-serif;
+    color: #04305D;
+}
+
+.collapsible{
+    transition: ease 2s;
+}
+
+details[open] summary ~ * {
+    animation: slide .3s ease-in-out forwards;
+}
+
+@keyframes slide{
+    0%    {opacity: 0; transform: translateX(-50px)}
+    100%  {opacity: 1; transform: translateX(0)}
+}
+
+.contentList{
+    list-style-type: disc;
+    padding-left: 5%;
+}
+
+.aboutHead{
+    font-family: 'Crimson Pro', serif;
+    font-size: 2.5vw;
+    color: #AD3F26;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+/*HomepageFooter Sa wakas */
+
+.HomepageFooter {
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.footerPreview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+@media(max-width: 1160px){
+   .footerPreview {
+    grid-template-columns: 1fr;
+    }
+}
+
+.logoContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks, 
+.footerChanelogandFaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.footerLinks p {
+    margin: 0px 0px;
+}
