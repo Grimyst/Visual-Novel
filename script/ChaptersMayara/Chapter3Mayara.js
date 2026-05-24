@@ -1,7 +1,7 @@
 const chapter3 = {
 
      chapter3_start: {
-        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter3A.png") center/cover no-repeat',
+        bg: 'url("") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
@@ -13,10 +13,6 @@ const chapter3 = {
         ]
     },
  
- /* 
- CHAPTER 3A — THE SEA BELOW THE CITY
- */
-
  // ═══════════════════════════════════════════════════════
 // CHAPTER 3A — THE SEA BELOW THE CITY
 // ═══════════════════════════════════════════════════════
@@ -279,8 +275,8 @@ end_3A_A: {
     location: '',
     chars: [],
     speaker: 'Narrator',
-    text: "To be continued in the Final Chapter...",
-    isEnd: true
+    text: "Final Chapter — The Eclipse",
+    next: 'Eclipse_start'
 },
 
 // ─── 3A.2 Trust Bakunawa ─────────────────────────────────
@@ -355,8 +351,8 @@ end_3A_B: {
     location: '',
     chars: [],
     speaker: 'Narrator',
-    text: "To be continued in the Final Chapter...",
-    isEnd: true
+    text: "Final Chapter — The Eclipse",
+    next: 'Eclipse_start'
 },
 
 
@@ -506,8 +502,8 @@ end_3B_A: {
     location: '',
     chars: [],
     speaker: 'Narrator',
-    text: "To be continued in the Final Chapter...",
-    isEnd: true
+    text: "Final Chapter — The Eclipse",
+    next: 'Eclipse_start'
 },
 
 // ─── 3B.2 Trust Bakunawa ─────────────────────────────────
@@ -577,15 +573,12 @@ SeaAbove_B5: {
     next: 'end_3B_B'
 },
 
-end_3B_B: {
-    bg: 'black',
-    location: '',
-    chars: [],
-    speaker: 'Narrator',
-    text: "To be continued in the Final Chapter...",
-    isEnd: true
-},
-
-
-    
+    end_3B_B: { 
+        speaker: 'Narrator', 
+        text: "Final Chapter — The Eclipse",
+        bg: 'black', 
+        location: '', 
+        chars: [], 
+        next: 'Eclipse_start' 
+    },
 }

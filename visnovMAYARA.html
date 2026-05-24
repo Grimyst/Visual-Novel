@@ -29,6 +29,7 @@
             <button class="start-btn" onclick="PlayGame('chapter1_start')">Chapter 1</button>
             <button class="start-btn" onclick="PlayGame('chapter2_start')"> Chapter 2 </button>
             <button class="start-btn" onclick="PlayGame('chapter3_start')"> Chapter 3 </button>
+            <button class="start-btn" onclick="PlayGame('chapter4_start')"> Final Chapter </button>
     </div>
 
     <div id="vn">
@@ -50,7 +51,7 @@
              <button id="menu-btn" onclick="goToChapterScreen()">Menu</button>
              
              <a href="gettingstarted.html"><button id="return-btn"> 
-                <img src="Assets/Icons/arrow_back_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+               Return
              </button></a>
             <!-- DIALOG BOX -->
 
@@ -65,20 +66,17 @@
             <button id="back-btn" onclick="goBack()"> Back </button>
         </div>
 
-
-
     </div>
 
-        
         <script src="script/VNgeneralScript.js"></script>
-         
         <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
         <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
         <script src="script/ChaptersMayara/Chapter2Mayara.js"></script>
         <script src="script/ChaptersMayara/Chapter3Mayara.js"></script>
+        <script src="script/ChaptersMayara/ChapterFinalMayara.js"></script>
        
         <script>    
-            const scenes = { ...prologue, ...chapter1, ...chapter2, ...chapter3 };
+            const scenes = { ...prologue, ...chapter1, ...chapter2, ...chapter3, ...chapter4 };
         </script>
 
        

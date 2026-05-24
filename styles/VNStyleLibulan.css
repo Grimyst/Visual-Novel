@@ -1,7 +1,5 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html, body { background: #0a0e1a; height: 100%; }
-
 
 
 #vn {
@@ -27,6 +25,9 @@ html, body { background: #0a0e1a; height: 100%; }
   position: absolute;
   inset: 0;
   transition: background 1.2s ease;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 #character-layer {
@@ -132,16 +133,18 @@ html, body { background: #0a0e1a; height: 100%; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
 #choices {
-  display: none; 
+  display: none;
   flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%; /* control how wide the choices are */
-  gap: 8px;
+  width: 45%; /* shorter choice dialog */
+  gap: 4px;
+
   z-index: 99;
 }
+
 
 .choice-btn {
   display: flex;
@@ -225,6 +228,13 @@ html, body { background: #0a0e1a; height: 100%; }
 }
 
 #chapter-title .start-btn:hover { background: rgba(232,201,122,0.1); }
+
+#chapter-title .start-btn.disabled,
+#chapter-title .start-btn[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  border-color: rgba(232,201,122,0.2);
+}
 
 #location-tag {
   position: absolute;

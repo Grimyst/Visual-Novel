@@ -122,11 +122,11 @@ padding: 5%;
 
 
 .GalleryTitle {
-    color: #EFD844;
+    color: rgb(239, 216, 68);
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 80px;
+    font-size: 5vw;
     width: 100%;
     font-weight: bold;
     margin: 60px 50px;
@@ -134,6 +134,10 @@ padding: 5%;
     font-style: normal;
     font-weight: 400;
     src: local('Starlight Rune - Personal Use'), url('https://fonts.cdnfonts.com/s/118806/Yudi-YqPny.woff') format('woff');
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: lighter;
+
+    text-align: left;
 }
 
 /* Gallery Page */
