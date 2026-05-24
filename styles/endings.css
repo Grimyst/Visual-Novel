@@ -1,9 +1,36 @@
 html {
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
+body{
+    background-color: #01182e;
+    display: grid;
+    margin: 0;
+}
+input {
+    display: none;
+}
+
+p {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: inherit;      
+    text-decoration: none; 
+}
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+
 /* Navigation Bar */
-.char_nav{
+.nav{
     background-color: rgb(15, 26, 53);
     padding-left: 5%;
     padding-right: 5%; 
@@ -12,7 +39,7 @@ html {
     left: 0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
 }
-.char_nav_div{
+.nav_div{
 display: flex;
 align-items: center;
 justify-content:first baseline;
@@ -88,9 +115,9 @@ padding: 5%;
     top: 1%;
 }
 @media(max-width: 1160px){
-   .hideOnMobile{
+    .hideOnMobile{
     display: none;
-   }
+    }
 }
 @media(min-width: 1159px){
     .noSidebar{
@@ -98,25 +125,96 @@ padding: 5%;
     }
 }
 
+.nav{
+    z-index: 100;
+}
+
 /*End of Navigation Bar*/
-
-input {
-    display: none;
+.titleText > h1{
+    color: #D3B14D;
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
+    font-weight: lighter;
+    display: grid;
+    font-size: 4vw;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 5%;
+    margin-left: 4%;
 }
 
-p {
-    font-family: "Crimson Pro", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+.endingName {
+    color: #D3B14D;
+    font-family: 'Crimson Pro', serif;
 }
 
-a {
-    color: inherit;      
-    text-decoration: none; 
+.endingDesc {
+    color: #FFFFFF;
+    font-family: 'Crimson Pro', serif;
 }
 
-*{
-    margin: 0;
-    padding:  0;
-    box-sizing: border-box;
+/*Background animation*/
+@keyframes moveTwinkling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+#stars, #twinkling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+#twinkling {
+    background: transparent url(../Assets/Background/twinkling.png) repeat top center;
+    z-index: 1;
+    animation: moveTwinkling 100s linear infinite;
+}
+
+#stars {
+    background: transparent url(../Assets/Background/stars.png) repeat top center;
+    z-index: 0;
+}
+
+.endingsCarousel, .titleText{
+    z-index: 10;
+}
+
+.endingCarousel {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    margin-top: 50%;
+    margin-right: 50%;
+}
+
+.endingsCarousel .list {
+    position: absolute;
+    top: 0;
+    width: 1140px;
+    max-width: 90%;
+    left: 50%;
+    height: 80%;
+    transform: translateX(-50%);
+}
+
+.endingCarousel .list .endingItem{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+}
+
+.endingCarousel .list .endingItem img {
+    size: 60%;
 }
