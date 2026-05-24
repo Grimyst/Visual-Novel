@@ -207,7 +207,7 @@ const chapter1 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: false },
-            { name: 'Bakunawa', img: '', position: 'center', active: true  }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true  }
         ],
         speaker: 'Bakunawa',
         text: "You continue delaying the inevitable.",
@@ -220,7 +220,7 @@ const chapter1 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: true  },
-            { name: 'Bakunawa', img: '', position: 'center', active: false }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false }
         ],
         speaker: 'Narrator',
         text: "Sidapa immediately stood. For the first time since meeting him — Libulan saw genuine fear in his eyes.",
