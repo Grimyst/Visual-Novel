@@ -1,64 +1,131 @@
 // Holds the song and the background/character that's associated with the song
 const tracks = [
     {
-        title: "Main Story Song",
-        role: 'BGM',
-        duration: 250,
-        ref: 'aruarian dance',
-        url: 'https://www.youtube.com/watch?v=qYcoJpqCha4',
-        bg: 'url(Assets/Background/v-de-leon-hehe.jpg)',
-        characImg: 'Assets/CharacterIcons/icon2.jpg',
-        audio: 'Assets/Songs/aruarian dance.mp3'
+        title: "Good Ending ST",
+        role: 'HOYO-MiX',
+        duration: 112,
+        ref: 'To the World',
+        url: 'https://www.youtube.com/watch?v=QBAmrkn0zrY',
+        bg: [
+            'url(../Assets/Background/VisNovBG/HananBG/HananPrologue.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanPrologue.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariPrologue.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png)'
+        ],
+        characImg: '',
+        audio: 'Assets/Songs/GoodEndingST.mp3'
     },
     {
-        title: "Bad Ending Song",
-        role: 'BGM',
-        duration: 104,
-        ref: 'Promise (Reprise) by Akira Yamaoka',
-        url: 'https://www.youtube.com/watch?v=ZwLvcaDMhU8',
-        bg: 'url(Assets/Background/stars.png)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/Promise Reprise.mp3'
+        title: "Bad Ending Default ST",
+        role: 'HOYO-MiX',
+        duration: 139,
+        ref: 'The Perilous Fog',
+        url: 'https://www.youtube.com/watch?v=I3vyhGeZO5o',
+        bg: [
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter1.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter1.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapter1.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png)'
+        ],
+        characImg: '',
+        audio: 'Assets/Songs/BadEndingDefaultST.mp3'
     },
     {
-        title: "Emotional Song",
-        role: 'BGM',
-        duration: 280,
-        ref: 'Moonlit Night By Yuki Hayashi',
-        url: 'https://www.youtube.com/watch?v=V8ps2Pe3IoQ',
-        bg: 'url(Assets/images/v-de-leon-sampol.jpg)',
-        characImg: 'Assets/CharacterIcons/icon2.jpg',
-        audio: 'Assets/Songs/moonlit night.mp3'
+        title: "Bad Ending Character ST",
+        role: 'HOYO-MiX',
+        duration: 29,
+        ref: 'Todestrieb',
+        url: 'https://www.youtube.com/watch?v=JILMap6D7zs',
+        bg: [
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter2B.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapterFinal.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapterFinal.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png)'
+        ],
+        characImg: '',
+        audio: 'Assets/Songs/BadEndingCharacterST.mp3'
     },
     {
-        title: "Character BGM",
-        role: 'Hanan',
-        duration: 245,
-        ref: 'One Summers Day by Joe Hisaishi',
-        url: 'https://www.youtube.com/watch?v=TK1Ij_-mank',
-        bg: 'url(Assets/images/v-de-leon-panime.jpg.jpg)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/Joe Hisaishi - One Summers Day.mp3'
+        title: "Sad ST",
+        role: 'Pom-Pom’s Workstation',
+        duration: 71,
+        ref: 'If I Can Stop One Heart From Breaking (Encore) - Honkai: Star Rail 2.0 OST',
+        url: 'https://www.youtube.com/watch?v=ZUktO40eScY',
+        bg: [
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter2A.png)'
+        ],
+        characImg: '',
+        audio: 'Assets/Songs/SadST.mp3'
     },
     {
-        title: "Character BGM",
-        role: 'Sidapa',
-        duration: 109,
-        ref: 'Decretum by Yuki Kajiura',
-        url: 'https://www.youtube.com/watch?v=XeMVu1OYYps',
-        bg: 'url(Assets/images/v-de-leon-sunset-teresa.jpg)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/Decretum.mp3'
+        title: "Mayari ST",
+        role: 'HOYO-MiX',
+        duration: 102,
+        ref: 'Wading in Hazy Light',
+        url: 'https://youtu.be/CKYIeYU9VNs?si=8NeKr2b19ccefscx',
+        bg: [
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariPrologue.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapter1.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapter3A.png)',
+            'url(../Assets/Background/VisNovBG/MayariBG/MayariChapterFinal.png)'
+        ],
+        characImg: 'Assets/Characters/Mayari/R_Mayari_Neutral.png',
+        audio: 'Assets/Songs/MayariST.mp3'
     },
     {
-        title: "Character BGM",
-        role: 'Mayari',
-        duration: 351,
-        ref: 'The Name of Life by Joe Hisaishi',
-        url: 'https://www.youtube.com/watch?v=U9RxGijXy4g',
-        bg: 'url(Assets/Background/stars.png)',
-        characImg: 'Assets/CharacterIcons/icon1.jpg',
-        audio: 'Assets/Songs/The Name Of Life - Spirited Away Piano.mp3'
+        title: "Hanan ST",
+        role: 'HOYO-MiX',
+        duration: 101,
+        ref: 'Battle! Tournament Winner',
+        url: 'https://www.youtube.com/watch?v=F2B7pSYNYvU',
+        bg: [
+            'url(../Assets/Background/VisNovBG/HananBG/HananPrologue.png)',
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter1.png)',
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/HananBG/HananChapter2B.png)'
+        ],
+        characImg: 'Assets/Characters/Hanan/Hanan_Neutral.png',
+        audio: 'Assets/Songs/HananST.mp3'
+    },
+    {
+        title: "Sidapa ST",
+        role: 'HOYO-MiX',
+        duration: 93,
+        ref: 'Clockwork Waltz',
+        url: 'https://youtu.be/M3DBK0wpqr0?si=ERRyB2TmgyS_QC_j',
+        bg: [
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png)',
+            'url(../Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png)'
+        ],
+        characImg: 'Assets/Characters/Sidapa/Sidapa_Neutral.png',
+        audio: 'Assets/Songs/SidapaST.mp3'
+    },
+    {
+        title: "Libulan ST",
+        role: 'HOYO-MiX',
+        duration: 46,
+        ref: 'Midnight Blur',
+        url: 'https://youtu.be/GmfXpGZvb_8?si=3qSQDV-RSqX49WwX',
+        bg: [
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanPrologue.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter1.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter1ChoiceB.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter2A.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter3A.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapter3B.png)',
+            'url(../Assets/Background/VisNovBG/LibulanBG/LibulanChapterFinal.png)'
+        ],
+        characImg: 'Assets/Characters/Libulan/Libulan_Neutral.png',
+        audio: 'Assets/Songs/LibulanST.mp3'
     },
     
 ];
@@ -93,6 +160,33 @@ let playing = false;
 let progress = 0; //playback progress. Start = 0, end = 1
 let timerRef = null; // reference to the timer interval
 
+let slideShowTimer = null;
+let slideIndices = tracks.map(() => 0);
+const SLIDE_INTERVAL = 2000;
+
+//Background changing
+function startSlideshow(trackIndex) {
+    stopSlideshow();
+    const slides = bgSlideshows[trackIndex];
+    if (slides.length <= 1) return;
+
+    slideShowTimer = setInterval(function() {
+        const prev = slideIndices[trackIndex];
+        const next = (prev + 1) % slides.length;
+
+        bgSlideshows[trackIndex][prev].classList.replace('visible', 'hidden');
+        bgSlideshows[trackIndex][next].classList.replace('hidden', 'visible');
+        slideIndices[trackIndex] = next;
+    }, SLIDE_INTERVAL);
+}
+
+function stopSlideshow() {
+    if (slideShowTimer) {
+        clearInterval(slideShowTimer);
+        slideShowTimer = null;
+    }
+}
+
 //Elements
 const trackElement = document.getElementById('track');
 const stackClip = document.getElementById('trackStack');
@@ -113,23 +207,27 @@ const charsElement = document.getElementById('characterLayer');
 const containerWidth = () => Math.min(window.innerWidth * 0.50, 680);
 
 const bgElements = [] // holds the bacground
+const bgSlideshows = [] // holds the backgrounds
 const charElements = [] // holds the character
 
 tracks.forEach(function(track, index) {
 
     //responsible for background transition
-    const bgDiv = document.createElement('div');
-    bgDiv.className = 'artWorkBgs ' + (index === 0 ? 'visible' : 'hidden');
-    bgDiv.style.backgroundImage = track.bg;
-    bgDiv.style.backgroundSize = 'cover';
-    bgDiv.style.backgroundPosition = 'center top';
-    artWorkElement.appendChild(bgDiv);
-    bgElements.push(bgDiv);
+    const slides = track.bg.map(function(bgUrl, si) {
+        const bgDiv = document.createElement('div');
+        bgDiv.className = 'artWorkBgs ' + (index === 0 && si === 0 ? 'visible' : 'hidden');
+        bgDiv.style.backgroundImage = bgUrl;
+        artWorkElement.appendChild(bgDiv);
+        return bgDiv;
+    });
+    bgSlideshows.push(slides);
 
     //responsible for character transition
     const charDiv = document.createElement('div');
     charDiv.className = 'characterLayers ' + (index === 0 ? 'visible' : 'hidden');
-    charDiv.innerHTML = `<img src = "${track.characImg}" class = "charImg" alt = "characters">`;
+    if (track.characImg){
+        charDiv.innerHTML = `<img src = "${track.characImg}" class = "charImg" alt = "characters">`;
+    }
     charsElement.appendChild(charDiv);
     charElements.push(charDiv);
 });
@@ -221,10 +319,14 @@ function render(){
     trackElement.style.transform = `translateY(${slotTops[2] - panelTops[current]}px)`;
 
     // for swapping background and character
-    bgElements.forEach(function(bg, i) {
-        bg.classList.toggle('visible', i === current);
-        bg.classList.toggle('hidden', i !== current);
+    bgSlideshows.forEach(function(slides, i) {
+        slides.forEach(function(slide, si) {
+            const isCurrentSlide = i === current && si === slideIndices[i];
+            slide.classList.toggle('visible', isCurrentSlide);
+            slide.classList.toggle('hidden', !isCurrentSlide);
+        });
     });
+
     charElements.forEach((char, i) => {
         char.classList.toggle('visible', i === current);
         char.classList.toggle('hidden', i !== current);
@@ -245,6 +347,8 @@ function render(){
         dot.classList.toggle('active', distance === 0);
         dot.classList.toggle('near', distance >= 1 && distance <= 2);
     });
+
+    startSlideshow(current);
 
     //Reset the player for the new song
     resetPlayer();
@@ -279,6 +383,9 @@ function formatTime(seconds) {
     const s = Math.floor(seconds % 60);
     return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
 }
+
+
+
 
 
 //Audio

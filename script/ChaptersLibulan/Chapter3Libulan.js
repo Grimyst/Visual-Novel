@@ -67,7 +67,7 @@ const chapter3 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: false },
-            { name: 'Bakunawa', img: '', position: 'center', active: true  }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true  }
         ],
         speaker: 'Bakunawa',
         text: "When emotion disappears — so does suffering.",
@@ -80,7 +80,7 @@ const chapter3 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: false },
-            { name: 'Bakunawa', img: '', position: 'center', active: false }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false }
         ],
         speaker: 'System',
         text: "FINAL DECISION PROTOCOL ACTIVATED",
@@ -315,7 +315,7 @@ const chapter3 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: false },
-            { name: 'Bakunawa', img: '', position: 'center', active: true  }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true  }
         ],
         speaker: 'Narrator',
         text: "The music dies completely. Bakunawa peacefully closes his eyes. The eclipse fully consumes the moon. Every emotion disappears from humanity forever.",
