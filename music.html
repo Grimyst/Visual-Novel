@@ -11,40 +11,44 @@
 
 </head>
 <body>
-    <header class="HomepageHeader">
-        <nav class="navigationBar">
-            
-            <a href="homePage.html"> <div class="logoBar"> <img src="Assets/talaya logo.webp"> </div> </a>
+    <nav class="music_nav">
+    <div class="music_nav_div">
+    <div ><a href ="homepage.html"><img src="Assets\Logo\talaya logo.png" alt="Talaya Logo" class="tal_logo"></a></div>
+            <ul class = "sidebarNav">
+            <li onclick="closeSidebarNav()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="charactersPage.html">Characters</a></li>
+            <li><a href="#">Plot</a></li>
+            <li><a href="setting.html">Setting</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="galleryPage.html">Gallery</a></li>
+            <li><a href="endingsPage.html">Endings</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="charactersPage.html" style="text-decoration: underline;">Characters</a></li>
+            <li class="hideOnMobile"><a href="#">Plot</a></li>
+            <li class="hideOnMobile"><a href="setting.html">Setting</a></li>
+            <li class="hideOnMobile"><a href="music.html">Music</a></li>
+            <li class="hideOnMobile"><a href="galleryPage.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="endingsPage.html">Endings</a></li>
+            <li class="hideOnMobile"><a href="#">About us</a></li>
+            <li class="noSidebarNav" onclick="showSidebarNav()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="24px" fill="rgb(240, 213, 40)"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+       </div> 
+    </div>    
+</nav>
 
-            <div class="WebBar characterBar">
-                <p><a href="#linkcharacter">Characters</a></p> 
-            </div>
-            <div class="WebBar plotBar">
-                <p><a href="#linkplot">Plot</a></p>
-            </div>
+<script>
+    function showSidebarNav(){
+        const sidebarNavigation = document.querySelector('.sidebarNav');
+        sidebarNavigation.style.display = 'flex';
+    }
+    function closeSidebarNav(){
+        const sidebarNavigation = document.querySelector('.sidebarNav');
+        sidebarNavigation.style.display = 'none';
+    }
+</script>
 
-            <div class="WebBar settingBar">
-                <p><a href="#linksetting">Setting</a></p>
-            </div>
-
-            <div class="WebBar musicBar">
-                <p><a href="music.html">Music</a></p>
-            </div>
-
-            <div class="WebBar galleryBar">
-                <p><a href="#linkgallery">Gallery</a></p> 
-            </div>
-
-            <div class="WebBar endingsBar">
-                <p><a href="#linkending">Endings</a></p>
-            </div>
-
-            <div class="WebBar aboutBar">
-                <p><a href="#linkaboutus">About Us</a></p>
-            </div>
-        </nav>
-
-    </header>
     <div class = "container"> 
          <!-- Background and character layers -->
         <div class = "artPanel">

@@ -167,7 +167,7 @@ const chapter2 = {
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',   active: false },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right',  active: false },
-            { name: 'Bakunawa', img: '', position: 'center', active: true  }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true  }
         ],
         speaker: 'Bakunawa',
         text: "Even gods fear endings.",
@@ -265,7 +265,7 @@ const chapter2 = {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png') center/cover no-repeat",
         location: 'Maintenance Tunnels — Beneath Hospital',
         chars: [
-            { name: 'Bakunawa', img: '', position: 'center', active: true }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true }
         ],
         speaker: 'Narrator',
         text: "Then he sees him. Bakunawa stands calmly within the darkness. Human-shaped. But wrong somehow. Golden eyes glowing softly. And behind him — something massive moves endlessly through the shadows.",
@@ -276,7 +276,7 @@ const chapter2 = {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png') center/cover no-repeat",
         location: 'Maintenance Tunnels — Beneath Hospital',
         chars: [
-            { name: 'Bakunawa', img: '', position: 'center', active: true }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true }
         ],
         speaker: 'Bakunawa',
         text: "You manipulate emotions because humans fear emptiness.",
@@ -287,7 +287,7 @@ const chapter2 = {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png') center/cover no-repeat",
         location: 'Maintenance Tunnels — Beneath Hospital',
         chars: [
-            { name: 'Bakunawa', img: '', position: 'center', active: true }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: true }
         ],
         speaker: 'Bakunawa',
         text: "But you fear emptiness most of all.",
@@ -298,7 +298,7 @@ const chapter2 = {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png') center/cover no-repeat",
         location: 'Maintenance Tunnels — Beneath Hospital',
         chars: [
-            { name: 'Bakunawa', img: '', position: 'center', active: false }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false }
         ],
         speaker: 'Narrator',
         text: "The tunnel lights flicker violently. Libulan suddenly realizes — he can't hear music anymore. Not even faintly. For the first time in years — silence terrifies him.",
@@ -310,7 +310,7 @@ const chapter2 = {
         location: 'Maintenance Tunnels — Beneath Hospital',
         chars: [
             { name: 'Libulan',  img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',  active: true  },
-            { name: 'Bakunawa', img: '', position: 'right', active: false }
+            { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'Libulan',
         text: "What do I say?",
