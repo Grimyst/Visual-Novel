@@ -2,6 +2,7 @@ const scenes = {
     Chapter1_start: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png") center/cover no-repeat',
         location: 'Hospital',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the hospital windows while Manila dissolved outside into rivers of neon light, flooded streets, and reflections stretching endlessly across the wet glass like ghosts drifting through the storm.",
@@ -415,6 +416,7 @@ const scenes = {
     Ch1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm:'Assets/Songs/LibulanST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The underground club beneath Manila pulsed endlessly with bass loud enough to shake the walls while neon lights bled across cigarette smoke, crowded bodies, and spilled drinks reflecting against the dark floor like liquid stars.",
@@ -626,6 +628,8 @@ const scenes = {
     ch1_18: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm: null,
+        stopBgm: true,
         chars: [
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'left', active: false }   
@@ -674,6 +678,7 @@ const scenes = {
     ch1_22: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'left', active: false }   
@@ -687,7 +692,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
         chars: [
-	        { name: 'Bathala',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: true }
+	        { name: 'Bathala',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: false }
         ],
         speaker: 'Bakunawa',
         text: "You continue pretending feelings can save anyone.",
@@ -1072,6 +1077,7 @@ const scenes = {
     Ch2A: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2A.png") center/cover no-repeat',
         location: 'ROOFTOP ABOVE THE CITY',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain falls softly across the rooftop while Manila glows below in endless rivers of neon light and distant traffic.",
@@ -1493,6 +1499,7 @@ const scenes = {
     Ch2B: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The abandoned train tunnels beneath Manila echo endlessly with dripping water and distant distorted music while broken emergency lights flicker weakly overhead.",
@@ -1739,6 +1746,7 @@ const scenes = {
     Ch3A: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The sky above Manila turns crimson while the moon cracks apart overhead like shattered glass. Every clock in the city stops simultaneously. Cars freeze mid-motion. Rain remains suspended in the air.",
@@ -1863,6 +1871,7 @@ const scenes = {
     ch3a_9: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
@@ -1881,7 +1890,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1893,7 +1902,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Sad.png',   position: 'right',  active: false }
         ],
         speaker: 'Bathala',
@@ -1905,7 +1914,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1917,7 +1926,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1929,7 +1938,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1941,7 +1950,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1953,7 +1962,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false }
         ],
         speaker: 'Bathala',
@@ -1965,7 +1974,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1977,7 +1986,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1988,6 +1997,7 @@ const scenes = {
     Ch3B: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [
 	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
        ],
@@ -2044,7 +2054,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
         
@@ -2115,6 +2125,7 @@ const scenes = {
     ch3b_7b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
         ],
@@ -2161,6 +2172,7 @@ const scenes = {
     FCH_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The heavens crack apart above Manila while the ocean rises around the city like walls beneath the crimson eclipse.",
@@ -2288,6 +2300,7 @@ const scenes = {
     Def_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/BadEndingDefaultST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The system stabilizes instantly",
@@ -2488,6 +2501,8 @@ const scenes = {
     Def_19: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:null,
+        stopBgm:true,
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
@@ -2536,6 +2551,7 @@ const scenes = {
     PDE_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The system glitches violently.\nReality stutters.",
@@ -2711,6 +2727,7 @@ const scenes = {
     FC_a1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/GoodEndingST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
@@ -3080,6 +3097,7 @@ const scenes = {
     FC_b1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/BadEndingCharacterST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
