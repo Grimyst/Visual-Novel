@@ -462,7 +462,9 @@ const prologue_hanan = {
     prologue_hanan_scene49: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
-        chars: [ ],
+        chars: [
+            { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png', position: 'left', active: true}
+        ],
         speaker: 'Bakunawa',
         text: "Even beginnings become meaningless eventually.",
         next: 'prologue_hanan_scene50'
