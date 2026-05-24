@@ -8,6 +8,7 @@ const chapter3 = {
     scene_ch3a_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter3A.png') center/cover no-repeat",
         location: 'Hospital Rooftop',
+        bgm: 'Assets/Songs/LibulanST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The city falls into chaos beneath a crimson moon while every sound system in Manila begins malfunctioning simultaneously. Music distorts across radio stations. Concert speakers explode. Car alarms scream endlessly through flooded streets.",
@@ -111,6 +112,7 @@ const chapter3 = {
     scene_ch3b_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter3B.png') center/cover no-repeat",
         location: 'Hospital Rooftop',
+        bgm: 'Assets/Songs/LibulanST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The eclipse deepens above Manila until the entire city becomes unnaturally quiet. No music. No traffic. No voices. Only silence.",

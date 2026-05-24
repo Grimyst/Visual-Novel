@@ -25,26 +25,44 @@
     </div>
 
     <div id="vn">
-        <div class="overflow">
-            <div id="scene-bg"></div>
+        <!-- SCENE BG -->
+        <div class="overflow"> 
+            <div id="scene-bg"> </div>
+
+            <!-- LOCATION DIV -->
             <div id="location-tag"></div>
+
+            <!-- CHARACTER LAYER-->
             <div id="character-layer"></div>
 
+            <!-- BACKGROUND MUSIC -->
             <audio id="bgm" loop></audio>
 
-            <div id="choices"></div>
+            <!-- EXIT BUTTON-->
+            <button id="back-btn" onclick="goBack()"> Back </button>
+            <button id="menu-btn" onclick="goToChapterScreen()">Menu</button>
+            <a href="gettingstarted.html"><button id="return-btn"> 
+                Return
+             </button></a>
 
+            <!-- DIALOG BOX -->
+
+            <div id="choices"></div>
+            
             <div id="textbox">
                 <div id="speaker-name"></div>
                 <div id="dialogue-text"></div>
                 <div id="advance-hint">click to continue</div>
             </div>
-
-            <button id="back-btn" onclick="goBack()">Back</button>
+            
+            <button id="back-btn" onclick="goBack()"> Back </button>
         </div>
+
+
+
     </div>
 
-    <script src="script/VNgeneralScript.js"></script>
+    <script src="script/VNgeneralLIBULAN.js"></script>
 
     <!-- Libulan Story Scripts -->
     <script src="script/ChaptersLibulan/PrologueLibulan.js"></script>

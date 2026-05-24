@@ -203,7 +203,7 @@ const chapter2a_hanan = {
         chars: [],
         speaker: 'Narrator',
         text: "Same promises.",
-        next: ''
+        next: 'chapter2a_hanan_scene20'
     }, 
 
     chapter2a_hanan_scene20: {
@@ -299,6 +299,7 @@ const chapter2a_hanan = {
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png', position: 'center', active: true}
         ],
         speaker: 'Bakunawa',
+        isChoice: true,
         text: "Why continue beginning things destined to end?",
         choices: [
             { text: 'Encourage Hanan', next: 'chapter2a_hanan_choiceA1'},
@@ -419,7 +420,7 @@ const chapter2a_hanan = {
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Narrator',
-        text: "",
+        text: "Bathala looks toward the moving shadows above the city.",
         next: 'chapter2a_hanan_choiceB2'
     },
 
@@ -427,12 +428,12 @@ const chapter2a_hanan = {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter2A.png") center/cover no-repeat',
         location: 'Rainy Rooftop',
         chars: [
-            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false },
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Bathala',
-        text: "",
+        text: "What exactly is that thing?",
         next: 'chapter2a_hanan_choiceB3'
     },
 
@@ -445,7 +446,7 @@ const chapter2a_hanan = {
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Narrator',
-        text: "",
+        text: "Hanan’s expression darkens slightly.",
         next: 'chapter2a_hanan_choiceB4'
     },
 
@@ -454,11 +455,11 @@ const chapter2a_hanan = {
         location: 'Rainy Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true },
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Hanan',
-        text: "",
+        text: "Bakunawa hates cycles.",
         next: 'chapter2a_hanan_choiceB5'
     },
 
@@ -467,11 +468,11 @@ const chapter2a_hanan = {
         location: 'Rainy Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true },
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Hanan',
-        text: "",
+        text: "He thinks humanity keeps repeating pain endlessly.",
         next: 'chapter2a_hanan_choiceB6'
     },
 
@@ -484,7 +485,7 @@ const chapter2a_hanan = {
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Narrator',
-        text: "",
+        text: "The serpent shadows above Manila grow larger.",
         next: 'chapter2a_hanan_choiceB7'
     },
 
@@ -493,7 +494,7 @@ const chapter2a_hanan = {
         location: 'Rainy Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true },
             { name: 'Bakunawa', img: '../Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png', position: 'center', active: false}
         ],
         speaker: 'Hanan',
