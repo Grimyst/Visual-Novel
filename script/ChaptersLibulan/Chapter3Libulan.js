@@ -212,8 +212,8 @@ const chapter3 = {
         text: "The headphones are still in my hands. What do I do?",
         isChoice: true,
         choices: [
-            { text: 'Let humanity feel — play the music raw and honest  [GOOD ENDING]', next: 'scene_good_ending' },
-            { text: 'Accept the silence — remove the headphones  [BAD ENDING]', next: 'scene_bad_ending' }
+            { text: 'Let humanity feel — play the music raw and honest. ', next: 'scene_good_ending' },
+            { text: 'Accept the silence — remove the headphones. ', next: 'scene_bad_ending' }
         ]
     },
 
