@@ -237,7 +237,7 @@ p {
     transition: filter 0.3s;
 }
 
-.character.left   { left: 0%; bottom: 1%; }
+.character.left   { left: 5%; bottom: 1%; }
 .character.right  { right: 5%; bottom: 1%; }
 .character.center { left: 50%; transform: translateX(-50%); }
 
