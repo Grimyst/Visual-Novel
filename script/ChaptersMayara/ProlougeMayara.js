@@ -15,7 +15,7 @@ const chapter1 = {
     prologue_start: {
         bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
-        bgm: 'Assets/Songs/aruarian dance.mp3',
+        bgm: 'Assets/Songs/MayariST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the train windows while the city outside dissolved into rivers of neon light, blurred advertisements, and reflections stretching endlessly across the glass like ghosts drifting through the storm. The station speakers crackled with distorted announcements no one seemed to listen to anymore, and every passing train sounded like distant thunder beneath the city.",

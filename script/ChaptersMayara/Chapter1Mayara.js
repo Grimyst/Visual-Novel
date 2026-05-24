@@ -3,7 +3,7 @@ const prologue = {
 chapter1_start: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
-    bgm: 'Assets/Songs/_Path of The Wind_ by Joe Hisaishi.mp3',
+    bgm: 'Assets/Songs/MayariST.mp3',
     chars: [],
     speaker: 'Narrator',
     text: "The photography darkroom smelled faintly of chemicals, dust, and wet paper while rows of freshly developed photographs swayed gently from hanging wires overhead. Most of the pictures showed the moon from impossible angles — full moons, crescent moons, eclipses, and skies empty except for pale silver light.",
@@ -169,7 +169,7 @@ scene_darkroom_14: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "Still talking like you belong to the sky?",
@@ -182,7 +182,7 @@ scene_darkroom_15: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala immediately turned toward the voice. A tall figure stood near the doorway, half-hidden in darkness. His eyes glowed faintly gold beneath the flickering lights.",
@@ -195,7 +195,7 @@ scene_darkroom_16: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     text: "Who are you?",
@@ -208,7 +208,7 @@ scene_darkroom_17: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "Someone who remembers her better than she remembers herself.",
@@ -221,7 +221,7 @@ scene_darkroom_18: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Angry.png', position: 'right', active: true },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari's expression suddenly hardened.",
@@ -234,7 +234,7 @@ scene_darkroom_19: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Angry_Mouth.png', position: 'right', active: true },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Mayari',
     text: "You shouldn't be here.",
@@ -247,7 +247,7 @@ scene_darkroom_20: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Angry.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "And yet you continue pretending this life can last.",
@@ -260,7 +260,7 @@ scene_darkroom_21: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "The room darkened again. For a brief second, something enormous moved behind him in the shadows — something serpentine. Something with glowing eyes.",
@@ -276,7 +276,7 @@ scene_darkroom_choice: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     isChoice: true,
@@ -292,10 +292,11 @@ scene_darkroom_choice: {
 scene_choiceA_1: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',
+    bgm: 'Assets/Songs/RegularST.mp3',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala immediately steps in front of Mayari as the lights continue flickering violently.",
@@ -308,7 +309,7 @@ scene_choiceA_2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     text: "I don't know who you are, but back off.",
@@ -321,7 +322,7 @@ scene_choiceA_3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "You would defend someone you barely understand?",
@@ -334,7 +335,7 @@ scene_choiceA_4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     text: "Maybe because she's the only honest person here.",
@@ -347,7 +348,7 @@ scene_choiceA_5: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'right', active: true },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari looks surprised for a moment.",
@@ -360,7 +361,7 @@ scene_choiceA_6: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "The windows crack slightly as darkness spreads across the ceiling.",
@@ -373,7 +374,7 @@ scene_choiceA_7: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "Then you'll suffer beside her too.",
@@ -386,7 +387,7 @@ scene_choiceA_8: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bakunawa disappears into the shadows.",
@@ -420,6 +421,8 @@ scene_choiceA_10: {
 end_chapter1A: {
     bg: 'black',
     location: '',
+    bgm: null,
+    stopBgm: true,
     chars: [],
     speaker: 'Narrator',
     text: "Chapter 2A — Eclipse Dreams",
@@ -434,7 +437,7 @@ scene_choiceB_1: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala cautiously steps forward.",
@@ -447,7 +450,7 @@ scene_choiceB_2: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     text: "What exactly do you want from her?",
@@ -460,7 +463,7 @@ scene_choiceB_3: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "You ask questions instead of blindly protecting her. Interesting.",
@@ -473,7 +476,7 @@ scene_choiceB_4: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Angry_Mouth.png', position: 'right', active: true },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Mayari',
     text: "Don't listen to him.",
@@ -486,7 +489,7 @@ scene_choiceB_5: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bakunawa walks beneath the hanging eclipse photographs.",
@@ -499,7 +502,7 @@ scene_choiceB_6: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "She hides the truth because she fears what happens once people learn what she really is.",
@@ -512,7 +515,7 @@ scene_choiceB_7: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Bathala',
     text: "What is she talking about?",
@@ -525,7 +528,7 @@ scene_choiceB_8: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "She belongs to the moon.",
@@ -538,7 +541,7 @@ scene_choiceB_9: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: true }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: true }
     ],
     speaker: 'Bakunawa',
     text: "And the moon is dying.",
@@ -551,7 +554,7 @@ scene_choiceB_10: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Angry_Mouth.png', position: 'right', active: true },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Mayari',
     text: "Stop.",
@@ -564,7 +567,7 @@ scene_choiceB_11: {
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'right', active: false },
-        { name: 'Bakunawa', img: '', position: 'center', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'center', active: false }
     ],
     speaker: 'Narrator',
     text: "Bakunawa disappears into the darkness as the room falls silent.",
@@ -599,6 +602,8 @@ scene_choiceB_13: {
 end_chapter1B: {
     bg: 'black',
     location: '',
+    bgm: null,
+    stopBgm: true,
     chars: [],
     speaker: 'Narrator',
     text: "Chapter 2B — Eclipse Dreams ",

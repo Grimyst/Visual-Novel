@@ -19,6 +19,7 @@ const chapter2 = {
     EclipseDreams_start: {
         bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
         location: 'Rooftop',
+        bgm: 'Assets/Songs/MayariST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The rooftop overlooked the glowing city below while cold wind swept between the buildings.",
@@ -302,6 +303,8 @@ const chapter2 = {
     end_chapter2A: {
         bg: 'black',
         location: '',
+        bgm: null,
+        stopBgm: true, 
         chars: [],
         speaker: 'Narrator',
         text: "Chapter 3A — The Sea Below the City",
@@ -385,6 +388,8 @@ const chapter2 = {
     end_chapter2B: {
         bg: 'black',
         location: '',
+        bgm: null,
+        stopBgm: true, 
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3B...",
@@ -396,6 +401,7 @@ const chapter2 = {
 LunarEclipse_start: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter2A.png") center/cover no-repeat',
     location: 'Rooftop',
+    bgm: 'Assets/Songs/MayariST.mp3',
     chars: [
         { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left', active: false },
         { name: 'Mayari',  img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'right', active: false }
@@ -634,6 +640,8 @@ LunarEclipse_11: {
     end_chapter2B_A: {
         bg: 'black',
         location: '',
+            bgm: null,
+        stopBgm: true,
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3A...",
@@ -694,6 +702,8 @@ LunarEclipse_11: {
     end_chapter2B_B: {
         bg: 'black',
         location: '',
+        bgm: null,
+        stopBgm: true,
         chars: [],
         speaker: 'Narrator',
         text: "To be continued in Chapter 3B...",
