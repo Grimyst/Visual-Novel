@@ -12,7 +12,7 @@ p {
   height: 100dvh;       /* fills full viewport height */
   min-height: 700px;    /* keeps a minimum */
   background: #0a0e1a;
-  font-family: 'Lato', sans-serif;
+  font-family: "Google Sans", sans-serif;
   position: relative;
   overflow: hidden;
   user-select: none; /* stops the user to copy paste text*/
@@ -95,7 +95,7 @@ p {
 }
 
 #speaker-name {
-  font-family:  'Crimson Pro', sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 24px;
   font-weight: bolder;
   text-shadow: 0 0 5px rgb(0, 0, 0);
@@ -115,7 +115,7 @@ p {
   height: 180px;
   border-radius: 30px;
   font-size: 20px;
-  font-family: "Crimson Pro", serif;
+  font-family: "Google Sans", sans-serif;
   line-height: 1.75;
   color: #e8c97a;
   min-height: 54px;

@@ -136,6 +136,7 @@ function typeText(text, isEnd) {
 
 // SHOW CHOICES
 
+
 function showChoices(choices) {
     choicesEl.style.display = 'flex';
     choices.forEach(c => {
@@ -172,6 +173,7 @@ function toggleMute() {
 }
 
 // NAVIGATION
+
 
 function goBack() {
     if (sceneHistory.length === 0) return;
