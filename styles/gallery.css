@@ -23,7 +23,9 @@ body {
     height: 100%;
     background-size: cover;
     background-position-y: 2rem;
-    overflow: none;
+    overflow-x: hidden;   /* prevents sideways scroll */
+    overflow-y: auto;     /* allows vertical scroll */
+    margin-bottom: 50px;
 }
 
 /* Header style */
@@ -143,7 +145,7 @@ padding: 5%;
 /* Gallery Page */
 
 .GalleryContainer {
-    width: 1400px;
+    height: auto;
     text-align: center;
    
 
