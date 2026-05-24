@@ -2,6 +2,7 @@ const chapter2a_hanan = {
     chapter2a_hanan_start: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter2A.png") center/cover no-repeat',
         location: 'Rainy Rooftop',
+        bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The apartment rooftop overlooks the sleeping city while pale blue morning light slowly spreads across Manila beneath heavy rain clouds.",
