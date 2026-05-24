@@ -3,6 +3,8 @@ const chapter3 = {
      chapter3_start: {
         bg: 'url("") center/cover no-repeat',
         location: '',
+        bgm: null,
+        stopBgm: true, 
         chars: [],
         speaker: 'System',
         isChoice: true,
@@ -20,6 +22,7 @@ const chapter3 = {
 SeaBelow_start: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter3A.png") center/cover no-repeat',
     location: 'Manila Bay',
+    bgm: 'Assets/Songs/MayariST.mp3',
     chars: [],
     speaker: 'Narrator',
     text: "The ocean beneath Manila Bay slowly opens into darkness while the crimson moon hangs overhead.",
@@ -42,7 +45,7 @@ SeaBelow_2: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "The truth.",
@@ -54,7 +57,7 @@ SeaBelow_3: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png', position: 'right', active: false }
     ],
     speaker: 'Narrator',
     text: "Massive waves rise unnaturally into the sky.",
@@ -66,7 +69,7 @@ SeaBelow_4: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Mayari continues suffering just to keep the cycle alive.",
@@ -78,7 +81,7 @@ SeaBelow_5: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left',  active: true  },
-        { name: 'Bakunawa', img: '',                                                   position: 'right', active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                   position: 'right', active: false }
     ],
     speaker: 'Bathala',
     text: "What cycle?",
@@ -90,7 +93,7 @@ SeaBelow_6: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Hope.",
@@ -102,7 +105,7 @@ SeaBelow_7: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Loss.",
@@ -114,7 +117,7 @@ SeaBelow_8: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Light.",
@@ -126,7 +129,7 @@ SeaBelow_9: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Darkness.",
@@ -138,7 +141,7 @@ SeaBelow_10: {
     location: 'Manila Bay',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',  active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right', active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right', active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Again and again until nothing remains.",
@@ -151,7 +154,7 @@ SeaBelow_11: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',   position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                             position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari collapses to her knees as silver cracks spread across her skin.",
@@ -164,7 +167,7 @@ SeaBelow_12: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',   position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right',  active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right',  active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Help me end it.",
@@ -179,7 +182,7 @@ SeaBelow_choice: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Bathala',
     isChoice: true,
@@ -198,7 +201,7 @@ SeaBelow_A1: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala immediately runs toward Mayari.",
@@ -211,7 +214,7 @@ SeaBelow_A2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',           position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                                     position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                     position: 'right',  active: false }
     ],
     speaker: 'Bathala',
     text: "I'm not abandoning you.",
@@ -224,7 +227,7 @@ SeaBelow_A3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari looks up weakly.",
@@ -237,7 +240,7 @@ SeaBelow_A4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: true  }
     ],
     speaker: 'Narrator',
     text: "Bakunawa's expression darkens.",
@@ -250,7 +253,7 @@ SeaBelow_A5: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: true  }
     ],
     speaker: 'Bakunawa',
     text: "Then you choose endless suffering.",
@@ -263,7 +266,7 @@ SeaBelow_A6: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Angry.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',   position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                             position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                             position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "The ocean erupts violently beneath the city.",
@@ -287,7 +290,7 @@ SeaBelow_B1: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala hesitates before looking toward Bakunawa.",
@@ -300,7 +303,7 @@ SeaBelow_B2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',       position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                                 position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                 position: 'right',  active: false }
     ],
     speaker: 'Bathala',
     text: "If ending this saves her… then maybe you're right.",
@@ -313,7 +316,7 @@ SeaBelow_B3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari freezes in shock.",
@@ -326,7 +329,7 @@ SeaBelow_B4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png',       position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                                 position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                 position: 'right',  active: false }
     ],
     speaker: 'Mayari',
     text: "…Bathala?",
@@ -339,7 +342,7 @@ SeaBelow_B5: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "The moon above begins cracking faster.",
@@ -363,6 +366,7 @@ end_3A_B: {
 SeaAbove_start: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter3A.png") center/cover no-repeat',
     location: 'Manila Bay',
+    bgm: 'Assets/Songs/MayariST.mp3',
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false }
@@ -378,7 +382,7 @@ SeaAbove_1: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: true  }
     ],
     speaker: 'Bakunawa',
     text: "You pushed her away exactly like everyone else.",
@@ -391,7 +395,7 @@ SeaAbove_2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala watches silently as Mayari struggles to remain standing.",
@@ -404,7 +408,7 @@ SeaAbove_3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png',       position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                                 position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                 position: 'right',  active: false }
     ],
     speaker: 'Mayari',
     text: "I told you this would happen…",
@@ -417,7 +421,7 @@ SeaAbove_4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "The moon darkens further overhead.",
@@ -432,7 +436,7 @@ SeaAbove_choice: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Bathala',
     isChoice: true,
@@ -451,7 +455,7 @@ SeaAbove_A1: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',     position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala finally steps toward her.",
@@ -464,7 +468,7 @@ SeaAbove_A2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png', position: 'left',   active: true  },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png',       position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                                 position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                                 position: 'right',  active: false }
     ],
     speaker: 'Bathala',
     text: "No. I was wrong.",
@@ -477,7 +481,7 @@ SeaAbove_A3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png',     position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari looks shocked as he reaches for her hand.",
@@ -490,7 +494,7 @@ SeaAbove_A4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png',     position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                               position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                               position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "The silver light around her stabilizes slightly.",
@@ -500,6 +504,8 @@ SeaAbove_A4: {
 end_3B_A: {
     bg: 'black',
     location: '',
+     bgm: null,
+        stopBgm: true,
     chars: [],
     speaker: 'Narrator',
     text: "Final Chapter — The Eclipse",
@@ -514,7 +520,7 @@ SeaAbove_B1: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bathala remains still.",
@@ -527,7 +533,7 @@ SeaAbove_B2: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Bakunawa slowly smiles.",
@@ -540,7 +546,7 @@ SeaAbove_B3: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: true  }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: true  }
     ],
     speaker: 'Bakunawa',
     text: "At last.",
@@ -553,7 +559,7 @@ SeaAbove_B4: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: true  },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "Mayari closes her eyes quietly.",
@@ -566,7 +572,7 @@ SeaAbove_B5: {
     chars: [
         { name: 'Bathala',  img: 'Assets/Characters/Bathala/Bathala_Sad.png', position: 'left',   active: false },
         { name: 'Mayari',   img: 'Assets/Characters/Mayari/L_Mayari_Sad.png', position: 'center', active: false },
-        { name: 'Bakunawa', img: '',                                           position: 'right',  active: false }
+        { name: 'Bakunawa', img: 'Assets/Characters/Bakunawa/Bakunawa/L_Bakunawa_Neutral.png',                                           position: 'right',  active: false }
     ],
     speaker: 'Narrator',
     text: "The moon begins collapsing completely.",
@@ -577,8 +583,10 @@ SeaAbove_B5: {
         speaker: 'Narrator', 
         text: "Final Chapter — The Eclipse",
         bg: 'black', 
-        location: '', 
-        chars: [], 
+        location: '',
+        chars: [],
+        bgm: null,
+        stopBgm: true, 
         next: 'Eclipse_start' 
     },
 }
