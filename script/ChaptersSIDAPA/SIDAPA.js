@@ -832,6 +832,7 @@ const scenes = {
     ch1_35: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
@@ -1338,6 +1339,7 @@ const scenes = {
     ch2_22: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2A.png") center/cover no-repeat',
         location: 'ROOFTOP ABOVE THE CITY',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: true }
         ],

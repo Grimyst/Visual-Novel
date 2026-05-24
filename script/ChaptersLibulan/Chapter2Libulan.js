@@ -8,6 +8,7 @@ const chapter2 = {
     scene_ch2a_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2A.png') center/cover no-repeat",
         location: 'Hospital Cafeteria',
+        bgm: 'Assets/Songs/LibulanST.mp3',
         chars: [
             { name: 'Libulan', img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',  active: true  },
             { name: 'Sidapa',  img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }
@@ -198,6 +199,7 @@ const chapter2 = {
     scene_ch2b_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter2B.png') center/cover no-repeat",
         location: 'Hospital Cafeteria',
+        bgm: 'Assets/Songs/LibulanST.mp3',
         chars: [
             { name: 'Libulan', img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',  active: true  },
             { name: 'Sidapa',  img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }

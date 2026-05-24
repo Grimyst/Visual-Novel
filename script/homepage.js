@@ -36,20 +36,11 @@ const pictures = document.querySelectorAll(".picture");
 
     setInterval(changePicture, 5000);
 
-
-
-
-
-const card = document.querySelector('.card1');
-let isFlipped = false;
-
-card.addEventListener('click', () => {
-    isFlipped = !isFlipped;
-    
-    document.getElementById('dynamic-style')?.remove();
-
-    const style = document.createElement('style');
-    style.id = 'dynamic-style';
-    style.textContent = `.card1:hover { transform: rotateY(${isFlipped ? '0deg' : '180deg'}); }`;
-    document.head.appendChild(style);
-});
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+    function closeSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    }

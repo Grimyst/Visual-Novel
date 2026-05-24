@@ -153,8 +153,10 @@ padding: 5%;
 
 .top-content {
     background-color: #0F1A35;
-    width: 90%;
-    margin: 0 auto 20px auto;
+    width: 99.99%;
+    margin-right: 50px; 
+    margin-left: 50px;
+    margin-bottom: 50px;
     height: 60px;
     display: flex;
     align-items: center;

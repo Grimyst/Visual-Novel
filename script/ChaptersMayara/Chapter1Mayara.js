@@ -43,6 +43,8 @@ scene_darkroom_3: {
     next: 'scene_darkroom_4'
 },
 
+
+
 scene_darkroom_4: {
     bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariChapter1.png") center/cover no-repeat',
     location: 'Photography Darkroom',

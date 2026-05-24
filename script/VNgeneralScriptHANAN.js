@@ -1,7 +1,3 @@
-// ═══════════════════════════════════════════════════════
-// VN ENGINE — VNgeneralScript.js
-// ═══════════════════════════════════════════════════════
-
 // VN DIV
 const vn = document.getElementById('vn');
 
@@ -40,10 +36,7 @@ let canAdvance = false;
 let currentBGM = '';
 let isMuted = false;
 
-
-// ═══════════════════════════════════════════════════════
 // LOAD SCENE
-// ═══════════════════════════════════════════════════════
 
 function loadScene(id, addToHistory = true) {
 
@@ -111,10 +104,7 @@ function loadScene(id, addToHistory = true) {
     typeText(s.text, s.isEnd);
 }
 
-
-// ═══════════════════════════════════════════════════════
 // TYPEWRITER EFFECT
-// ═══════════════════════════════════════════════════════
 
 function typeText(text, isEnd) {
     fullText = text;
@@ -144,10 +134,7 @@ function typeText(text, isEnd) {
     tick();
 }
 
-
-// ═══════════════════════════════════════════════════════
 // SHOW CHOICES
-// ═══════════════════════════════════════════════════════
 
 function showChoices(choices) {
     choicesEl.style.display = 'flex';
@@ -160,10 +147,7 @@ function showChoices(choices) {
     });
 }
 
-
-// ═══════════════════════════════════════════════════════
 // BGM CONTROLS
-// ═══════════════════════════════════════════════════════
 
 function playBGM(src) {
     if (!src) return;
@@ -187,10 +171,7 @@ function toggleMute() {
     document.getElementById('mute-btn').textContent = isMuted ? '🔇' : '🔊';
 }
 
-
-// ═══════════════════════════════════════════════════════
 // NAVIGATION
-// ═══════════════════════════════════════════════════════
 
 function goBack() {
     if (sceneHistory.length === 0) return;
@@ -212,10 +193,7 @@ function goToChapterScreen() {
     document.getElementById('chapter-title').style.display = 'flex';
 }
 
-
-// ═══════════════════════════════════════════════════════
 // CLICK TO ADVANCE
-// ═══════════════════════════════════════════════════════
 
 vn.addEventListener('click', (e) => {
     if (e.target.classList.contains('choice-btn')) return;
