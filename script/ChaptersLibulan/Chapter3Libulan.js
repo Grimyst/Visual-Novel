@@ -8,7 +8,7 @@ const chapter3 = {
     scene_ch3a_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter3A.png') center/cover no-repeat",
         location: 'Hospital Rooftop',
-        bgm: 'Assets/Songs/LibulanST.mp3',
+        bgm: 'Assets/Songs/RegularST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The city falls into chaos beneath a crimson moon while every sound system in Manila begins malfunctioning simultaneously. Music distorts across radio stations. Concert speakers explode. Car alarms scream endlessly through flooded streets.",
@@ -112,7 +112,7 @@ const chapter3 = {
     scene_ch3b_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter3B.png') center/cover no-repeat",
         location: 'Hospital Rooftop',
-        bgm: 'Assets/Songs/LibulanST.mp3',
+        bgm: 'Assets/Songs/RegularST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The eclipse deepens above Manila until the entire city becomes unnaturally quiet. No music. No traffic. No voices. Only silence.",
@@ -226,6 +226,7 @@ const chapter3 = {
     scene_good_ending: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapterFinal.png') center/cover no-repeat",
         location: 'Hospital Rooftop — Dawn',
+        bgm: 'Assets/Songs/GoodEndingST.mp3',
         chars: [
             { name: 'Libulan', img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',  active: true  },
             { name: 'Sidapa',  img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }
@@ -302,6 +303,7 @@ const chapter3 = {
     scene_bad_ending: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapterFinal.png') center/cover no-repeat",
         location: 'Above Manila — Eclipse',
+        bgm: 'Assets/Songs/BadEndingCharacterST.mp3',
         chars: [
             { name: 'Libulan', img: 'Assets/Characters/Libulan/Libulan_Neutral.png', position: 'left',  active: true  },
             { name: 'Sidapa',  img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }
@@ -312,6 +314,7 @@ const chapter3 = {
     },
 
     scene_bad_ending_1: {
+        stopBgm: true,
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapterFinal.png') center/cover no-repeat",
         location: 'Above Manila — Eclipse',
         chars: [
