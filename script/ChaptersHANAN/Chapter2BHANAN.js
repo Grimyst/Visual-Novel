@@ -2,6 +2,7 @@ const chapter2b_hanan = {
     chapter2b_hanan_start: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter2B.png") center/cover no-repeat',
         location: 'Train Station',
+        bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The abandoned train station beneath Manila echoes endlessly with distorted announcements while frozen trains remain motionless on the rails like abandoned memories.",

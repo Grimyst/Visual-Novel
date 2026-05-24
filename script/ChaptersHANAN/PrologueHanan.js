@@ -2,6 +2,7 @@ const prologue_hanan = {
     prologue_hanan_start: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
+        bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The sunrise over Manila should have been beautiful.",

@@ -2,6 +2,7 @@ const chapter1_hanan = {
     chapter1_hanan_start: {
         bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
+        bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The tiny breakfast café smelled faintly of coffee, toasted bread, and rain drifting through open windows while quiet jazz played softly through old speakers near the counter.",

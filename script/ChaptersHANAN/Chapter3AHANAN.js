@@ -2,6 +2,7 @@ const chapter3a_hanan = {
     chapter3a_hanan_start: {
         bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
         location: 'Rainy Rooftop',
+        bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The sky above Manila freezes between night and morning while enormous waves rise around the city beneath dark storm clouds.",
