@@ -323,21 +323,6 @@ function stopBGM() {
     typingTimer = null;
     canAdvance = false;
 }
-const bgmPlayer = document.getElementById('bgm');
-let currentBGM = '';
 
-function playBGM(src) {
-    if (!src) return;          // no music on this scene
-    if (src === currentBGM) return; // already playing, don't restart
+loadProgress();
 
-    currentBGM = src;
-    bgmPlayer.src = src;
-    bgmPlayer.volume = 0.5;
-    bgmPlayer.play().catch(e => console.log('BGM autoplay blocked:', e));
-}
-
-function stopBGM() {
-    bgmPlayer.pause();
-    bgmPlayer.src = '';
-    currentBGM = '';
-}
