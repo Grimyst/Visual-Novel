@@ -12,6 +12,7 @@ const defaultComputerChoiceImages = {
 const config = window.minigameConfig || {};
 const playerChoiceImages = config.playerChoiceImages || defaultPlayerChoiceImages;
 const computerChoiceImages = config.computerChoiceImages || defaultComputerChoiceImages;
+const backgroundImage = config.backgroundImage || '';
 
 function makeChoice(playerChoice) {
     // to disable buttons during animation
@@ -125,6 +126,13 @@ window.addEventListener('DOMContentLoaded', () => {
     if (config.gameTitle) {
         const gameTitleEl = document.getElementById('gameTitle');
         if (gameTitleEl) gameTitleEl.textContent = config.gameTitle;
+    }
+
+    if (backgroundImage) {
+        document.body.style.backgroundImage = `url('${backgroundImage}')`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
     }
 });
 

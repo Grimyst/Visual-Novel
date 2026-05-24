@@ -3,6 +3,7 @@ const prologue = {
     prologue_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanPrologue.png') center/cover no-repeat",
         location: 'Underground Club — Manila',
+        bgm: 'Assets/Songs/LibulanST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain hammered endlessly against the windows of the underground club while Manila dissolved outside into flooded streets, neon reflections, and blurred headlights stretching endlessly through the storm like broken constellations.",
