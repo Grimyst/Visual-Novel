@@ -2,7 +2,7 @@ const scenes = {
     Chapter1_start: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png") center/cover no-repeat',
         location: 'Hospital',
-        bgm: 'Assets/Songs/RegularST.mp3',
+        bgm: 'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the hospital windows while Manila dissolved outside into rivers of neon light, flooded streets, and reflections stretching endlessly across the wet glass like ghosts drifting through the storm.",
@@ -2289,6 +2289,7 @@ const scenes = {
     Def_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm: 'Assets/Songs/BadEndingDefaultST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The system stabilizes instantly",
@@ -2537,6 +2538,7 @@ const scenes = {
     PDE_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The system glitches violently.\nReality stutters.",
@@ -2712,6 +2714,7 @@ const scenes = {
     FC_a1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/GoodEndingST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
@@ -3081,6 +3084,7 @@ const scenes = {
     FC_b1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/BadEndingCharacterST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
