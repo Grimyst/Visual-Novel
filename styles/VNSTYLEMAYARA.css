@@ -9,8 +9,8 @@ p {
 }
 
 #vn {
-  height: 100dvh;       /* fills full viewport height */
-  min-height: 700px;    /* keeps a minimum */
+  height: 100dvh;       
+  min-height: 700px; 
   background: #0a0e1a;
   font-family: "Google Sans", sans-serif;
   position: relative;
@@ -37,17 +37,13 @@ p {
 #character-layer {
   position: absolute;
   bottom: 140px;
-
-
   width: 100%;
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
-  
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
   gap: 60px;
   transition: opacity 0.6s;
   overflow: visible;
@@ -90,7 +86,6 @@ p {
   left: 0;
   right: 0;
   padding: 20px 28px 24px;
- 
   z-index: 4;
 }
 
@@ -210,7 +205,6 @@ p {
   border: 0.5px solid rgba(232,201,122,0.6);
   color: #e8c97a;
   padding: 10px 32px;
-  
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -230,7 +224,7 @@ p {
   text-transform: uppercase;
   color: #D3B14D;
   border-left: 1px solid rgba(232,201,122,0.3);
-  background-color: black;
+  background-color: rgba(10, 14, 26, 0.5);
   padding-left: 10px;
   text-shadow: #0a0e1a;
 }
@@ -262,23 +256,32 @@ p {
     filter: brightness(1);
 }
 
-
-#back-btn {
+#back-btn,
+#menu-btn,
+#return-btn {
     position: absolute;
     top: 15px;
-    right: 15px;
     z-index: 8;
-
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
-
     padding: 8px 16px;
     font-size: 14px;
     cursor: pointer;
-    
     transition: background 0.2s, border 0.2s;
+}
+
+#menu-btn {
+    right: 90px; 
+}
+
+#back-btn {
+    right: 15px;
+}
+
+#return-btn {
+    left: 15px;  
 }
 
 #back-btn:hover {
@@ -290,27 +293,6 @@ p {
     background: rgba(255, 255, 255, 0.25);
 }
 
-
-
-
-#menu-btn {
-    position: absolute;
-    top: 15px;
-    right: 90px; /* sits to the left of back button */
-    z-index: 8;
-
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 8px;
-
-    padding: 8px 16px;
-    font-size: 14px;
-    cursor: pointer;
-
-    transition: background 0.2s, border 0.2s;
-}
-
 #menu-btn:hover {
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.6);
@@ -318,22 +300,6 @@ p {
 
 #menu-btn:active {
     background: rgba(255, 255, 255, 0.25);
-}
-
-
-#return-btn {
-    position: absolute;
-    top: 15px;
-    left: 15px; /* sits to the left of back button */
-    z-index: 99999;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 8px;
-    padding: 8px 16px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background 0.2s, border 0.2s;
 }
 
 #return-btn:hover {

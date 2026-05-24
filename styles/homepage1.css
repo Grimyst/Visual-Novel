@@ -1,28 +1,4 @@
 
-.btnContainer{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.GotoPagebtn {
-    padding: 12px 24px;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    color: #D2B04D;
-    background-color: #AD3F26;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    transition: 0.5s;
-}
-
-.GotoPagebtn:hover {
-     background-color: #D2B04D;
-      color: #AD3F26;
-}
-
 /*Character Page*/
 
 .HomepageCharacter {    
@@ -305,7 +281,6 @@
 }
 
 .endingPreview {
-  
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -315,13 +290,11 @@
     gap: 20px;
     padding: 20px;
     margin-bottom: 100px;
-
     perspective: 1000px;
 }
 
 
 .endingContainer {
-    
     width: 250px;
     height: 350px;
     border: solid black;
@@ -338,15 +311,12 @@
         gap: 20px;
         height: auto;
     }
-
     .endingContainer {
     width: 150px;
     height: 250px;
     
     }
-
 }
-
 
 .frontcard, .backcard {
     position: absolute;
@@ -380,13 +350,8 @@
     object-fit: fill;
 }
 
-
 .card1:hover {
     transform: rotateY(180deg);
-}
-
-.card1.flipped:hover {
-    transform: rotateY(0deg);
 }
 
 .card1:hover {
@@ -404,20 +369,17 @@
 .card4:hover {
     transform: rotateY(180deg);
 }
-/* About Us  */
 
+/* About Us  */
 .HomepageAboutus {
     padding: 20px;
     height: auto;
     background-color: #7CADDF;
-
 }
-
 .aboutUsPreview {
     height: auto;
     margin-bottom: 100px;
 }
-
 .aboutuscontent {
     z-index: 100;
     font-size: 24px;
@@ -426,9 +388,7 @@
     text-align: center;
 }
 
-
 /* Homepagewith stars bacgorunds */
-
 
 @keyframes starsMove {
     from {
@@ -439,17 +399,13 @@
         transform: translateY(-300px);
     }
 }
-
-
 .HomepageSetting, 
 .HomepageAboutus,
 .HomepageGallery,
 .HomepageIntroduction {
     position: relative;
     overflow: hidden;
-
     padding: 20px;
-
     background:
     linear-gradient(
         to bottom,
@@ -464,41 +420,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-
     width: 200%;
     height: 200%;
-
-
     inset: 0;
     pointer-events: none; 
     z-index: 0;
-
-     background-image:
-        radial-gradient(2px 2px at 10px 20px, rgba(255,255,255,0.95), transparent),
-        radial-gradient(1.5px 1.5px at 60px 80px, rgba(255,255,255,0.85), transparent),
-        radial-gradient(2px 2px at 120px 40px, rgba(200,220,255,0.85), transparent),
-        radial-gradient(1px 1px at 180px 140px, rgba(255,255,255,0.8), transparent),
-        radial-gradient(2px 2px at 240px 90px, rgba(255,255,255,0.85), transparent),
-        radial-gradient(1.5px 1.5px at 300px 200px, rgba(180,210,255,0.85), transparent),
-        radial-gradient(2px 2px at 360px 60px, rgba(255,255,255,0.9), transparent),
-        radial-gradient(1px 1px at 420px 180px, rgba(255,255,255,0.8), transparent),
-        radial-gradient(2px 2px at 480px 120px, rgba(150,180,255,0.8), transparent),
-        radial-gradient(1.5px 1.5px at 540px 30px, rgba(255,255,255,0.95), transparent),
-        radial-gradient(2px 2px at 600px 220px, rgba(255,255,255,0.85), transparent),
-        radial-gradient(1px 1px at 660px 100px, rgba(200,230,255,0.9), transparent),
-        radial-gradient(2px 2px at 720px 160px, rgba(255,255,255,0.8), transparent),
-        radial-gradient(1.5px 1.5px at 780px 60px, rgba(255,255,255,0.8), transparent),
-        url("../Assets/Background/stars.png");
-
+    background-image:url("../Assets/Background/stars.png");
     background-size: 800px 400px;
     background-repeat: repeat;
-
     opacity: 1;
-
     filter:
         drop-shadow(0 0 2px rgba(255,255,255,0.25))
         drop-shadow(0 0 4px rgba(120,180,255,0.2));
-
     animation: starsMove 12s linear infinite;
 }
 
@@ -550,36 +483,5 @@
 }
 
 
-/*fade in animation*/
-
-
-.slogan {
-    animation: fadeIn 1s ease;
-}
-
-
-.getStartedbtn {
-    animation: fadeIn 1s ease;
-} 
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-
-
-/* 
-
-tarot card
-
-*/
 
 
