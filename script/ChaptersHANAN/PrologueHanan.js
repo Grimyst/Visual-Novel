@@ -1,6 +1,6 @@
 const prologue_hanan = {
     prologue_hanan_start: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -9,7 +9,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene1: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -18,7 +18,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -27,7 +27,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -36,7 +36,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -45,7 +45,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -54,7 +54,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -63,7 +63,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene7: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -72,7 +72,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene8: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -81,7 +81,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene9: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -90,7 +90,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene10: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -99,7 +99,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene11: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -108,7 +108,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene12: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -117,7 +117,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene13: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -126,7 +126,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene14: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -135,7 +135,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene15: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -144,7 +144,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene16: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -153,7 +153,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene17: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -162,7 +162,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene18: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -171,7 +171,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene19: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -180,7 +180,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene20: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -189,7 +189,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene21: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -198,7 +198,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene22: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -207,7 +207,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene23: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -216,7 +216,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene24: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -225,7 +225,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene25: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'System',
@@ -234,7 +234,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene26: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [
             { name: 'Hanan', img: './Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'left', active: true  }
@@ -245,7 +245,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene27: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -254,7 +254,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene28: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -263,7 +263,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene29: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -272,7 +272,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene30: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -281,7 +281,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene31: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -290,7 +290,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene32: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -299,7 +299,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene33: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -308,7 +308,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene34: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -317,7 +317,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene35: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -326,7 +326,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene36: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -335,16 +335,18 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene37: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
-        chars: [],
+        chars: [
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true }
+        ],
         speaker: 'Narrator',
         text: "Bathala.",
         next: 'prologue_hanan_scene38'
     },
 
     prologue_hanan_scene38: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -353,7 +355,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene39: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [],
         speaker: 'Narrator',
@@ -362,7 +364,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene40: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [
             { name: 'Bathala', img: './Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
@@ -374,11 +376,11 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene41: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [
-            { name: 'Bathala', img: './Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
-            { name: 'Hanan', img: './Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'Bathala',
         text: "That definitely isn’t normal.",
@@ -386,11 +388,11 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene42: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ 
-            { name: 'Bathala', img: './Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: './Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'Narrator',
         text: "Hanan laughed nervously.",
@@ -398,11 +400,11 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene43: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ 
-            { name: 'Bathala', img: './Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: './Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true }
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true }
         ],
         speaker: 'Hanan',
         text: "Great.",
@@ -410,11 +412,11 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene44: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ 
-            { name: 'Bathala', img: './Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Hanan', img: './Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true }
+            { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
+            { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true }
         ],
         speaker: 'Hanan',
         text: "So I’m not hallucinating alone.",
@@ -422,7 +424,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene45: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -431,7 +433,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene46: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -440,7 +442,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene47: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -449,7 +451,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene48: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -458,7 +460,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene49: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Bakunawa',
@@ -467,7 +469,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene50: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -476,7 +478,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene51: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -485,7 +487,7 @@ const prologue_hanan = {
     },
 
     prologue_hanan_scene52: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananPrologue.png") center/cover no-repeat',
         location: 'Foot Bridge',
         chars: [ ],
         speaker: 'Narrator',
@@ -502,27 +504,3 @@ const prologue_hanan = {
         isEnd: true   
     },
 }
-
-
-
-/*
- 
-    scene16: {
-        bg: 'url("bgs/Classroom.webp") center/cover no-repeat',
-        location: 'DHVSU Hallway',
-        chars: [
-            { name: 'Kurt',   img: 'Characters/kurt.png',   position: 'left',  active: true }
-        ],
-        speaker: 'Kurt',
-
-        isChoice: true,
-        
-        text: "Forgive Dustin?",
-        choices: [
-            { text: '"I forgive You Bro You just Doing it for your Lil Sis"', next: 'scene16_1_forgive' },
-            { text: '"NAHHHH"', next: 'scene16_1_DoNotForgive'},
-            { text: '"option 3"', next: 'scene16_1_DoNotForgive'}
-        ]
-    },
-
-*/
