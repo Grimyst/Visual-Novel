@@ -2,6 +2,7 @@ const scenes = {
     Chapter1_start: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaPrologue.png") center/cover no-repeat',
         location: 'Hospital',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the hospital windows while Manila dissolved outside into rivers of neon light, flooded streets, and reflections stretching endlessly across the wet glass like ghosts drifting through the storm.",
@@ -415,6 +416,7 @@ const scenes = {
     Ch1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm:'Assets/Songs/LibulanST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The underground club beneath Manila pulsed endlessly with bass loud enough to shake the walls while neon lights bled across cigarette smoke, crowded bodies, and spilled drinks reflecting against the dark floor like liquid stars.",
@@ -424,7 +426,9 @@ const scenes = {
     ch1_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false }
+        ],
         speaker: 'Narrator',
         text: "Bathala sat awkwardly near the bar while Sidapa stood nearby looking visibly uncomfortable.",
         next: 'ch1_2'
@@ -624,6 +628,8 @@ const scenes = {
     ch1_18: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm: null,
+        stopBgm: true,
         chars: [
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'left', active: false }   
@@ -672,6 +678,7 @@ const scenes = {
     ch1_22: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'left', active: false }   
@@ -684,7 +691,9 @@ const scenes = {
     ch1_23: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bathala',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: false }
+        ],
         speaker: 'Bakunawa',
         text: "You continue pretending feelings can save anyone.",
         next: 'ch1_24'
@@ -728,7 +737,9 @@ const scenes = {
     ch1_27: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bathala',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'left',  active: true }
+        ],
         speaker: 'Bakunawa',
         text: "Still entertaining mortals before the world ends?",
         next: 'ch1_28'
@@ -761,7 +772,8 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bathala',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -772,7 +784,10 @@ const scenes = {
     ch1_31: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'right',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'left',  active: true }
+        ],
         speaker: 'Bakunawa',
         text: "So this is the one observing the system.",
         next: 'ch1_32'
@@ -782,8 +797,9 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: false }
-        ],
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'right',  active: true },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'left',  active: false }
+       ],
         speaker: 'Bathala',
         text: "... The what?",
         next: 'ch1_33'
@@ -792,7 +808,10 @@ const scenes = {
     ch1_33: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'right',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "The thing pretending your choices matter.",
         next: 'ch1_34'
@@ -801,7 +820,10 @@ const scenes = {
     ch1_34: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'right',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'left',  active: false }
+       ],
         speaker: 'Narrator',
         text: "The walls around the club trembled softly. For one horrifying second—something enormous moved behind Bakunawa's shadow. A massive serpent shape coiling endlessly through darkness beneath the city.",
         next: 'ch1_35'
@@ -811,7 +833,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
         
@@ -863,7 +885,9 @@ const scenes = {
     ch1_39a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa laughs softly.",
         next: 'ch1_40a'
@@ -872,7 +896,9 @@ const scenes = {
     ch1_40a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "You defend death itself?",
         next: 'ch1_41a'
@@ -905,7 +931,9 @@ const scenes = {
     ch1_43a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "... That's exactly the problem.",
         next: 'ch1_44a'
@@ -948,7 +976,9 @@ const scenes = {
     ch1_38b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'left',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa's golden eyes narrow slightly.",
         next: 'ch1_39b'
@@ -957,7 +987,9 @@ const scenes = {
     ch1_39b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'left',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "End the cycle.",
         next: 'ch1_40b'
@@ -978,7 +1010,9 @@ const scenes = {
     ch1_41b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa slowly walks beneath the flickering lights",
         next: 'ch1_42b'
@@ -987,7 +1021,9 @@ const scenes = {
     ch1_42b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "Sidapa measures endings.. Libulan manipulates feelings.. And humanity continues suffering between both.",
         next: 'ch1_43b'
@@ -999,7 +1035,6 @@ const scenes = {
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true },
             { name: 'Libulan', img: 'Assets/Characters/Libulan/Libulan_Angry.png', position: 'right', active: false }
-            
         ],
         speaker: 'Bathala',
         text: "What does that have to do with you?",
@@ -1009,7 +1044,9 @@ const scenes = {
     ch1_44b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa smiles coldly.",
         next: 'ch1_45b'
@@ -1018,7 +1055,9 @@ const scenes = {
     ch1_45b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "I devour things that refuse to end.",
         next: 'ch1_46b'
@@ -1027,7 +1066,9 @@ const scenes = {
     ch1_46b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter1.png") center/cover no-repeat',
         location: 'UNDERGROUND CLUB',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
         speaker: 'Narrator',
         text: "The serpent shadow behind him grows larger.",
         next: 'Ch2B'
@@ -1036,6 +1077,7 @@ const scenes = {
     Ch2A: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2A.png") center/cover no-repeat',
         location: 'ROOFTOP ABOVE THE CITY',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain falls softly across the rooftop while Manila glows below in endless rivers of neon light and distant traffic.",
@@ -1457,6 +1499,7 @@ const scenes = {
     Ch2B: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The abandoned train tunnels beneath Manila echo endlessly with dripping water and distant distorted music while broken emergency lights flicker weakly overhead.",
@@ -1466,7 +1509,10 @@ const scenes = {
     ch2b_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa walks calmly ahead of Bathala. Massive serpent shadows move silently along the tunnel walls.",
         next: 'ch2b_2'
@@ -1476,8 +1522,9 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true }
-        ],
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Bathala',
         text: "You talk like humanity disappointed you.",
         next: 'ch2b_3'
@@ -1486,7 +1533,10 @@ const scenes = {
     ch2b_3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "Because it did.",
         next: 'ch2b_4'
@@ -1495,7 +1545,10 @@ const scenes = {
     ch2b_4: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "His voice echoes unnaturally",
         next: 'ch2b_5'
@@ -1504,7 +1557,10 @@ const scenes = {
     ch2b_5: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "Humans fear endings so much they destroy each other trying to avoid them.",
         next: 'ch2b_6'
@@ -1513,7 +1569,10 @@ const scenes = {
     ch2b_6: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "Sidapa watches death. Libulan numbs pain. But neither changes anything.",
         next: 'ch2b_7'
@@ -1522,7 +1581,10 @@ const scenes = {
     ch2b_7: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "The tunnel suddenly shakes violently. A massive golden eye opens within the darkness beneath the rails.",
         next: 'ch2b_8'
@@ -1531,7 +1593,10 @@ const scenes = {
     ch2b_8: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "I will.",
         next: 'ch2b_9'
@@ -1541,7 +1606,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
 
@@ -1579,7 +1644,9 @@ const scenes = {
     ch2b_12a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa quietly stares at him.",
         next: 'ch2b_13a'
@@ -1599,7 +1666,9 @@ const scenes = {
     ch2b_14a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: true }
+       ],
         speaker: 'Narrator',
         text: "The golden eye narrows slowly.",
         next: 'ch2b_15a'
@@ -1608,7 +1677,9 @@ const scenes = {
     ch2b_15a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "...You sound like them already.",
         next: 'Ch3A'
@@ -1640,8 +1711,9 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }  
-        ],
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Silence fills the tunnel. Bakunawa slowly smiles.",
         next: 'ch2b_13b'
@@ -1650,7 +1722,10 @@ const scenes = {
     ch2b_13b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'right',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "You finally understand.",
         next: 'ch2b_14b'
@@ -1659,7 +1734,10 @@ const scenes = {
     ch2b_14b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter2B.png") center/cover no-repeat',
         location: 'THE TRAIN TUNNELS',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'right',  active: false }
+       ],
         speaker: 'Narrator',
         text: "The serpent shadows surrounding the tunnel grow larger.",
         next: 'Ch3B'
@@ -1668,6 +1746,7 @@ const scenes = {
     Ch3A: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The sky above Manila turns crimson while the moon cracks apart overhead like shattered glass. Every clock in the city stops simultaneously. Cars freeze mid-motion. Rain remains suspended in the air.",
@@ -1697,7 +1776,9 @@ const scenes = {
     ch3a_3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa's massive serpent form coils endlessly around the eclipsed moon above the city.",
         next: 'ch3a_4'
@@ -1706,7 +1787,9 @@ const scenes = {
     ch3a_4: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "The world is finally escaping endings.",
         next: 'ch3a_5'
@@ -1788,8 +1871,9 @@ const scenes = {
     ch3a_9: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
 
@@ -1806,7 +1890,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1818,7 +1902,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true },
             { name: 'Sidapa',   img: 'Assets/Characters/Sidapa/Sidapa_Sad.png',   position: 'right',  active: false }
         ],
         speaker: 'Bathala',
@@ -1830,7 +1914,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1842,7 +1926,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1854,7 +1938,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'right', active: false }   
         ],
         speaker: 'Narrator',
@@ -1866,7 +1950,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1878,7 +1962,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false }
         ],
         speaker: 'Bathala',
@@ -1890,7 +1974,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1902,7 +1986,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false },
             { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false } 
         ],
         speaker: 'Narrator',
@@ -1913,7 +1997,10 @@ const scenes = {
     Ch3B: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        bgm:'Assets/Songs/SidapaST.mp3',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
         speaker: 'Narrator',
         text: "Darkness floods the city streets while the moon overhead slowly disappears behind Bakunawa's enormous serpent form.",
         next: 'ch3b_1'
@@ -1933,7 +2020,9 @@ const scenes = {
     ch3b_2: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
         speaker: 'Bakunawa',
         text: "Look how peaceful the world becomes once endings stop.",
         next: 'ch3b_3'
@@ -1965,7 +2054,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
         
@@ -2003,7 +2092,9 @@ const scenes = {
     ch3b_9a: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry.png',   position: 'center',  active: true }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa's golden eyes narrow.",
         next: 'ch3b_10a'
@@ -2034,6 +2125,7 @@ const scenes = {
     ch3b_7b: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapter3A.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
         chars: [
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
         ],
@@ -2080,6 +2172,7 @@ const scenes = {
     FCH_1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        bgm:'Assets/Songs/SidapaST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The heavens crack apart above Manila while the ocean rises around the city like walls beneath the crimson eclipse.",
@@ -2089,7 +2182,9 @@ const scenes = {
     FCH_2: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: true }
+       ],
         speaker: 'Narrator',
         text: "Bakunawa's massive serpent form coils endlessly across the sky.\nGolden eyes brighter than stars stare down upon the frozen world below.",
         next: 'FCH_3'
@@ -2114,7 +2209,7 @@ const scenes = {
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
         ],
         speaker: 'Narrator',
-        text: "Bathala desperately looks between them.",
+        text: "Bathala stands between them all.",
         next: 'FCH_5'
     },
 
@@ -2125,41 +2220,49 @@ const scenes = {
             { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true }
         ],
         speaker: 'Bathala',
-        text: "There has to be another way.",
+        text: "This isn't just an ending anymore…",
         next: 'FCH_6'
     },
 
     FCH_6: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
         speaker: 'Bakunawa',
-        text: "There never was.",
+        text: "It is the only thing it ever was.",
         next: 'FCH_7'
     },
 
     FCH_7: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+        ],
         speaker: 'Narrator',
-        text: "The moon shatters again. \nSuddenly— the entire world freezes.",
+        text: "The moon shatters again.\nSilence follows immediately. Not even wind remains.",
         next: 'FCH_8'
     },
 
     FCH_8: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+        ],
         speaker: 'Narrator',
-        text: "Rain stops midair.\nThe ocean becomes still. \nEven sound disappears.",
+        text: "Suddenly— the entire world freezes completely.",
         next: 'FCH_9'
     },
 
     FCH_9: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+        ],
         speaker: 'Narrator',
         text: "A glowing system window appears before Bathala.",
         next: 'FCH_10'
@@ -2168,221 +2271,1075 @@ const scenes = {
     FCH_10: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }  
+        ],
         speaker: 'SYSTEM ALERT',
-        text: "FINAL SYNCHRONIZATION ACTIVATED\nOutcome will determine ending authority.",
+        text: "FINAL ENDING SEQUENCE INITIATED\nNo trials. \nNo correction. \nOnly decision.",
         next: 'FCH_11'
     },
 
     FCH_11: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "The system screen flickers violently.",
-        next: 'FCH_*'
-    },
-
-    //at this point rock, paper, scissors is played
-
-    win_1: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'METRO MANILA',
-        chars: [],
-        speaker: 'System:',
-        text: "Synchronization successful. \nFinal choice unlocked.",
-        next: 'win_2'
-    },
-
-    win_2: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Time begins moving again.",
-        next: 'win_3'
-    },
-
-    win_3: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Bakunawa rises toward the eclipsed moon while darkness spreads endlessly across the heavens.",
-        next: 'win_4'
-    },
-
-    win_4: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true } 
+        ],
         speaker: 'Bathala',
         
         isChoice: true,
         
         text: "",
         choices: [
-            { text: '"Preserve the endings"', next: 'FC_a1' },
-            { text: '"Erase the endings"', next: 'FC_b1' },
+            { text: '"Accept the System"', next: 'Def_1' },
+            { text: '"Reject the System"', next: 'PDE_1' },
         ]
     },
 
-    FC_a1: {
+    //Default ending
+    Def_1: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        bgm:'Assets/Songs/BadEndingDefaultST.mp3',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The system stabilizes instantly",
+        next: 'Def_2'
+    },
+
+    Def_2: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [],
+        speaker: 'System:',
+        text: "Default ending selected",
+        next: 'Def_3'
+    },
+
+    Def_3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [],
         speaker: 'Narrator',
-        text: "Bathala steps beside Sidapa and Libulan.",
+        text: "Time resumes. \nSlowly. \nUnnaturally.",
+        next: 'Def_4'
+    },
+
+    Def_4: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+        ],
+        speaker: 'Narrator',
+        text: "Bathala's breath shakes.",
+        next: 'Def_5'
+    },
+
+    Def_5: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true } 
+        ],
+        speaker: 'Bathala',
+        text: "...No.",
+        next: 'Def_6'
+    },
+
+    Def_6: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa rises higher into the fractured sky. \nSidapa turns slightly, his body barely holding together.",
+        next: 'Def_7'
+    },
+
+    Def_7: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad_Mouth.png', position: 'left', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "So it ends… without us deciding.",
+        next: 'Def_8'
+    },
+
+    Def_8: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'left', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Libulan grips his headphones tightly as static crawls through the broken signal.",
+        next: 'Def_9'
+    },
+
+    Def_9: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'leftt', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "...I hate this silence.",
+        next: 'Def_10'
+    },
+
+    Def_10: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+        ],
+        speaker: 'Narrator',
+        text: "Bathala steps forward",
+        next: 'Def_11'
+    },
+
+    Def_11: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true }
+        ],
+        speaker: 'Bathala',
+        text: "No. Not like this.",
+        next: 'Def_12'
+    },
+
+    Def_12: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa's voice echoes like collapsing thunder across the sky.",
+        next: 'Def_13'
+    },
+
+    Def_13: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "You were never meant to move",
+        next: 'Def_14'
+    },
+
+    Def_14: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "The moon fully shatters.\nNot into fragments.\nBut into absence.",
+        next: 'Def_15'
+    },
+
+    Def_15: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Like it was never there at all.",
+        next: 'Def_16'
+    },
+
+    Def_16: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Sidapa lowers his head slightly.",
+        next: 'Def_17'
+    },
+
+    Def_17: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "...I'm sorry. I couldn't hold it together long enough.",
+        next: 'Def_18'
+    },
+
+    Def_18: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Libulan's voice breaks, quieter now.",
+        next: 'Def_19'
+    },
+
+    Def_19: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        bgm:null,
+        stopBgm:true,
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "... I can't hear anything anymore.",
+        next: 'Def_20'
+    },
+
+    Def_20: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "The final trace of sound collapses from the world.\nThe city falls into complete stillness.",
+        next: 'Def_21'
+    },
+
+    Def_21: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "No sound.\nNo motion.\nNo continuation.",
+        next: 'Def_22'
+    },
+
+    Def_22: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [],
+        speaker: 'System:',
+        text: "ENDING ACTIVATED — THE WORLD WITHOUT TOMORROW",
+        next: ''
+    },
+
+    PDE_1: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        bgm:'Assets/Songs/SadST.mp3',
+        chars: [],
+        speaker: 'Narrator',
+        text: "The system glitches violently.\nReality stutters.",
+        next: 'PDE_2'
+    },
+
+    PDE_2: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa turns his gaze toward Bathala.",
+        next: 'PDE_3'
+    },
+
+    PDE_3: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "... You still insist on choosing",
+        next: 'PDE_4'
+    },
+
+    PDE_4: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true }
+        ],
+        speaker: 'Bathala',
+        text: "If it ends anyway... Then I choose how.",
+        next: 'PDE_5'
+    },
+
+    PDE_5: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Sidapa slowly stands.",
+        next: 'PDE_6'
+    },
+
+    PDE_6: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "Then don't choose without us.",
+        next: 'PDE_7'
+    },
+
+    PDE_7: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Libulan lifts his head slightly",
+        next: 'PDE_8'
+    },
+
+    PDE_8: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "...Yeah. Don't do it alone.",
+        next: 'PDE_9'
+    },
+
+    PDE_9: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Sidapa exhales.",
+        next: 'PDE_10'
+    },
+
+    PDE_10: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "This is the only kind of ending worth seeing through.",
+        next: 'PDE_11'
+    },
+
+    PDE_11: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Bathala closes his eyes",
+        next: 'PDE_12'
+    },
+
+    PDE_12: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "... Then stay with me until the last second.",
+        next: 'PDE_13'
+    },
+
+    PDE_13: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "The system stabilizes.\nA second window appears.",
+        next: 'PDE_14'
+    },
+
+    PDE_14: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
+        ],
+        speaker: 'Bathala',
+        
+        isChoice: true,
+        
+        text: "",
+        choices: [
+            { text: '"Preserve what remains"', next: 'FC_a1' },
+            { text: '"Erase the endings"', next: 'FC_b1' },
+        ]
+    },
+    
+
+    FC_a1: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        bgm:'Assets/Songs/GoodEndingST.mp3',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Bathala steps forward.\nSidapa follows.\nLibulan removes one earcup slowly.",
         next: 'FC_a2'
     },
 
     FC_a2: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
         speaker: 'Bathala',
-        text: "Pain matter because life matters.\nEndings matter because people existed.",
+        text: "I don't think endings are supposed to be clean.",
         next: 'FC_a3'
     },
 
     FC_a3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Sidapa closes his eyes silently.\nLibulan smiles weakly.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "...They never were.",
         next: 'FC_a4'
     },
 
     FC_a4: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Moonlight erupts across the city.\nBakunawa's serpent form screams as cracks of silver light spread across the eclipse.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "I used to think silence was safer",
         next: 'FC_a5'
     },
 
     FC_a5: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "The frozen city begins moving again.\nRain falls softly once more.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "And was it?",
         next: 'FC_a6'
     },
 
     FC_a6: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
         speaker: 'Narrator',
-        text: "The silver countdowns above humanity stabilize.\nBakunawa slowly dissolves into darkness beneath the sea.",
+        text: "Libulan shakes his head.",
         next: 'FC_a7'
     },
 
     FC_a7: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Bakunawa',
-        text: "... So humanity chooses suffering again.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "No.",
         next: 'FC_a8'
     },
 
     FC_a8: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Bathala',
-        text: "No...\nHumanity chooses living",
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa's voice trembles across the sky",
         next: 'FC_a9'
     },
 
     FC_a9: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "You cling to pain as if it defines you.",
+        next: 'FC_a10'
+    },
+
+    FC_a10: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "It does.",
+        next: 'FC_a11'
+    },
+
+    FC_a11: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "A pause.",
+        next: 'FC_a12'
+    },
+
+    FC_a12: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "But it also proves you were here",
+        next: 'FC_a13'
+    },
+
+    FC_a13: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: true }   
+        ],
+        speaker: 'Narrator',
+        text: "Sidapa steps forward slightly",
+        next: 'FC_a14'
+    },
+
+    FC_a14: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Angry.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "If this disappears... then what are we fighting for?",
+        next: 'FC_a15'
+    },
+
+    FC_a15: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "For the fact that it happened",
+        next: 'FC_a16'
+    },
+
+    FC_a16: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "The system flickers violently",
+        next: 'FC_a17'
+    },
+
+    FC_a17: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Angry_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "Then suffer again!",
+        next: 'FC_a18'
+    },
+
+    FC_a18: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "No.",
+        next: 'FC_a19'
+    },
+
+    FC_a19: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "A quieter answer.",
+        next: 'FC_a20'
+    },
+
+    FC_a20: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "We live again.",
+        next: 'FC_a21'
+    },
+
+    FC_a21: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "The eclipse fractures in reverse.\nSilver light spreads across the sky like healing scars.\nThe moon reforms slowly.",
+        next: 'FC_a22'
+    },
+
+    FC_a22: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Imperfect. \nBut whole enough to exist.",
+        next: 'FC_a23'
+    },
+
+    FC_a23: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa's form trembles. \nFor the first time— \nnot angry. Just tired.",
+        next: 'FC_a24'
+    },
+
+    FC_a24: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "...So you choose to continue breaking yourselves.",
+        next: 'FC_a25'
+    },
+
+    FC_a25: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "Everyone breaks.",
+        next: 'FC_a26'
+    },
+
+    FC_a26: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: true }   
+        ],
+        speaker: 'Libulan',
+        text: "... We just stopped pretending it was the end of us.",
+        next: 'FC_a27'
+    },
+
+    FC_a27: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Rain returns. \nSoft. Warm. Alive.",
+        next: 'FC_a28'
+    },
+
+    FC_a28: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "The city begins moving again. \nBreathing. Existing. Remembering.",
+        next: 'FC_a29'
+    },
+
+    FC_a29: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
         speaker: 'System:',
-        text: "Ending Unlocked: THE NIGHT THAT KEPT MOVING",
+        text: "ENDING UNLOCKED — THE NIGHT THAT KEPT MOVING",
         next: ''
     },
+
 //Good ending
 
     FC_b1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        bgm:'Assets/Songs/BadEndingCharacterST.mp3',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
+        ],
         speaker: 'Narrator',
-        text: "Bathala slowly lowers his hand.",
+        text: "Bathala slowly lowers his hand.\nNo one stops him.\nSidapa looks at him quietly.",
         next: 'FC_b2'
     },
 
     FC_b2: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Bathala',
-        text: "... Maybe people are tired of losing things.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "... So this is your answer.",
         next: 'FC_b3'
     },
 
     FC_b3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Sidapa freezes silently.\nLibulan quietly looks away.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Libulan',
+        text: "I don't think I can hear anything anymore anyway.",
         next: 'FC_b4'
     },
 
     FC_b4: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: true }   
+        ],
         speaker: 'Narrator',
-        text: "Bakunawa closes his eyes peacefully.\nThe eclipse completely devours the moon.",
+        text: "Sidapa closes his eyes.",
         next: 'FC_b5'
     },
 
     FC_b5: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "Every silver countdown disappears forever.\nThe city becomes perfectly still.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad_Mouth.png', position: 'center', active: true }   
+        ],
+        speaker: 'Sidapa',
+        text: "I understand.",
         next: 'FC_b6'
     },
 
     FC_b6: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "No pain.\nNo grief.",
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral_Mouth.png',   position: 'center',  active: true }
+       ],
+        speaker: 'Bakunawa',
+        text: "At last.",
         next: 'FC_b7'
     },
 
     FC_b7: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [],
-        speaker: 'Narrator',
-        text: "No endings.\nNo life.",
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "If endings are what hurt us...",
         next: 'FC_b8'
     },
 
     FC_b8: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "A pause",
+        next: 'FC_b9'
+    },
+
+    FC_b9: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Bathala',
+        text: "... Then remove them all.",
+        next: 'FC_b10'
+    },
+
+    FC_b10: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: true }   
+        ],
+        speaker: 'Narrator',
+        text: "The system responds instantly.\nNot violently.\nNot emotionally.",
+        next: 'FC_b11'
+    },
+
+    FC_b11: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: true }   
+        ],
+        speaker: 'Narrator',
+        text: "Simply— obeying.",
+        next: 'FC_b12'
+    },
+
+    FC_b12: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: true }   
+        ],
+        speaker: 'Narrator',
+        text: "The moon does not shatter. \nIt disappears.",
+        next: 'FC_b13'
+    },
+
+    FC_b13: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad.png', position: 'center', active: false }   
+        ],
+        speaker: 'Narrator',
+        text: "Sidapa fades first.",
+        next: 'FC_b14'
+    },
+
+    FC_b14: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: true },
+            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Sad_Mouth.png', position: 'center', active: false }   
+        ],
+        speaker: 'Sidapa',
+        text: "... So this is peace.",
+        next: 'FC_b15'
+    },
+
+    FC_b15: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad.png',   position: 'right',  active: false }
+        ],
+        speaker: 'Narrator',
+        text: "Libulan's sound vanishes next.",
+        next: 'FC_b16'
+    },
+
+    FC_b16: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: true },
+            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Sad_Mouth.png',   position: 'right',  active: false }
+        ],
+        speaker: 'Libulan',
+        text: "... That's quiet.",
+        next: 'FC_b17'
+    },
+
+    FC_b17: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+	        { name: 'Bakunawa',   img: 'Assets/Characters/Bakunawa/Bakunawa/Bakunawa_Neutral.png',   position: 'center',  active: false }
+       ],
+        speaker: 'Narrator',
+        text: "Bakunawa is gone.",
+        next: 'FC_b18'
+    },
+
+    FC_b18: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
         chars: [],
+        speaker: 'Narrator',
+        text: "Not defeated. \nNot alive.\nJust unnecessary",
+        next: 'FC_b19'
+    },
+
+    FC_b19: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
+        ],
+        speaker: 'Narrator',
+        text: "Bathala stands alone.\nIn a world where nothing ends.\nBecause nothing continues.",
+        next: 'FC_b20'
+    },
+
+    FC_b20: {
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
+        ],
         speaker: 'System:',
-        text: "Ending Unlocked: THE WORLD WITHOUT TOMORROW",
+        text: "ENDING LOCKED — THE WORLD WITHOUT TOMORROW",
         next: ''
     },
-    
-
-
 
 
 

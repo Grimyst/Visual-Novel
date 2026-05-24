@@ -14,15 +14,17 @@
 </head>
 <body>
  
+
+
     <div id="chapter-title">
             <p> Talaya </p>
             <h1> Sidapa </h1>
-            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" Text "</p>
-            <button class="start-btn" onclick="PlayGame('Chapter1_start');">Prolouge </button>
+            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">"You keep people emotionally overwhelmed because silence terrifies you."</p>
+            <button class="start-btn" onclick="PlayGame('Chapter1_start')">Prolouge </button>
             <button class="start-btn" onclick="PlayGame('Ch1')">Chapter 1</button>
-            <button class="start-btn" onclick="PlayGame('Ch2A');">Chapter 2A </button>
+            <button class="start-btn" onclick="PlayGame('Ch2A')">Chapter 2A </button>
             <button class="start-btn" onclick="PlayGame('Ch2B')">Chapter 2B</button>
-            <button class="start-btn" onclick="PlayGame('Ch3A');">Chapter 3A </button>
+            <button class="start-btn" onclick="PlayGame('Ch3A')">Chapter 3A </button>
             <button class="start-btn" onclick="PlayGame('Ch3B')">Chapter 3B</button>
             <button class="start-btn" onclick="PlayGame('FCH_1')">Final Chapter</button>
     </div>
@@ -38,6 +40,16 @@
             <!-- CHARACTER LAYER-->
             <div id="character-layer"></div>
 
+            <!-- BACKGROUND MUSIC -->
+            <audio id="bgm" loop></audio>
+            
+            <!-- EXIT BUTTON-->
+             <button id="back-btn" onclick="goBack()"> Back </button>
+             <button id="menu-btn" onclick="goToChapterScreen()">Menu</button>
+             
+             <a href="gettingstarted.html"><button id="return-btn"> 
+               Return
+             </button></a>
             <!-- DIALOG BOX -->
 
             <div id="choices"></div>
@@ -51,17 +63,10 @@
             <button id="back-btn" onclick="goBack()"> Back </button>
         </div>
 
-
-
     </div>
 
-        
-        <script src="script/VNgeneralScript.js"></script>
-         
+        <script src="script/VNgeneralScriptSIDAPA.js"></script>
         <script src="script/ChaptersSIDAPA/SIDAPA.js"></script>
-       
-    
-
        
     </body>
  

@@ -1,7 +1,21 @@
 const chapter1 = {
-    prologue_start: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+
+    /*
+    prolouge_start: {
+        bg: 'url("...") center/cover no-repeat',
         location: 'Rainy Train Station',
+        bgm: '../Assets/Audio/rain_ambience.mp3',
+        chars: [],
+        speaker: 'Narrator',
+        text: "Rain poured endlessly...",
+        next: 'scene1'
+    },
+
+    */
+    prologue_start: {
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
+        location: 'Rainy Train Station',
+        bgm: 'Assets/Songs/MayariST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "Rain poured endlessly against the train windows while the city outside dissolved into rivers of neon light, blurred advertisements, and reflections stretching endlessly across the glass like ghosts drifting through the storm. The station speakers crackled with distorted announcements no one seemed to listen to anymore, and every passing train sounded like distant thunder beneath the city.",
@@ -9,7 +23,7 @@ const chapter1 = {
     },
 
     scene1: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+         bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
@@ -18,7 +32,7 @@ const chapter1 = {
     },
 
     scene2: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
@@ -27,7 +41,7 @@ const chapter1 = {
     },
 
     scene3: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
@@ -36,7 +50,7 @@ const chapter1 = {
     },
 
     scene4: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
@@ -45,28 +59,28 @@ const chapter1 = {
     },
 
     scene5: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
         text: "But tonight feels different.",
         next: 'scene6'
     },
-   
+
     scene6: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [],
         speaker: 'System',
         text: "The air feels heavier somehow, like the city itself is waiting for something to happen.",
         next: 'scene7'
     },
-   
+
     scene7: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
-            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true}
+            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true}
         ],
         speaker: 'Bathala',
         text: "Why does this place feel so familiar…?",
@@ -74,7 +88,7 @@ const chapter1 = {
     },
 
     scene8: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false}
@@ -85,18 +99,19 @@ const chapter1 = {
     },
 
     scene9: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
-            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false}
+            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false},
+            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false}
         ],
         speaker: 'System',
         text: "A girl stood near the far end of the station platform, holding an old film camera close to her chest while moonlight reflected faintly in her silver eyes.",
         next: 'scene10'
     },
-   
+
     scene10: {
-        bg: 'url("") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false},
@@ -106,14 +121,13 @@ const chapter1 = {
         text: "Sorry. You just looked familiar for a second.",
         next: 'scene11'
     },
-   
-   
+
     scene11: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
-            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
-            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'right', active: false }
+            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
+            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'Bathala',
         text: "Do we know each other?",
@@ -121,7 +135,7 @@ const chapter1 = {
     },
 
     scene12: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -133,11 +147,13 @@ const chapter1 = {
     },
 
     scene13: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
+        bgm: null,
+        stopBgm: true,
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'right', active: false }
+            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'System',
         text: "The train station lights suddenly flickered once.",
@@ -145,11 +161,11 @@ const chapter1 = {
     },
 
     scene13b: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
-            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'right', active: false }
+            { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Neutral.png', position: 'right', active: false }
         ],
         speaker: 'System',
         text: "Twice.",
@@ -157,7 +173,7 @@ const chapter1 = {
     },
 
     scene13c: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -169,7 +185,7 @@ const chapter1 = {
     },
 
     scene14: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -181,10 +197,10 @@ const chapter1 = {
     },
 
     scene14b: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
-            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: true },
+            { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Angry_Mouth.png', position: 'left', active: true },
             { name: 'Mayari', img: 'Assets/Characters/Mayari/L_Mayari_Sad_Mouth.png', position: 'right', active: false }
         ],
         speaker: 'Bathala',
@@ -193,7 +209,7 @@ const chapter1 = {
     },
 
     scene15: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -205,7 +221,7 @@ const chapter1 = {
     },
 
     scene15b: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -217,7 +233,7 @@ const chapter1 = {
     },
 
     scene15c: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/MayariBG/MayariPrologue.png") center/cover no-repeat',
         location: 'Rainy Train Station',
         chars: [
             { name: 'Bathala', img: 'Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -229,12 +245,12 @@ const chapter1 = {
     },
 
     end: {
-        bg: 'black',
-        location: '',
+        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        location: 'Rainy Train Station',
         chars: [],
-        speaker: 'Narrator',
-        text: "to be continued...",
-        isEnd: true   
+        speaker: 'System',
+        text: "Prologue End",
+        next: 'chapter1_start' 
     },
 }
 

@@ -17,9 +17,19 @@
     <div id="chapter-title">
             <p> Talaya </p>
             <h1> Mayari </h1>
-            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">" Text "</p>
+            <p style="margin-top:6px; font-style:italic; font-family:'Playfair Display',serif; letter-spacing:1px; font-size:14px; color:rgba(200,210,240,0.6);">
+                "Maybe that's
+                because the moon
+                always looks
+                lonelier when
+                people stop noticing
+                it."
+            </p>
             <button class="start-btn" onclick="PlayGame('prologue_start');">Prolouge </button>
-            <button class="start-btn" onclick="PlayGame('scene_darkroom_start')">Chapter 1</button>
+            <button class="start-btn" onclick="PlayGame('chapter1_start')">Chapter 1</button>
+            <button class="start-btn" onclick="PlayGame('chapter2_start')"> Chapter 2 </button>
+            <button class="start-btn" onclick="PlayGame('chapter3_start')"> Chapter 3 </button>
+            <button class="start-btn" onclick="PlayGame('chapter4_start')"> Final Chapter </button>
     </div>
 
     <div id="vn">
@@ -33,8 +43,16 @@
             <!-- CHARACTER LAYER-->
             <div id="character-layer"></div>
 
+            <!-- BACKGROUND MUSIC -->
             <audio id="bgm" loop></audio>
 
+            <!-- EXIT BUTTON-->
+             <button id="back-btn" onclick="goBack()"> Back </button>
+             <button id="menu-btn" onclick="goToChapterScreen()">Menu</button>
+             
+             <a href="gettingstarted.html"><button id="return-btn"> 
+               Return
+             </button></a>
             <!-- DIALOG BOX -->
 
             <div id="choices"></div>
@@ -48,18 +66,17 @@
             <button id="back-btn" onclick="goBack()"> Back </button>
         </div>
 
-
-
     </div>
 
-        
-        <script src="script/VNgeneralScript.js"></script>
-         
-         <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
-         <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
+        <script src="script/VNGENERALMAYARI.js"></script>
+        <script src="script/ChaptersMayara/ProlougeMayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter1Mayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter2Mayara.js"></script>
+        <script src="script/ChaptersMayara/Chapter3Mayara.js"></script>
+        <script src="script/ChaptersMayara/ChapterFinalMayara.js"></script>
        
         <script>    
-            const scenes = { ...prologue, ...chapter1 };
+            const scenes = { ...prologue, ...chapter1, ...chapter2, ...chapter3, ...chapter4 };
         </script>
 
        

@@ -82,8 +82,8 @@ nav li:first-child{
     position: absolute;
     top: -2%;
     right: 0;
-    height: 100%;
-    width: 170px;
+    height: 50%;
+    width: 180px;
     z-index: 9999;
     background-color: rgba(19, 50, 121, 0.164);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
@@ -97,15 +97,18 @@ nav li:first-child{
     position:relative;
     right: 30%;
     width: 90%;
-padding: 5%;
+
     text-align: right;
+
+    
+    width: 110%;
+    padding: 10px 5px;
+    text-align: right;
+
+    list-style: none;
+
 }
-.sidebar li a{
-    position: relative;
-    width: 90%;
-    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.7);
-    font-size: 80%;
-}
+
 .noSidebar{
     position: absolute;
     right: 5%; 
