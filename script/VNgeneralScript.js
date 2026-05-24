@@ -323,5 +323,3 @@ function stopBGM() {
     typingTimer = null;
     canAdvance = false;
 }
-
-loadProgress();
