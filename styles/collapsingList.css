@@ -1,15 +1,3 @@
-html {
-    overflow: hidden;
-}
-
-body{
-    background-color: #01182e;
-    display: grid;
-    margin: 0;
-}
-input {
-    display: none;
-}
 
 p {
     font-family: "Crimson Pro", serif;
@@ -130,6 +118,13 @@ padding: 5%;
 }
 
 /*End of Navigation Bar*/
+
+/*will be applying the same css pretty much sa changelog if it works (sana ><)*/
+
+html{
+    overflow-x: hidden;
+}
+
 .titleText > h1{
     color: #D3B14D;
     font-family: 'Starlight Rune - Personal Use', sans-serif;
@@ -137,89 +132,130 @@ padding: 5%;
     display: grid;
     font-size: 4vw;
     font-weight: lighter;
-    text-shadow: 2px 2px 4px #000000;
     margin-top: 5%;
     margin-left: 4%;
+    text-shadow: 2px 2px #000000;
 }
 
-.endingName {
+body{
+    background-image: url("../Assets/images/white=grid-patterns.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+.collapsingList {
+    margin-top: 3%;
+    align-items: center;
+}
+
+.button{
+    background-color: #04305D;
     color: #D3B14D;
     font-family: 'Crimson Pro', serif;
-}
-
-.endingDesc {
-    color: #FFFFFF;
-    font-family: 'Crimson Pro', serif;
-}
-
-/*Background animation*/
-@keyframes moveTwinkling {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -10000px 5000px;
-    }
-}
-
-#stars, #twinkling {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-
-}
-
-#twinkling {
-    background: transparent url(../Assets/Background/twinkling.png) repeat top center;
-    z-index: 1;
-    animation: moveTwinkling 100s linear infinite;
-}
-
-#stars {
-    background: transparent url(../Assets/Background/stars.png) repeat top center;
-    z-index: 0;
-}
-
-.endingsCarousel, .titleText{
+    width: 98%;
+    text-align: left;
+    padding: 10px;
+    margin: 1%;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
     z-index: 10;
 }
 
-.endingCarousel {
-    position: relative;
-    height: 800px;
+.active, .button:hover{
+    background-color: #D3B14D;
+    color: #04305D;
+    transition: ease .2s;
+}
+
+.content{
+    padding: 15px;
     overflow: hidden;
-    margin-top: 50%;
-    margin-right: 50%;
+    width: 95%;
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+    margin-left: 4vw;
+    background-color: #dedede;
+    z-index: 1;
+}
+.content p{
+    font-family: 'Google Sans', sans-serif;
+    color: #04305D;
 }
 
-.endingsCarousel .list {
-    position: absolute;
-    top: 0;
-    width: 1140px;
-    max-width: 90%;
-    left: 50%;
-    height: 80%;
-    transform: translateX(-50%);
+.collapsible{
+    transition: ease 2s;
 }
 
-.endingsCarousel .list .endingItem{
-    position: absolute;
-    left: 0;
-    top: 0;
+details[open] summary ~ * {
+    animation: slide .3s ease-in-out forwards;
+}
+
+@keyframes slide{
+    0%    {opacity: 0; transform: translateX(-50px)}
+    100%  {opacity: 1; transform: translateX(0)}
+}
+
+.contentList{
+    list-style-type: disc;
+    padding-left: 5%;
+}
+
+.aboutHead{
+    font-family: 'Crimson Pro', serif;
+    font-size: 2.5vw;
+    color: #AD3F26;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+/*HomepageFooter Sa wakas */
+
+.HomepageFooter {
     height: 100%;
-    width: 70%;
-    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
 
-.endingsCarousel .list .endingItem img {
-    position: absolute;
-    width: 40%;
-    right: 0;
-    top: 50%;
-    transform: translateY(-30%);
+.footerPreview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+@media(max-width: 1160px){
+    .footerPreview {
+    grid-template-columns: 1fr;
+    }
+}
+
+.logoContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks, 
+.footerChanelogandFaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.footerLinks p {
+    margin: 0px 0px;
 }
