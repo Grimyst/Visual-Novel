@@ -222,8 +222,8 @@ p {
 
 #location-tag {
     position: absolute;
-    top: 16px;
-    left: 20px;
+    top: 23px;
+    left: 100px;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
