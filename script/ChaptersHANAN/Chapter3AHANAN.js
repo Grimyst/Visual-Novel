@@ -1,7 +1,7 @@
 const chapter3a_hanan = {
     chapter3a_hanan_start: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
@@ -11,7 +11,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene1: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [],
         speaker: 'Narrator',
         text: "Cars remain motionless.",
@@ -20,7 +20,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene2: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [],
         speaker: 'Narrator',
         text: "Rain hangs suspended in the air.",
@@ -29,7 +29,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene3: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [],
         speaker: 'Narrator',
         text: "The half-risen sun cracks faintly above the horizon.",
@@ -38,7 +38,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene4: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [],
         speaker: 'Narrator',
         text: "Hanan stands quietly at the center of the frozen rooftop while pages from her notebook scatter endlessly through the wind around her.",
@@ -47,7 +47,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene5: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -60,7 +60,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene6: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -73,7 +73,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene7: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true } ,
@@ -86,7 +86,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene8: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true } ,
@@ -99,7 +99,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene9: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -112,7 +112,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene10: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -125,7 +125,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene11: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -138,7 +138,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene12: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -151,7 +151,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene13: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -164,7 +164,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene14: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -177,7 +177,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene15: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -190,7 +190,7 @@ const chapter3a_hanan = {
 
     chapter2b_hanan_scene16: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -207,7 +207,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceA1: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -220,7 +220,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceA2: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -233,7 +233,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceA3: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -246,7 +246,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceA4: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -259,7 +259,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceA5: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -272,7 +272,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceB1: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -285,7 +285,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceB2: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -298,7 +298,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceB3: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,
@@ -311,7 +311,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceB4: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral_Mouth.png', position: 'right', active: true } ,
@@ -324,7 +324,7 @@ const chapter3a_hanan = {
 
     chapter3a_hanan_choiceB5: {
         bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter3A.png") center/cover no-repeat',
-        location: 'Rainy Rooftop',
+        location: 'Rooftop',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Neutral.png', position: 'right', active: false } ,

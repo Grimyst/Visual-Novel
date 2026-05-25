@@ -1,7 +1,7 @@
 chapter3b_hanan = {
     chapter3b_hanan_start: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
         speaker: 'Narrator',
@@ -11,7 +11,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene1: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "Darkness floods Manila while every clock inside the city stops forever.",
@@ -20,7 +20,7 @@ chapter3b_hanan = {
     
     chapter3b_hanan_scene2: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "No dawn.",
@@ -29,7 +29,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene3: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "No movement.",
@@ -38,7 +38,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene4: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "No tomorrow.",
@@ -47,7 +47,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene5: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "Hanan quietly stands beneath the dead sky while the serpent form of Bakunawa coils endlessly overhead.",
@@ -56,7 +56,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene6: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "For the first time—",
@@ -65,7 +65,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene7: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [],
         speaker: 'Narrator',
         text: "she stops smiling.",
@@ -74,7 +74,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene8: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Sad.png', position: 'right', active: false } ,
@@ -87,7 +87,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene9: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Sad.png', position: 'right', active: false } ,
@@ -100,7 +100,7 @@ chapter3b_hanan = {
     
     chapter3b_hanan_scene10: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Sad.png', position: 'right', active: false } ,
@@ -113,7 +113,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene11: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Sad.png', position: 'right', active: false } ,
@@ -126,7 +126,7 @@ chapter3b_hanan = {
 
     chapter3b_hanan_scene12: {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
-        location: 'Train Station',
+        location: 'Void',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
             { name: 'Hanan', img: '../Assets/Characters/Hanan/Hanan_Sad.png', position: 'right', active: false } ,
