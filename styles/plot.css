@@ -151,16 +151,77 @@ body{
 
 }
 
-.stickers div img{
-    position: absolute;
-    width: 15%;
+.sticker{
+    transform-origin: center;
 }
 
-#mayariBtn {
-    transform: translateX(85%) rotate(13deg) scale(1);
+.sticker img{
+    position: absolute;
+    max-width: 15%;
     transform-origin: center;
 }
-#mayariBtn:hover{
-    transform: translateX(85%) rotate(12deg) scale(1.1);
+
+#mayariBtn{
+    top: 10%;
+    left: 85%;
     transform-origin: center;
+    rotate: 5deg;
+}
+
+#mayariBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#libulanBtn{
+    top: 50%;
+    left: 0%;
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#libulanBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#sidapaBtn{
+    top: 80%;
+    left: 85%;
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#sidapaBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#hananBtn{
+    top: 100%;
+    left: 0%;
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#hananBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#bathalaBtn{
+    top: 130%;
+    left: 85%;
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#bathalaBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
 }
