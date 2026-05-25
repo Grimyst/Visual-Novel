@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talaya | FAQ</title>
+
+    <link href="https://fonts.cdnfonts.com/css/starlight-rune-personal-use" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/collapsingList.css">
+</head>
+<body>
+    <!-- this is the navbar -->
+<nav class="nav">
+    <div class="nav_div">
+        <div ><a href ="home.html"><img src="Assets\Logo\talaya logo.png" alt="Talaya Logo" class="tal_logo"></a></div>
+            <ul class = "sidebar">
+            <li onclick="closeSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Plot</a></li>
+            <li><a href="setting.html">Setting</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="galleryPage.html">Gallery</a></li>
+            <li><a href="#">Endings</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#">Characters</a></li>
+            <li class="hideOnMobile"><a href="#">Plot</a></li>
+            <li class="hideOnMobile"><a href="setting.html">Setting</a></li>
+            <li class="hideOnMobile"><a href="music.html">Music</a></li>
+            <li class="hideOnMobile"><a href="galleryPage.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="#">Endings</a></li>
+            <li class="hideOnMobile"><a href="#">About us</a></li>
+            <li class="noSidebar" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="24px" fill="rgb(240, 213, 40)"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        </div> 
+    </div>    
+</nav>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+    function closeSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    }
+</script>
+    <!-- this is the navbar end-->
+
+<div class="titleText"><h1>FREQUENTLY ASKED QUESTIONS</h1></div>
+
+<section class="collapsingList">
+    <ul>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What is TALAYA?</summary>
+                    <div class="content">
+                        <p>TALAYA is a modern Filipino mythology-inspired visual novel that combines psychological mystery, supernatural fantasy, emotional storytelling, and interactive choices.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What is the story about?</summary>
+                    <div class="content">
+                        <p>The story follows individuals whose lives become connected to forgotten gods, repeating memories, and a reality slowly beginning to unravel.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What genre is TALAYA?</summary>
+                    <div class="content">
+                        <p>TALAYA combines:</p>
+                        <ul class="contentList">
+                            <li><p>Psychological Mystery</p></li>
+                            <li><p>Supernatural Fantasy</p></li>
+                            <li><p>Filipino Mythology</p></li>
+                            <li><p>Drama</p></li>
+                            <li><p>Slice of Life</p></li>
+                            <li><p>Interactive Narrative</p></li>
+                        </ul>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is it called “TALAYA”?</summary>
+                    <div class="content">
+                        <p>The title symbolizes guidance, freedom, destiny, and the invisible connections between people and fate.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is TALAYA based on Filipino mythology?</summary>
+                    <div class="content">
+                        <p>Yes. The visual novel is heavily inspired by Philippine mythology and folklore.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is the mythology accurate?</summary>
+                    <div class="content">
+                        <p>The story respects the original myths while taking creative liberties for storytelling purposes.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why did you choose Filipino mythology?</summary>
+                    <div class="content">
+                        <p>We wanted to showcase Filipino culture and mythology through a modern interactive medium.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Where does the story take place?</summary>
+                    <div class="content">
+                        <p>The story takes place in a modern Philippine-inspired urban setting blended with surreal and mythological elements.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> Is TALAYA horror?</summary>
+                    <div class="content">
+                        <p>Not entirely. It contains psychological and unsettling moments but focuses more on mystery and emotional storytelling.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is there romance in the game?</summary>
+                    <div class="content">
+                        <p>Yes, although romance is not the main focus of the story.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> Is TALAYA choice-based?</summary>
+                    <div class="content">
+                        <p>Yes. Player choices affect scenes, relationships, and endings.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> Are there multiple endings?</summary>
+                    <div class="content">
+                        <p>Yes. Different choices can lead to different outcomes and routes.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">How long is the game?</summary>
+                    <div class="content">
+                        <p>The estimated playtime is around 3–5 hours depending on player choices.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> Is TALAYA a school project?</summary>
+                    <div class="content">
+                        <p>Yes. TALAYA was developed as a collaborative school project.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> What are the main themes of TALAYA?</summary>
+                    <div class="content">
+                        <p>The story explores:</p>
+                        <ul class="contentList">
+                            <li><p>Fate versus free will</p></li>
+                            <li><p>Identity</p></li>
+                            <li><p>Memory</p></li>
+                            <li><p>Human connection</p></li>
+                            <li><p>Hope</p></li>
+                            <li><p>Grief</p></li>
+                            <li><p>The fear of being forgotten</p></li>
+                        </ul>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who is the protagonist?</summary>
+                    <div class="content">
+                        <p>The protagonist is an ordinary individual drawn into a world shaped by forgotten memories and divine influence.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why does reality feel strange in the story?</summary>
+                    <div class="content">
+                        <p>Because reality itself is tied to hidden memories and unresolved truths.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Are the gods villains?</summary>
+                    <div class="content">
+                        <p>No. The gods are portrayed as complex beings with emotions, flaws, and personal struggles.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why are memories important in the story?</summary>
+                    <div class="content">
+                        <p>Memories symbolize identity and existence within the narrative.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is the story connected to destiny?</summary>
+                    <div class="content">
+                        <p>Yes. Destiny and the struggle against predetermined paths are major themes.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Are there hidden meanings and symbolism?</summary>
+                    <div class="content">
+                        <p>Yes. Colors, dialogue, names, and environments contain symbolic meaning tied to the story.</p>
+                    </div>
+            </details>
+        </li>
+
+    <h2 class="aboutHead">About Mayari</h2>
+
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who is Mayari?</summary>
+                    <div class="content">
+                        <p>Mayari is inspired by the moon goddess from Philippine mythology.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What is Mayari’s personality?</summary>
+                    <div class="content">
+                        <p>Mayari is calm, observant, intelligent, and emotionally reserved.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is Mayari associated with the moon?</summary>
+                    <div class="content">
+                        <p>The moon symbolizes silence, reflection, and hidden emotions, which mirror her character.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What role does Mayari play in the story?</summary>
+                    <div class="content">
+                        <p>Mayari is deeply connected to the mystery surrounding memory and fate.</p>
+                    </div>
+            </details>
+        </li>
+
+    <h2 class="aboutHead">About Sidapa</h2>
+
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who is Sidapa?</summary>
+                    <div class="content">
+                        <p>Sidapa is inspired by the Visayan deity associated with death and mortality.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is Sidapa evil?</summary>
+                    <div class="content">
+                        <p>No. Sidapa is portrayed as a morally complex character rather than a traditional villain.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why does Sidapa seem distant?</summary>
+                    <div class="content">
+                        <p>His character reflects themes of loneliness, inevitability, and mortality.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is Sidapa important?</summary>
+                    <div class="content">
+                        <p>Sidapa challenges characters to confront truths they fear facing.</p>
+                    </div>
+            </details>
+        </li>
+    
+    <h2 class="aboutHead">About Libulan</h2>
+
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who is Libulan?</summary>
+                    <div class="content">
+                        <p>Libulan is inspired by a moon deity from Philippine mythology.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What is Libulan’s personality?</summary>
+                    <div class="content">
+                        <p>Libulan is expressive, emotional, empathetic, and compassionate.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is Libulan important?</summary>
+                    <div class="content">
+                        <p>Libulan represents emotional vulnerability and the human side of divine existence.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button"> Is Libulan connected to Mayari?</summary>
+                    <div class="content">
+                        <p>Yes. Their connection symbolizes balance, duality, and emotional contrast.</p>
+                    </div>
+            </details>
+        </li>
+
+    <h2 class="aboutHead">About Hanan</h2>
+        
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who is Hanan?</summary>
+                    <div class="content">
+                        <p>Hanan is inspired by the goddess of dawn and beginnings.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What does Hanan symbolize?</summary>
+                    <div class="content">
+                        <p>Hanan symbolizes hope, rebirth, healing, and new beginnings.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is Hanan important to the story?</summary>
+                    <div class="content">
+                        <p>Hanan represents the possibility of breaking cycles and creating change.</p>
+                    </div>
+            </details>
+        </li>
+
+    <br/><br/><br/>
+
+        <li>
+            <details class="collapsible">
+                <summary class="button">Who developed TALAYA?</summary>
+                    <div class="content">
+                        <p>TALAYA was developed collaboratively by students with different roles in programming, writing, illustration, and design.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What inspired the visual style?</summary>
+                    <div class="content">
+                        <p>The visual style was inspired by atmospheric anime visuals, dreamlike environments, cinematic lighting, and Filipino cultural aesthetics.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Did you use royalty-free assets?</summary>
+                    <div class="content">
+                        <p>Yes. Certain backgrounds, music, and resources were sourced from royalty-free or properly credited materials.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why did you choose a visual novel format?</summary>
+                    <div class="content">
+                        <p>Because visual novels allow emotional storytelling through dialogue, visuals, music, and player interaction.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What was the hardest part of development?</summary>
+                    <div class="content">
+                        <p>The hardest parts included writing branching dialogue, programming systems, maintaining story consistency, and managing time.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What makes TALAYA unique?</summary>
+                    <div class="content">
+                        <p>Its blend of Filipino mythology, emotional storytelling, psychological themes, and immersive atmosphere.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Are there mini-games?</summary>
+                    <div class="content">
+                        <p>Yes. TALAYA includes interactive mini-games that help immerse players in the experience.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Does the game have voice acting?</summary>
+                    <div class="content">
+                        <p>The game focuses mainly on written dialogue, music, and atmosphere rather than full voice acting.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Can player choices affect relationships?</summary>
+                    <div class="content">
+                        <p>Yes. Choices can influence character trust, emotional closeness, and story progression.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is there a true ending?</summary>
+                    <div class="content">
+                        <p>The story contains endings that reveal deeper truths about the narrative.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Can the game be replayed?</summary>
+                    <div class="content">
+                        <p>Yes. Multiple routes and endings encourage replayability.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Is TALAYA linear?</summary>
+                    <div class="content">
+                        <p>No. While the core narrative remains connected, player choices affect scenes and outcomes.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">Why is this project important?</summary>
+                    <div class="content">
+                        <p>TALAYA promotes Filipino culture and mythology while showcasing creativity, programming, storytelling, and multimedia development skills.</p>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What is the overall goal of TALAYA?</summary>
+                    <div class="content">
+                        <p>The goal of TALAYA is to create an emotional and memorable interactive experience that celebrates Filipino mythology through modern storytelling.</p>
+                    </div>
+            </details>
+        </li>
+    </ul>
+
+</section>
+
+<!-- Footer  -->
+    
+    <footer class="HomepageFooter">
+        <div class="footerPreview ">
+
+            <div class="logoContainer">
+                <img src="Assets/Logo/talaya logo.png">
+                <p>all rights reserved © 2026 Talaya Team, TALAYA</p> 
+            </div>
+
+            <div class="footerLinks">
+                <!-- imma add some links here in the future -->
+                <p><a href="charactersPage.html"> Characters </a></p>
+                <P> Plot </P>
+                <P>Setting </P>
+                <P> Music</P>
+                <P>Gallery</P>
+                <P>About Us</P>
+            </div>
+            
+            <div class="footerChanelogandFaq">
+                <p>Changelog</p>
+                <p>FAQ</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

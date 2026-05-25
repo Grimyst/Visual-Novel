@@ -3,7 +3,7 @@ const chapter1 = {
     scene_cafe_start: {
         bg: "url('Assets/Background/VisNovBG/LibulanBG/LibulanChapter1.png') center/cover no-repeat",
         location: 'Hospital Cafeteria',
-        bgm: 'Assets/Songs/LibulanST.mp3',
+        bgm: 'Assets/Songs/RegularST.mp3',
         chars: [],
         speaker: 'Narrator',
         text: "The hospital cafeteria smelled faintly of coffee, disinfectant, and exhaustion while fluorescent lights hummed softly overhead.",
