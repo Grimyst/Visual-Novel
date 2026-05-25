@@ -133,3 +133,34 @@ padding: 5%;
     margin-left: 4%;
     text-shadow: 2px 2px #000000;
 }
+
+body{
+    background-image: url("../Assets/images/white=grid-patterns.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+.text p{
+    font-family: 'Google Sans', sans-serif;
+    position: absolute;
+    padding-top: 2vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.stickers div img{
+    position: absolute;
+    width: 15%;
+}
+
+#mayariBtn {
+    transform: translateX(85%) rotate(13deg) scale(1);
+    transform-origin: center;
+}
+#mayariBtn:hover{
+    transform: translateX(85%) rotate(12deg) scale(1.1);
+    transform-origin: center;
+}
