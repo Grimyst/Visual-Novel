@@ -282,6 +282,7 @@ p {
 
 #return-btn {
     left: 15px;  
+    z-index: 999;
 }
 
 #back-btn:hover {

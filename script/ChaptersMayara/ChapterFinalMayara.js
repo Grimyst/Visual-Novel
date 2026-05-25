@@ -873,8 +873,13 @@ const chapter4 = {
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+<<<<<<< HEAD
+        isEnd: true,
+        redirect: 'endingsPage.html'
+=======
         redirect: 'endingPage.html',
         isEnd: true
+>>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
     },
 
 
@@ -1462,8 +1467,13 @@ Eclipse_choice2: {
         chars: [],
         speaker: 'System',
         text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
+<<<<<<< HEAD
+        isEnd: true,
+        redirect: 'endingsPage.html'
+=======
         redirect: 'endingPage.html',
         isEnd: true
+>>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
     },
 
 
@@ -1733,8 +1743,13 @@ Eclipse_choice2: {
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+<<<<<<< HEAD
+        isEnd: true,
+        redirect: 'endingsPage.html' 
+=======
         redirect: 'endingPage.html',
         isEnd: true
+>>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
     },
 
 }
