@@ -868,15 +868,22 @@ const chapter4 = {
     },
 
     Eclipse_DefaultEnding_18: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
-        redirect: 'endingPage.html',
-        isEnd: true
     },
 
+    Eclipse_DefaultEnding_18: {
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
+    },
 
 
     // ─── CHOICE B — MANUAL ENDING SELECTION ─────────────────
@@ -1457,15 +1464,23 @@ Eclipse_choice2: {
     },
 
     GoodEnding_end: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/mayariGoodEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
-        redirect: 'endingPage.html',
-        isEnd: true
+        next: 'GoodEnding_end1'
     },
 
+    GoodEnding_end1: {
+        bg: 'url("Assets/EndingBackground/mayariGoodEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
+    },
 
     // ═══════════════════════════════════════════════════════
     // BAD ENDING — WHEN THE MOON DISAPPEARED
@@ -1728,13 +1743,22 @@ Eclipse_choice2: {
     },
 
     BadEnding_end: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/mayariBadEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
-        redirect: 'endingPage.html',
-        isEnd: true
+        next: 'BadEnding_end1'
     },
+    
+    BadEnding_end1: {
+        bg: 'url("Assets/EndingBackground/mayariBadEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
+    }
 
 }
