@@ -2208,7 +2208,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "Bathala stands between them all.",
@@ -2219,7 +2219,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
         text: "This isn't just an ending anymore…",
@@ -2241,7 +2241,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "The moon shatters again.\nSilence follows immediately. Not even wind remains.",
@@ -2252,7 +2252,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "Suddenly— the entire world freezes completely.",
@@ -2263,7 +2263,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "A glowing system window appears before Bathala.",
@@ -2274,7 +2274,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }  
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }  
         ],
         speaker: 'SYSTEM ALERT',
         text: "FINAL ENDING SEQUENCE INITIATED\nNo trials. \nNo correction. \nOnly decision.",
@@ -2331,7 +2331,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "Bathala's breath shakes.",
@@ -2342,7 +2342,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true } 
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true } 
         ],
         speaker: 'Bathala',
         text: "...No.",
@@ -2399,7 +2399,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'left',  active: false }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: false }
         ],
         speaker: 'Narrator',
         text: "Bathala steps forward",
@@ -2410,7 +2410,7 @@ const scenes = {
         bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'left',  active: true }
+            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad_Mouth.png',   position: 'center',  active: true }
         ],
         speaker: 'Bathala',
         text: "No. Not like this.",
