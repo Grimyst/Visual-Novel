@@ -208,7 +208,7 @@ function typeText(text, isEnd) {
                 if (s && s.redirect) {
                     setTimeout(() => {
                         window.location.href = s.redirect;
-                    }, 2000);
+                    }, 4000);
                 } else {
                     // OTHERWISE GO BACK TO CHAPTER SCREEN
                     setTimeout(() => goToChapterScreen(), 4000);
