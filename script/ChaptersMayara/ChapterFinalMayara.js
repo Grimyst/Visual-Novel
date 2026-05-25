@@ -873,10 +873,17 @@ const chapter4 = {
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+    },
+
+    Eclipse_DefaultEnding_18: {
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
         redirect: 'endingsPage.html',
         isEnd: true
     },
-
 
 
     // ─── CHOICE B — MANUAL ENDING SELECTION ─────────────────
@@ -1461,7 +1468,7 @@ Eclipse_choice2: {
         location: '',
         chars: [],
         speaker: 'System',
-        text: "",
+        text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
         next: 'GoodEnding_end1'
     },
 
@@ -1470,7 +1477,7 @@ Eclipse_choice2: {
         location: '',
         chars: [],
         speaker: 'System',
-        text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
+        text: "",
         redirect: 'endingsPage.html',
         isEnd: true
     },
@@ -1736,20 +1743,20 @@ Eclipse_choice2: {
     },
 
     BadEnding_end: {
-        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
-        location: '',
-        chars: [],
-        speaker: 'System',
-        text: "",
-        next: 'BadEnding_end1'
-    },
-    
-    BadEnding_end1: {
-        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
+        bg: 'url("Assets/EndingBackground/mayariBadEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+        next: 'BadEnding_end1'
+    },
+    
+    BadEnding_end1: {
+        bg: 'url("Assets/EndingBackground/mayariBadEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
         redirect: 'endingsPage.html',
         isEnd: true
     }
