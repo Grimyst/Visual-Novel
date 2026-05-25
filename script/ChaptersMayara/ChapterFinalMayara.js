@@ -873,6 +873,7 @@ const chapter4 = {
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+        redirect: 'endingPage.html',
         isEnd: true
     },
 
@@ -1461,6 +1462,7 @@ Eclipse_choice2: {
         chars: [],
         speaker: 'System',
         text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
+        redirect: 'endingPage.html',
         isEnd: true
     },
 
@@ -1731,6 +1733,7 @@ Eclipse_choice2: {
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
+        redirect: 'endingPage.html',
         isEnd: true
     },
 

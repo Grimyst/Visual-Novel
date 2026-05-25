@@ -364,6 +364,7 @@ chapterfinal_hanan = {
         ]
     },
     
+    // Default Ending
     chapterfinal_hanan_choiceA1: {
         bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
         location: 'Café',
@@ -897,7 +898,8 @@ chapterfinal_hanan = {
         ],
         speaker: 'System',
         text: "ENDING ACTIVATED — THE DAY THAT NEVER ARRIVED",
-        next: 'end'
+        redirect: 'endingPage.html',
+        isEnd: true
     },
 
     chapterfinal_hanan_choiceB1: {
@@ -1138,6 +1140,7 @@ chapterfinal_hanan = {
         ]
     },
 
+    // Good Ending - THE SUNRISE AFTER THE STROM
     chapterfinal_hanan_good1: {
         bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
         location: 'Café',
@@ -1721,9 +1724,11 @@ chapterfinal_hanan = {
         ],
         speaker: 'System',
         text: " ENDING UNLOCKED — THE SUNRISE AFTER THE STORM",
-        next: 'end'
+        redirect: 'endingPage.html',
+        isEnd: true
     },
 
+    // Bad Ending - THE DAY THAT NEVER ARRIVED
     chapterfinal_hanan_bad1: {
         bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
         location: 'Café',
@@ -2125,17 +2130,8 @@ chapterfinal_hanan = {
         ],
         speaker: 'System',
         text: "ENDING LOCKED — THE DAY THAT NEVER ARRIVED",
-        next: 'end'
+        redirect: 'endingPage.html',
+        isEnd: true
     },
 
-
-
-    end: {
-        bg: 'black',
-        location: '',
-        chars: [],
-        speaker: 'Narrator',
-        text: "to be continued...",
-        isEnd: true   
-    },
 }
