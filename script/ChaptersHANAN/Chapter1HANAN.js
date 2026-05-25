@@ -1,6 +1,6 @@
 const chapter1_hanan = {
     chapter1_hanan_start: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
@@ -10,7 +10,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene1: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -19,7 +19,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene2: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -31,7 +31,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene3: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [ 
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -43,7 +43,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene4: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -55,7 +55,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene5: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -67,7 +67,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene6: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: false  },
@@ -79,7 +79,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene7: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -91,7 +91,7 @@ const chapter1_hanan = {
     }, 
 
     chapter1_hanan_scene8: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -103,7 +103,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene9: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -112,7 +112,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene10: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -121,7 +121,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene11: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -130,7 +130,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene12: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -139,7 +139,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene13: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -148,7 +148,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene14: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -157,7 +157,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene15: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -169,7 +169,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene16: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -178,7 +178,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene17: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -187,7 +187,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene18: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -199,7 +199,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene19: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -211,7 +211,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene20: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -223,7 +223,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene21: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -235,7 +235,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene22: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -247,7 +247,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene23: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -259,7 +259,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene24: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -271,7 +271,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene25: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -283,7 +283,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene26: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -295,7 +295,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene27: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -307,7 +307,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene28: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -319,7 +319,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene29: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -331,7 +331,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene30: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -340,7 +340,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene31: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -349,7 +349,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene32: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -358,7 +358,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene33: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -367,7 +367,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene34: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -376,7 +376,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene35: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -385,7 +385,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene36: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -394,7 +394,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene37: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -403,7 +403,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_scene38: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -421,7 +421,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA1: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -433,7 +433,7 @@ const chapter1_hanan = {
     },
     
     chapter1_hanan_opA2: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Happy_Mouth.png', position: 'left', active: true  },
@@ -445,7 +445,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA3: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Happy_Mouth.png', position: 'left', active: true  },
@@ -457,7 +457,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA4: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -469,7 +469,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA5: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -481,7 +481,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA6: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -493,7 +493,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA7: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Happy.png', position: 'left', active: false  },
@@ -505,7 +505,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opA8: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -514,7 +514,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB1: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -523,7 +523,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB2: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -535,7 +535,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB3: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral_Mouth.png', position: 'left', active: true  },
@@ -547,7 +547,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB4: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -559,7 +559,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB5: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false  },
@@ -571,7 +571,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB6: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -580,7 +580,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB7: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -589,7 +589,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB8: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
@@ -598,7 +598,7 @@ const chapter1_hanan = {
     },
 
     chapter1_hanan_opB9: {
-        bg: 'url("../Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/HananBG/HananChapter1.png") center/cover no-repeat',
         location: 'Café',
         chars: [],
         speaker: 'Narrator',
