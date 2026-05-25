@@ -868,18 +868,13 @@ const chapter4 = {
     },
 
     Eclipse_DefaultEnding_18: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
-<<<<<<< HEAD
-        isEnd: true,
-        redirect: 'endingsPage.html'
-=======
-        redirect: 'endingPage.html',
+        redirect: 'endingsPage.html',
         isEnd: true
->>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
     },
 
 
@@ -1462,20 +1457,23 @@ Eclipse_choice2: {
     },
 
     GoodEnding_end: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/mayariGoodEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
+        next: 'GoodEnding_end1'
+    },
+
+    GoodEnding_end1: {
+        bg: 'url("Assets/EndingBackground/mayariGoodEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Unlocked: THE LIGHT THAT REFUSES TO FADE",
-<<<<<<< HEAD
-        isEnd: true,
-        redirect: 'endingsPage.html'
-=======
-        redirect: 'endingPage.html',
+        redirect: 'endingsPage.html',
         isEnd: true
->>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
     },
-
 
     // ═══════════════════════════════════════════════════════
     // BAD ENDING — WHEN THE MOON DISAPPEARED
@@ -1738,18 +1736,22 @@ Eclipse_choice2: {
     },
 
     BadEnding_end: {
-        bg: 'black',
+        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
+        location: '',
+        chars: [],
+        speaker: 'System',
+        text: "",
+        next: 'BadEnding_end1'
+    },
+    
+    BadEnding_end1: {
+        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
         location: '',
         chars: [],
         speaker: 'System',
         text: "Ending Activated: WHEN THE MOON DISAPPEARED",
-<<<<<<< HEAD
-        isEnd: true,
-        redirect: 'endingsPage.html' 
-=======
-        redirect: 'endingPage.html',
+        redirect: 'endingsPage.html',
         isEnd: true
->>>>>>> bc72fbc88e9574de2bae4f812aaf01b031963fc1
-    },
+    }
 
 }

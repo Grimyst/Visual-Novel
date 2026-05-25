@@ -389,7 +389,8 @@ label:hover {
     padding: 10px 5px;
 }
 
-.footerLinks p {
+.footerLinks p,
+.footerChanelogandFaq p{
     margin: 0px 0px;
 }
 
