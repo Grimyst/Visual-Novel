@@ -1,6 +1,6 @@
 chapter3b_hanan = {
     chapter3b_hanan_start: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         bgm: 'Assets/Songs/HananST.mp3',
         chars: [],
@@ -10,7 +10,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene1: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -19,7 +19,7 @@ chapter3b_hanan = {
     }, 
     
     chapter3b_hanan_scene2: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -28,7 +28,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene3: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -37,7 +37,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene4: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -46,7 +46,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene5: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -55,7 +55,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene6: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -64,7 +64,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene7: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [],
         speaker: 'Narrator',
@@ -73,7 +73,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene8: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -86,7 +86,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene9: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -99,7 +99,7 @@ chapter3b_hanan = {
     }, 
     
     chapter3b_hanan_scene10: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -112,7 +112,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene11: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
@@ -125,7 +125,7 @@ chapter3b_hanan = {
     }, 
 
     chapter3b_hanan_scene12: {
-        bg: 'url("../Assets/images/white=grid-patterns.jpg") center/cover no-repeat',
+        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
         location: 'Train Station',
         chars: [
             { name: 'Bathala', img: '../Assets/Characters/Bathala/Bathala_Neutral.png', position: 'left', active: false },
