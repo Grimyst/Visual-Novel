@@ -11,8 +11,12 @@ a {
 body {
     width: 100%;
     height: 100vh;
+<<<<<<< HEAD
     overflow: hidden;
     overflow-y: hidden;
+=======
+    overflow-x: hidden;
+>>>>>>> f8bef945547e6163ed364ac7b51079a77859ae15
     font-family: "Crimson Pro",sans-serif;
     background: #0d2244;
     display: flex;
