@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talaya | Changelog</title>
+
+    <link href="https://fonts.cdnfonts.com/css/starlight-rune-personal-use" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/collapsingList.css">
+</head>
+<body>
+    <!-- this is the navbar -->
+<nav class="nav">
+    <div class="nav_div">
+        <div ><a href ="home.html"><img src="Assets\Logo\talaya logo.png" alt="Talaya Logo" class="tal_logo"></a></div>
+            <ul class = "sidebar">
+            <li onclick="closeSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Plot</a></li>
+            <li><a href="setting.html">Setting</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="galleryPage.html">Gallery</a></li>
+            <li><a href="#">Endings</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#">Characters</a></li>
+            <li class="hideOnMobile"><a href="#">Plot</a></li>
+            <li class="hideOnMobile"><a href="setting.html">Setting</a></li>
+            <li class="hideOnMobile"><a href="music.html">Music</a></li>
+            <li class="hideOnMobile"><a href="galleryPage.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="#">Endings</a></li>
+            <li class="hideOnMobile"><a href="#">About us</a></li>
+            <li class="noSidebar" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="24px" fill="rgb(240, 213, 40)"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        </div> 
+    </div>    
+</nav>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+    function closeSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    }
+</script>
+    <!-- this is the navbar end-->
+
+<!--this syntax was ripped from the og FAQPage html + original FAQ.css file. figured out they pretty much had the same purpose-->
+
+<div class="titleText"><h1>CHANGELOG</h1></div>
+
+<section class="collapsingList">
+    <ul>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What's New With Update 1.0? — Website Foundation & Creative Development</summary>
+                    <div class="content">
+                        <ul class="contentList">
+                            <li><p><strong>Implemented core website features and layouts</strong><br>
+                                    Developed and integrated several foundational features of the website to establish the main structure and functionality of the system. Initial layouts, navigation elements, and page frameworks were created to support the overall user experience and system flow.
+                                </p></li>
+                            <li><p><strong>Enhanced animations and interface presentation</strong><br>
+                                    Reviewed and tested animations across multiple pages to improve smoothness, timing, and visual consistency. Adjustments were made to transitions and interface elements to create a more polished and immersive browsing experience.
+                                </p></li>
+                            <li><p><strong>Developed character pages and supporting subpages</strong><br>
+                                    Created the character page along with additional supporting sections using structured markup and CSS styling. Layout organization, responsiveness, and visual hierarchy were considered to maintain consistency throughout the website.
+                                </p></li>
+                            <li><p><strong>Started story and character development</strong><br>
+                                    Began the development of the visual novel’s storyline by planning the narrative direction, themes, and sequence of events. Character concepts, personalities, backgrounds, and inspirations were also developed to strengthen storytelling and narrative depth.
+                                </p></li>
+                            <li><p><strong>Produced character illustrations and CG scenes</strong><br>
+                                    Created initial character illustrations and computer-generated scenes (CGs) intended for important story moments and emotional sequences within the visual novel.
+                                </p></li>
+                        </ul>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What's New With Update 1.1? — Story Finalization & Prototype Development</summary>
+                    <div class="content">
+                        <ul class="contentList">
+                            <li><p><strong>Finalized the overall storyline and narrative flow</strong><br>
+                                    Refined and completed the main storyline, dialogue progression, and sequence of events to ensure consistency, coherence, and smoother storytelling throughout the visual novel experience.
+                                </p></li>
+                            <li><p><strong>Completed the first batch of character portraits</strong><br>
+                                    Finished the initial portrait designs and facial expressions of the main characters to support dialogue interactions and visual storytelling within the project.
+                                </p></li>
+                            <li><p><strong>Polished website components and overall design</strong><br>
+                                    Improved various sections of the website by refining layouts, responsiveness, spacing, and interface consistency to create a cleaner and more user-friendly experience.
+                                </p></li>
+                            <li><p><strong>Developed essential website pages and features</strong><br>
+                                    Built and integrated important pages and system components necessary for navigation, functionality, and overall project completion.
+                                </p></li>
+                            <li><p><strong>Built the first functional visual novel prototype</strong><br>
+                                    Developed an initial working prototype that demonstrates story progression, dialogue systems, scene transitions, and interactive elements of the visual novel.
+                                </p></li>
+                            <li><p><strong>Designed ending visuals and finalized documentation</strong><br>
+                                    Created visual assets intended for ending scenes and completed references, credits, and supporting text-based documentation required for the project.
+                                </p></li>
+                        </ul>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details class="collapsible">
+                <summary class="button">What's New With Update 1.2? — Asset Integration & Visual Novel Implementation</summary>
+                    <div class="content">
+                        <ul class="contentList">
+                            <li><p><strong>Compiled backgrounds for the visual novel</strong><br>
+                                Gathered, organized, and integrated background assets intended for various scenes and locations within the visual novel to strengthen environmental storytelling and visual consistency.
+                            </p></li>
+                            <li><p><strong>Compiled music and audio resources</strong><br>
+                                Collected and prepared background music and audio assets to enhance immersion, atmosphere, and emotional impact throughout different scenes and story events.
+                            </p></li>
+                            <li><p><strong>Compiled illustrations and visual assets</strong><br>
+                                Organized character illustrations, CGs, and other visual materials required for both the website and the visual novel presentation to maintain consistency in art direction and asset management.
+                            </p></li>
+                            <li><p><strong>Tweaked and refined website pages</strong><br>
+                                Adjusted layouts, styling, responsiveness, and interface elements across multiple pages to further improve usability, visual presentation, and overall user experience.
+                            </p></li>
+                            <li><p><strong>Started development of the visual novel proper</strong><br>
+                                Began implementing the main visual novel system, including dialogue flow, scene progression, and integration of assets into the interactive narrative structure.
+                            </p></li>
+                            <li><p><strong>Developed text-based content pages</strong><br>
+                                Created and organized text-based pages containing supporting information, story-related content, references, and additional narrative materials for the project.
+                            </p></li>
+                        </ul>
+                    </div>
+            </details>
+        </li>
+    </ul>
+</section>
+
+
+
+</body>
+</html>
