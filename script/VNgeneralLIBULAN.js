@@ -19,6 +19,8 @@ const dialogueEl = document.getElementById('dialogue-text');
 // CHOICES DIV
 const choicesEl = document.getElementById('choices');
 
+const textbox = document.getElementById('textbox');
+
 // HINT DIV
 const hintEl = document.getElementById('advance-hint');
 
@@ -197,10 +199,20 @@ function typeText(text, isEnd) {
             canAdvance = true;
             dialogueEl.innerHTML = fullText.replace(/\n/g, '<br>');
 
-            // IF END SCENE, GO BACK TO CHAPTER SCREEN AFTER 2 SECONDS
             if (isEnd) {
                 hintEl.style.display = 'none';
-                setTimeout(() => goToChapterScreen(), 2000);
+                textbox.style.display = 'none';
+                const s = scenes[currentScene];
+
+                // IF SCENE HAS A REDIRECT GO TO THAT PAGE
+                if (s && s.redirect) {
+                    setTimeout(() => {
+                        window.location.href = s.redirect;
+                    }, 4000);
+                } else {
+                    // OTHERWISE GO BACK TO CHAPTER SCREEN
+                    setTimeout(() => goToChapterScreen(), 4000);
+                }
             }
         }
     }

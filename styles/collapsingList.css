@@ -213,6 +213,14 @@ details[open] summary ~ * {
     text-shadow: 1px 1px 3px #000000;
 }
 
+.contentList li a{
+    color:#3175b9;
+}
+
+.contentList li a:hover{
+    color:#D3B14D;
+}
+
 /*HomepageFooter Sa wakas */
 
 .HomepageFooter {

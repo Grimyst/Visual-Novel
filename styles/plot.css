@@ -1,12 +1,5 @@
-
-
-body{
-    background-color: #01182e;
-    display: grid;
-    margin: 0;
-}
-input {
-    display: none;
+html{
+    overflow-x: hidden;
 }
 
 p {
@@ -123,7 +116,12 @@ padding: 5%;
     }
 }
 
+.nav{
+    z-index: 100;
+}
+
 /*End of Navigation Bar*/
+
 .titleText > h1{
     color: #D3B14D;
     font-family: 'Starlight Rune - Personal Use', sans-serif;
@@ -131,55 +129,99 @@ padding: 5%;
     display: grid;
     font-size: 4vw;
     font-weight: lighter;
-    text-shadow: 2px 2px 4px #000000;
     margin-top: 5%;
     margin-left: 4%;
+    text-shadow: 2px 2px #000000;
 }
 
-.endingName {
-    color: #D3B14D;
-    font-family: 'Crimson Pro', serif;
+body{
+    background-image: url("../Assets/images/white=grid-patterns.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
 }
-
-.endingDesc p {
-    color: #FFFFFF;
+.text p{
     font-family: 'Google Sans', sans-serif;
-}
-
-/*Background animation*/
-@keyframes moveTwinkling {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -10000px 5000px;
-    }
-}
-
-#stars, #twinkling {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
+    position: absolute;
+    padding-top: 2vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    text-align: center;
+    font-size: 24px;
 
 }
 
-#twinkling {
-    background: transparent url(../Assets/Background/twinkling.png) repeat top center;
-    z-index: 1;
-    animation: moveTwinkling 100s linear infinite;
+.sticker{
+    transform-origin: center;
 }
 
-#stars {
-    background: transparent url(../Assets/Background/stars.png) repeat top center;
-    z-index: 0;
+.sticker img{
+    position: absolute;
+    max-width: 15%;
+    transform-origin: center;
 }
 
-.endingsCarousel, .titleText, .nav{
-    position: relative;
-    z-index: 10;
+#mayariBtn{
+    top: 10%;
+    left: 85%;
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#mayariBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#libulanBtn{
+    top: 50%;
+    left: 0%;
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#libulanBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#sidapaBtn{
+    top: 80%;
+    left: 85%;
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#sidapaBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#hananBtn{
+    top: 100%;
+    left: 0%;
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#hananBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
+}
+
+#bathalaBtn{
+    top: 130%;
+    left: 85%;
+    transform-origin: center;
+    rotate: 5deg;
+}
+
+#bathalaBtn:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    rotate: -5deg;
 }

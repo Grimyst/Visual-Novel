@@ -20,6 +20,7 @@ a {
 }
 
 
+
 /* Navigation Bar */
 .nav{
     background-color: rgb(15, 26, 53);
@@ -116,8 +117,176 @@ padding: 5%;
     }
 }
 
-.nav{
-    z-index: 100;
-}
+
+
 
 /*End of Navigation Bar*/
+
+body{
+    background-color: #01182e;
+}
+
+.titleText, .nav, .front {
+    position: relative;
+    z-index: 10;
+}
+
+#intro{ 
+    
+    display: grid;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    max-width: 100%;
+    padding-bottom: 4vw;;
+}
+
+#intro p{
+    font-family: 'Google Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+}
+#intro h2{
+    font-family: 'Crimson Pro', serif;
+    color: #D3B14D;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#team{
+    display: grid;
+    position: relative;
+    background-color: #F1E9D2;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    padding: 4vw;
+}
+#team h2{
+    font-family: 'Crimson Pro', serif;
+    color: #D3B14D;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#team h3{
+    font-family: 'Google Sans', sans-serif;
+    color: #01182e;
+    font-size: 32px;
+    text-align: justify;
+}
+
+#team h4{
+    font-family: 'Google Sans', sans-serif;
+    color: #01182e;
+    font-size: 24px;
+    text-align: justify;
+}
+
+#team p{
+        font-family: 'Google Sans', sans-serif;
+        color: #01182e;
+        font-size: 24px;
+        text-align: justify;
+}
+
+#team .cvDl{
+    border: none;
+    color:#D3B14D;
+    background-color: #AD3F26;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Crimson Pro', serif;
+    border-radius: 30px;
+    transform: translateY(-100%) translateX(79vw);
+}
+#team .cvDl:hover{
+    color:#AD3F26;
+    background-color: #D3B14D;
+    transition: ease-in .2s;
+    transform: translateY(-100%) translateX(79vw) scale(1.05);
+}
+
+#team .member{
+    background-color: #ddd3b8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+#vision{
+    display: grid;
+    position: relative;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    padding: 4vw;
+}
+
+#vision h2{
+    font-family: 'Crimson Pro', serif;
+    color: #D3B14D;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#vision h3{
+    font-family: 'Google Sans', sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#vision p{
+    font-family: 'Google Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.titleText > h1{
+    position: relative;
+    color: #D3B14D;
+    font-family: 'Starlight Rune - Personal Use', sans-serif;
+    font-weight: lighter;
+    display: grid;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Background animation*/
+@keyframes moveTwinkling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+#stars, #twinkling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#twinkling {
+    background: transparent url(../Assets/Background/twinkling.png) repeat top center;
+    z-index: 1;
+    animation: moveTwinkling 100s linear infinite;
+}
+
+#stars {
+    background: transparent url(../Assets/Background/stars.png) repeat top center;
+    z-index: 0;
+}
