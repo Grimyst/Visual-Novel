@@ -2542,12 +2542,21 @@ const scenes = {
     },
 
     Def_22: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
         location: 'METRO MANILA',
         chars: [],
         speaker: 'System:',
         text: "ENDING ACTIVATED — THE WORLD WITHOUT TOMORROW",
-        next: ''
+        next: 'Def_23'
+    },
+    Def_23: {
+        bg: 'url("Assets/EndingBackground/defaultEnd.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [],
+        speaker: 'System:',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
     },
 
     PDE_1: {
@@ -3082,16 +3091,22 @@ const scenes = {
     },
 
     FC_a29: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        bg: 'url("Assets/EndingBackground/sidapaGoodEnd.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Neutral.png',   position: 'left',  active: false },
-            { name: 'Libulan',   img: 'Assets/Characters/Libulan/Libulan_Neutral.png',   position: 'right',  active: false },
-            { name: 'Sidapa', img: 'Assets/Characters/Sidapa/Sidapa_Neutral.png', position: 'center', active: false }   
-        ],
+        chars: [],
         speaker: 'System:',
         text: "ENDING UNLOCKED — THE NIGHT THAT KEPT MOVING",
-        next: ''
+        next: 'FC_a30'
+    },
+
+    FC_a30: {
+        bg: 'url("Assets/EndingBackground/sidapaGoodEnd.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [],
+        speaker: 'System:',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
     },
 
 //Good ending
@@ -3333,14 +3348,22 @@ const scenes = {
     },
 
     FC_b20: {
-        bg: 'url("Assets/Background/VisNovBG/SidapaBG/SidapaChapterFinal.png") center/cover no-repeat',
+        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
         location: 'METRO MANILA',
-        chars: [
-            { name: 'Bathala',   img: 'Assets/Characters/Bathala/Bathala_Sad.png',   position: 'center',  active: true }
-        ],
+        chars: [],
         speaker: 'System:',
-        text: "ENDING LOCKED — THE WORLD WITHOUT TOMORROW",
-        next: ''
+        text: "ENDING UNLOCKED — THE WORLD WITHOUT TOMORROW",
+        next: 'FC_b21'
+    },
+
+    FC_b21: {
+        bg: 'url("Assets/EndingBackground/sidapaBadEnd.png") center/cover no-repeat',
+        location: 'METRO MANILA',
+        chars: [],
+        speaker: 'System:',
+        text: "",
+        redirect: 'endingsPage.html',
+        isEnd: true
     },
 
 
