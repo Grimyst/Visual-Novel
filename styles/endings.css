@@ -1,6 +1,4 @@
-html {
-    overflow: hidden;
-}
+
 
 body{
     background-color: #01182e;
@@ -184,57 +182,4 @@ padding: 5%;
 .endingsCarousel, .titleText, .nav{
     position: relative;
     z-index: 10;
-}
-
-.endingsCarousel {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    height: 60vh;
-}
-
-.list {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.endingItem {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.endingItem img{
-    position: absolute;
-    width: 20%;
-    top: -10%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
-}
-
-img.displaySlide{
-    display: block;
-}
-
-#prev, #next {
-    position: fixed;
-    top: 50%;
-    z-index: 10;
-    background-color: transparent;
-    display: inline-block;
-    width: auto;
-    padding: 0px;
-    border: none;
-    cursor: pointer;
-    transform: translateY(-50%);
-}
-
-#next {
-    right: 20px;
-}
-
-#prev {
-    left: 20px;
 }
