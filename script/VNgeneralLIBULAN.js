@@ -167,6 +167,8 @@ function loadScene(id, addToHistory = true) {
     choicesEl.style.display = 'none';
     choicesEl.innerHTML = '';
     hintEl.style.display = 'block';
+    // Ensure the textbox is visible (it may have been hidden by an end scene)
+    if (textbox) textbox.style.display = 'block';
     canAdvance = false;
 
     // IF CHOICE SCENE
@@ -258,6 +260,8 @@ function PlayGame(startScene) {
     sceneHistory = []; // reset history on new game
     document.getElementById('chapter-title').style.display = 'none';
     document.getElementById('vn').style.display = 'block';
+    // Make sure textbox is visible when starting a chapter
+    if (textbox) textbox.style.display = 'block';
     loadScene(startScene);
 }
 
