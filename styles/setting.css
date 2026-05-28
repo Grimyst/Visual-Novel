@@ -245,10 +245,13 @@ padding: 5%;
 
 .HomepageFooter {
     height: 100%;
+    width: max-content;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 5px;
+    margin-top: 40%;
+    background-color: rgb(232, 218, 218);
 }
 
 .footerPreview {
@@ -287,4 +290,9 @@ padding: 5%;
 .footerLinks p,
 .footerChanelogandFaq p{
     margin: 0px 0px;
+}
+
+.footerLinks a, .footerChanelogandFaq a{
+    text-decoration: none;
+    color: rgb(8, 23, 58);
 }

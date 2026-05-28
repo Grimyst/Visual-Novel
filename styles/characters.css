@@ -12,7 +12,7 @@ background-repeat: no-repeat;
 background-position: left top;
 background-size:135%;
 background-position-y: 2rem;
-overflow: hidden;
+overflow-x: hidden;
 }
 
 
@@ -298,6 +298,8 @@ padding: 5%;
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 5px;
+    background-color: rgb(232, 218, 218);
+    width: max-content;
 }
 
 .footerPreview {
@@ -306,6 +308,7 @@ padding: 5%;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
+    
 }
 
 @media(max-width: 1160px){
@@ -336,4 +339,9 @@ padding: 5%;
 .footerLinks p,
 .footerChanelogandFaq p{
     margin: 0px 0px;
+}
+
+.footerLinks a, .footerChanelogandFaq a{
+    text-decoration: none;
+    color: rgb(8, 23, 58);
 }
