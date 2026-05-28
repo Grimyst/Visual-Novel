@@ -10,9 +10,9 @@ a {
 
 body {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    font-family: "Crimson Pro",sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden; 
+    font-family: "Crimson Pro", sans-serif;
     background: #0d2244;
     display: flex;
     flex-direction: column;
@@ -153,8 +153,8 @@ nav li:first-child{
     z-index: 2;
     transition: opacity 540ms cubic-bezier(0.76, 0, 0.24, 1);
 }
-.characterLayers.hidden { opacity: 0; transform: translateX(24px); pointer-events: none; }
-.characterLayers.visible { opacity: 1;  transform: scaleX(-1); }
+.characterLayers.hidden { opacity: 0; transform: translateX(24px); pointer-events: none; height: 100%;}
+.characterLayers.visible { opacity: 1;  transform: scaleX(-1); height: 100%;}
 
 /* Character Size*/
 .charImg {
@@ -204,6 +204,7 @@ nav li:first-child{
     padding: 0 24px;
     overflow: hidden;
     position: relative;
+    height: 1000px;
 }
 
 /* Arrow buttons up / down styling*/
@@ -475,3 +476,64 @@ z-index: 5;
 .dot.near { background: rgba(255,255,255,0.55); }
 /* Active dot is brigther*/
 .dot.active { background: #c9a84c; transform: scale(1.9); }
+
+
+.container {
+    min-height: 100vh;
+    flex: 1;
+    position: relative;
+    overflow: hidden; /* move overflow hidden HERE */
+}
+
+/*FOOTER PAGE */
+
+.HomepageFooter {
+    position: relative;
+    isolation: isolate;
+    z-index: 99;
+    background-color: white;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+}
+
+.footerPreview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+@media(max-width: 1160px){
+   .footerPreview {
+    grid-template-columns: 1fr;
+    }
+}
+
+.logoContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks, 
+.footerChanelogandFaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.footerLinks p,
+.footerChanelogandFaq p{
+    margin: 0px 0px;
+}

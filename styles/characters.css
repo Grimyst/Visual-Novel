@@ -287,3 +287,53 @@ padding: 5%;
     font-weight: normal;
     src: url('../Assets/Fonts/Handlee-Regular.woff');
     }
+
+
+
+/*FOOTER PAGE */
+
+.HomepageFooter {
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.footerPreview {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+@media(max-width: 1160px){
+   .footerPreview {
+    grid-template-columns: 1fr;
+    }
+}
+
+.logoContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks, 
+.footerChanelogandFaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.footerLinks p,
+.footerChanelogandFaq p{
+    margin: 0px 0px;
+}
