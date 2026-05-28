@@ -10,16 +10,9 @@ a {
 
 body {
     width: 100%;
-<<<<<<< HEAD
     min-height: 100vh;
     overflow-x: hidden; 
     font-family: "Crimson Pro", sans-serif;
-=======
-    height: 100vh;
-    overflow: hidden;
-    overflow-y: hidden;
-    font-family: "Crimson Pro",sans-serif;
->>>>>>> d5aaf48630fe244b0dac7cd2f2f23c140b01f563
     background: #0d2244;
     display: flex;
     flex-direction: column;
@@ -195,10 +188,11 @@ nav li:first-child{
 
 .sidebar {
     position: absolute;
-    bottom:1%;
+    top:50%;
     left: -1%;
+    transform: translateY(-50%);
     width: 50%;
-    max-height: 200%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     z-index: 10;
