@@ -10,16 +10,10 @@ a {
 
 body {
     width: 100%;
-<<<<<<< HEAD
-    min-height: 100vh;
-    overflow-x: hidden; 
-    font-family: "Crimson Pro", sans-serif;
-=======
     height: 100vh;
     overflow: hidden;
     overflow-y: hidden;
     font-family: "Crimson Pro",sans-serif;
->>>>>>> d5aaf48630fe244b0dac7cd2f2f23c140b01f563
     background: #0d2244;
     display: flex;
     flex-direction: column;
@@ -488,18 +482,13 @@ z-index: 5;
 .dot.active { background: #c9a84c; transform: scale(1.9); }
 
 
-.container {
-    min-height: 100vh;
-    flex: 1;
-    position: relative;
-    overflow: hidden; /* move overflow hidden HERE */
-}
+
 
 /*FOOTER PAGE */
 
 .HomepageFooter {
     position: relative;
-    isolation: isolate;
+ 
     z-index: 99;
     background-color: white;
     height: 100%;
